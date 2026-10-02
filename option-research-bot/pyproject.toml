@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "option-lab"
+version = "0.1.0"
+description = "Reproducible long-call options research and manual paper signals"
+requires-python = ">=3.10"
+
+[project.scripts]
+option-lab = "option_lab.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["option_lab*"]
