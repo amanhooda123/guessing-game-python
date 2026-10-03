@@ -10,4 +10,6 @@ reports/*
 !reports/STATUS.md
 !reports/RESEARCH.md
 !reports/*_walk_forward.json
+!reports/*_spread_study.json
+!reports/SECOND_PASS.md
 *.egg-info/

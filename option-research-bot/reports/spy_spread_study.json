@@ -1,0 +1,497 @@
+{
+  "symbol": "SPY",
+  "excluded": {
+    "bad_quote": 44479
+  },
+  "rules": "Monday 30-50 DTE put credit spread; $1 width, short strike 1-3% OTM; 200-day underlying trend; 50% profit, 2x credit stop or 21 DTE; next-day crossed quotes; one position at a time; 50% capital risk cap",
+  "2024": {
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "capital": 200.0,
+    "final_equity": 55.0,
+    "return_fraction": -0.725,
+    "max_drawdown_fraction": -0.800866,
+    "closed_trades": 21,
+    "win_rate": 0.4762,
+    "open_position": false,
+    "missed": {
+      "unaffordable_or_small_credit": 2,
+      "no_eligible_monday_spread": 8
+    },
+    "trades": [
+      {
+        "entry": "2024-01-09",
+        "exit": "2024-01-23",
+        "expiry": "2024-02-16",
+        "short_strike": 465.0,
+        "long_strike": 464.0,
+        "credit": 19.0,
+        "debit": 7.0,
+        "pnl": 12.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2024-01-30",
+        "exit": "2024-02-01",
+        "expiry": "2024-03-08",
+        "short_strike": 481.0,
+        "long_strike": 480.0,
+        "credit": 17.0,
+        "debit": 23.0,
+        "pnl": -6.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-02-06",
+        "exit": "2024-02-23",
+        "expiry": "2024-03-15",
+        "short_strike": 483.0,
+        "long_strike": 482.0,
+        "credit": 17.0,
+        "debit": 5.0,
+        "pnl": 12.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2024-02-27",
+        "exit": "2024-03-18",
+        "expiry": "2024-04-05",
+        "short_strike": 495.0,
+        "long_strike": 494.0,
+        "credit": 16.0,
+        "debit": 9.0,
+        "pnl": 7.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2024-03-19",
+        "exit": "2024-04-08",
+        "expiry": "2024-04-26",
+        "short_strike": 502.0,
+        "long_strike": 501.0,
+        "credit": 14.0,
+        "debit": 12.0,
+        "pnl": 2.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2024-04-09",
+        "exit": "2024-04-15",
+        "expiry": "2024-05-17",
+        "short_strike": 508.0,
+        "long_strike": 507.0,
+        "credit": 17.0,
+        "debit": 50.0,
+        "pnl": -33.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-04-16",
+        "exit": "2024-04-22",
+        "expiry": "2024-05-24",
+        "short_strike": 495.0,
+        "long_strike": 494.0,
+        "credit": 21.0,
+        "debit": 37.0,
+        "pnl": -16.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-04-23",
+        "exit": "2024-05-01",
+        "expiry": "2024-05-31",
+        "short_strike": 490.0,
+        "long_strike": 489.0,
+        "credit": 14.0,
+        "debit": 27.0,
+        "pnl": -13.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-05-07",
+        "exit": "2024-05-17",
+        "expiry": "2024-06-14",
+        "short_strike": 506.0,
+        "long_strike": 505.0,
+        "credit": 16.0,
+        "debit": 7.0,
+        "pnl": 9.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2024-05-21",
+        "exit": "2024-05-31",
+        "expiry": "2024-06-28",
+        "short_strike": 519.0,
+        "long_strike": 518.0,
+        "credit": 15.0,
+        "debit": 26.0,
+        "pnl": -11.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-06-04",
+        "exit": "2024-06-13",
+        "expiry": "2024-07-12",
+        "short_strike": 518.0,
+        "long_strike": 517.0,
+        "credit": 17.0,
+        "debit": 7.0,
+        "pnl": 10.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2024-06-18",
+        "exit": "2024-06-25",
+        "expiry": "2024-07-26",
+        "short_strike": 536.0,
+        "long_strike": 535.0,
+        "credit": 14.0,
+        "debit": 24.0,
+        "pnl": -10.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-07-02",
+        "exit": "2024-07-17",
+        "expiry": "2024-08-09",
+        "short_strike": 535.0,
+        "long_strike": 534.0,
+        "credit": 11.0,
+        "debit": 9.0,
+        "pnl": 2.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2024-07-23",
+        "exit": "2024-07-25",
+        "expiry": "2024-08-30",
+        "short_strike": 543.0,
+        "long_strike": 542.0,
+        "credit": 17.0,
+        "debit": 54.0,
+        "pnl": -37.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-08-13",
+        "exit": "2024-08-26",
+        "expiry": "2024-09-20",
+        "short_strike": 523.0,
+        "long_strike": 522.0,
+        "credit": 13.0,
+        "debit": 6.0,
+        "pnl": 7.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2024-08-27",
+        "exit": "2024-08-29",
+        "expiry": "2024-10-04",
+        "short_strike": 547.0,
+        "long_strike": 546.0,
+        "credit": 13.0,
+        "debit": 27.0,
+        "pnl": -14.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-09-10",
+        "exit": "2024-09-20",
+        "expiry": "2024-10-18",
+        "short_strike": 535.0,
+        "long_strike": 534.0,
+        "credit": 19.0,
+        "debit": 8.0,
+        "pnl": 11.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2024-09-24",
+        "exit": "2024-10-02",
+        "expiry": "2024-11-01",
+        "short_strike": 560.0,
+        "long_strike": 559.0,
+        "credit": 15.0,
+        "debit": 28.0,
+        "pnl": -13.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-10-08",
+        "exit": "2024-10-28",
+        "expiry": "2024-11-15",
+        "short_strike": 556.0,
+        "long_strike": 555.0,
+        "credit": 17.0,
+        "debit": 14.0,
+        "pnl": 3.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2024-11-05",
+        "exit": "2024-11-06",
+        "expiry": "2024-12-13",
+        "short_strike": 564.0,
+        "long_strike": 563.0,
+        "credit": 12.0,
+        "debit": 54.0,
+        "pnl": -42.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2024-11-12",
+        "exit": "2024-11-15",
+        "expiry": "2024-12-20",
+        "short_strike": 588.0,
+        "long_strike": 587.0,
+        "credit": 21.0,
+        "debit": 46.0,
+        "pnl": -25.0,
+        "reason": "twice_credit"
+      }
+    ],
+    "anomalous_marks_above_width": 0,
+    "valid_quote_replay": true,
+    "warning": "EOD single-leg NBBO is not an executable spread order; assignment, FX and slippage beyond quoted spreads are excluded."
+  },
+  "2025": {
+    "start": "2025-01-01",
+    "end": "2025-12-15",
+    "capital": 200.0,
+    "final_equity": 84.0,
+    "return_fraction": -0.58,
+    "max_drawdown_fraction": -1.635,
+    "closed_trades": 20,
+    "win_rate": 0.35,
+    "open_position": false,
+    "missed": {
+      "unaffordable_or_small_credit": 1
+    },
+    "trades": [
+      {
+        "entry": "2025-01-07",
+        "exit": "2025-01-13",
+        "expiry": "2025-02-14",
+        "short_strike": 582.0,
+        "long_strike": 581.0,
+        "credit": 23.0,
+        "debit": 46.0,
+        "pnl": -23.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-01-14",
+        "exit": "2025-01-22",
+        "expiry": "2025-02-21",
+        "short_strike": 570.0,
+        "long_strike": 569.0,
+        "credit": 20.0,
+        "debit": 6.0,
+        "pnl": 14.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2025-01-28",
+        "exit": "2025-01-30",
+        "expiry": "2025-03-07",
+        "short_strike": 587.0,
+        "long_strike": 586.0,
+        "credit": 14.0,
+        "debit": 23.0,
+        "pnl": -9.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-02-11",
+        "exit": "2025-02-26",
+        "expiry": "2025-03-21",
+        "short_strike": 593.0,
+        "long_strike": 592.0,
+        "credit": 19.0,
+        "debit": 41.0,
+        "pnl": -22.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-03-04",
+        "exit": "2025-03-07",
+        "expiry": "2025-04-11",
+        "short_strike": 572.0,
+        "long_strike": 571.0,
+        "credit": 22.0,
+        "debit": 43.0,
+        "pnl": -21.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-03-25",
+        "exit": "2025-03-31",
+        "expiry": "2025-05-02",
+        "short_strike": 562.0,
+        "long_strike": 561.0,
+        "credit": 20.0,
+        "debit": 53.0,
+        "pnl": -33.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-05-13",
+        "exit": "2025-05-27",
+        "expiry": "2025-06-20",
+        "short_strike": 571.0,
+        "long_strike": 570.0,
+        "credit": 17.0,
+        "debit": 17.0,
+        "pnl": 0.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-06-03",
+        "exit": "2025-06-06",
+        "expiry": "2025-07-11",
+        "short_strike": 581.0,
+        "long_strike": 580.0,
+        "credit": 16.0,
+        "debit": 23.0,
+        "pnl": -7.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-06-10",
+        "exit": "2025-06-16",
+        "expiry": "2025-07-18",
+        "short_strike": 588.0,
+        "long_strike": 587.0,
+        "credit": 17.0,
+        "debit": 23.0,
+        "pnl": -6.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-06-17",
+        "exit": "2025-07-03",
+        "expiry": "2025-07-25",
+        "short_strike": 588.0,
+        "long_strike": 587.0,
+        "credit": 21.0,
+        "debit": 7.0,
+        "pnl": 14.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2025-07-08",
+        "exit": "2025-07-21",
+        "expiry": "2025-08-08",
+        "short_strike": 610.0,
+        "long_strike": 609.0,
+        "credit": 20.0,
+        "debit": 15.0,
+        "pnl": 5.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2025-07-22",
+        "exit": "2025-08-11",
+        "expiry": "2025-08-29",
+        "short_strike": 616.0,
+        "long_strike": 615.0,
+        "credit": 18.0,
+        "debit": 15.0,
+        "pnl": 3.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2025-08-12",
+        "exit": "2025-09-02",
+        "expiry": "2025-09-19",
+        "short_strike": 623.0,
+        "long_strike": 622.0,
+        "credit": 13.0,
+        "debit": 17.0,
+        "pnl": -4.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2025-09-09",
+        "exit": "2025-09-29",
+        "expiry": "2025-10-17",
+        "short_strike": 636.0,
+        "long_strike": 635.0,
+        "credit": 15.0,
+        "debit": 9.0,
+        "pnl": 6.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2025-09-30",
+        "exit": "2025-10-13",
+        "expiry": "2025-11-07",
+        "short_strike": 650.0,
+        "long_strike": 649.0,
+        "credit": 15.0,
+        "debit": 26.0,
+        "pnl": -11.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-10-14",
+        "exit": "2025-10-17",
+        "expiry": "2025-11-21",
+        "short_strike": 650.0,
+        "long_strike": 649.0,
+        "credit": 17.0,
+        "debit": 24.0,
+        "pnl": -7.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-10-21",
+        "exit": "2025-11-10",
+        "expiry": "2025-11-28",
+        "short_strike": 658.0,
+        "long_strike": 657.0,
+        "credit": 17.0,
+        "debit": 13.0,
+        "pnl": 4.0,
+        "reason": "21_dte"
+      },
+      {
+        "entry": "2025-11-11",
+        "exit": "2025-11-17",
+        "expiry": "2025-12-19",
+        "short_strike": 668.0,
+        "long_strike": 667.0,
+        "credit": 20.0,
+        "debit": 44.0,
+        "pnl": -24.0,
+        "reason": "twice_credit"
+      },
+      {
+        "entry": "2025-11-18",
+        "exit": "2025-12-08",
+        "expiry": "2025-12-31",
+        "short_strike": 658.0,
+        "long_strike": 657.0,
+        "credit": 28.0,
+        "debit": 14.0,
+        "pnl": 14.0,
+        "reason": "half_profit"
+      },
+      {
+        "entry": "2025-12-09",
+        "exit": "2025-12-12",
+        "expiry": "2026-01-23",
+        "short_strike": 670.0,
+        "long_strike": 669.0,
+        "credit": 20.0,
+        "debit": 29.0,
+        "pnl": -9.0,
+        "reason": "twice_credit"
+      }
+    ],
+    "anomalous_marks_above_width": 1,
+    "valid_quote_replay": false,
+    "warning": "EOD single-leg NBBO is not an executable spread order; assignment, FX and slippage beyond quoted spreads are excluded."
+  }
+}
