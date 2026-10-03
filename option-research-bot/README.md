@@ -1,6 +1,6 @@
 # Option Lab
 
-Research and manual paper signals for **long U.S. equity call options**. It never logs into Wealthsimple or places an order. The initial hypothesis is a trend-following purchase of a liquid call 45–100 calendar days from expiry, with a one-contract budget and rules for taking gains, limiting losses, and closing before expiry. The thresholds are *untuned starting assumptions*, not a profitable strategy claim.
+Research and manual paper signals for **long U.S. equity call options**. It never logs into Wealthsimple or places an order. The initial hypothesis is a trend-following purchase of a liquid call 45–100 calendar days from expiry, with a one-contract budget and rules for taking gains, limiting losses, and closing before expiry. A [2024 training / 2025 holdout study](reports/RESEARCH.md) of three ETFs found **no validated profitable strategy**; all current reports disable the paper signal.
 
 ## Why this design
 
@@ -11,16 +11,19 @@ Research and manual paper signals for **long U.S. equity call options**. It neve
 
 ## Run
 
-Python 3.10+, standard library only. From the project root:
+Python 3.10+, standard library for the core CSV replay. From the project root:
 
 ```sh
 python -m unittest discover -s tests -v
 python -m option_lab.cli fetch-theta --symbol RDDT --start 2025-10-01 --end 2026-09-30
 python -m option_lab.cli backtest --options data/RDDT_options.csv --stocks data/RDDT_stock.csv --capital 200 --premium-cap 150 --report reports/rddt.json
-python -m option_lab.cli signal --options data/RDDT_options.csv --stocks data/RDDT_stock.csv --capital 200 --premium-cap 150
+python -m option_lab.cli walk-forward --options data/RDDT_options.csv --stocks data/RDDT_stock.csv --train-start 2025-01-01 --split 2026-01-01 --test-end 2026-09-30 --report reports/rddt_walk_forward.json
+python -m option_lab.cli signal --options data/RDDT_options.csv --stocks data/RDDT_stock.csv --research-report reports/rddt_walk_forward.json
 ```
 
-The fetch command requires **your own ThetaData free account and the v3 Theta Terminal running locally on port 25503**. No credentials are stored in this repository. The free tier advertises one year of historical end-of-day U.S. stock and options data. A two-year evaluation needs a suitable paid entitlement or another licensed historical bid/ask dataset. Requests are paced for the documented free limit. Data files are ignored by Git; check your data license before distributing.
+The fetch command requires **your own ThetaData free account and the v3 Theta Terminal running locally on port 25503**. No credentials are stored in this repository. The free tier advertises one year of historical end-of-day U.S. stock and options data. A two-year evaluation needs a suitable paid entitlement or another historical bid/ask dataset. Requests are paced for the documented free limit. Data files are ignored by Git; check your data license before distributing. The example RDDT dates are illustrative and require data coverage and sufficient history; no RDDT historical performance is claimed here.
+
+For the public 2024–2025 SPY, QQQ and IWM archive, install optional `pyarrow` and follow the exact commands and source details in [the research report](reports/RESEARCH.md). The three small JSON summaries are committed in `reports/`. The `signal` command requires a matching research report that passes the qualification gate; otherwise it prints `NO TRADE`. It never places an order.
 
 Alternatively supply your own option CSV with columns `date,symbol,expiration,strike,right,bid,ask,volume,bid_size,ask_size`, and stock CSV with `date,symbol,close`. Dates are ISO `YYYY-MM-DD`. Include the stock history before the option test window for the 60-close warmup. Use *point-in-time* option chains including delisted/expired contracts, not today's chain or split-adjusted quotes paired with raw strikes.
 
@@ -28,7 +31,7 @@ Alternatively supply your own option CSV with columns `date,symbol,expiration,st
 
 Theta's EOD option NBBO is generated at 17:15 ET **after options trading has closed**. The next-day ask/bid in this replay is therefore a pricing proxy, **not an executable historical fill**. Even minute NBBO would only bound a hypothetical order; your real limit order might not fill. A backtest cannot report exactly what a live account would have earned. A more credible next phase uses intraday timestamped NBBO at a fixed tradable time, quotes with size, brokerage fill logs, contemporaneous FX, and forward paper trading. Do not optimize thresholds on the same period used for final evaluation.
 
-The report shows marked account equity, closed trades, win rate, and drawdown. An open position is marked at the bid. Missing exit quotes cause an error rather than a fabricated return. Test several symbols, regimes, and out-of-sample months before interpreting performance; also count eligible opportunities and missing data. This project currently has **no validated historical return** because no authenticated option-chain dataset was available in the build environment.
+The report shows marked account equity, closed trades, win rate, and drawdown. An open position is marked at the bid. Missing exit quotes cause an error rather than a fabricated return. Test several symbols, regimes, and out-of-sample months before interpreting performance; also count eligible opportunities and missing data. The public historical archive was accessible, but its original provenance and executable quote quality were not independently verified. The actual study found no validated edge.
 
 ## Sources and research notes
 

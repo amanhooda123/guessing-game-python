@@ -13,6 +13,7 @@ from .model import Quote
 class Config:
     capital: float = 200.0                 # USD-equivalent starting buying power
     premium_cap: float = 150.0             # USD per 100-share contract
+    max_position_fraction: float = 1.0     # maximum cost / initial account value
     min_dte: int = 45
     max_dte: int = 100
     min_volume: int = 10
@@ -46,6 +47,23 @@ def trend_on_prior_day(symbol: str, day: date, closes: dict) -> bool:
             and history[-1] > history[-21])
 
 
+def precompute_trends(closes: dict) -> set[tuple[str, date]]:
+    histories = defaultdict(list)
+    for (symbol, day), close in sorted(closes.items(), key=lambda item: item[0][1]):
+        histories[symbol].append((day, close))
+    signals = set()
+    for symbol, history in histories.items():
+        prefix = [0.0]
+        for _, price in history:
+            prefix.append(prefix[-1] + price)
+        for i in range(60, len(history)):
+            last20 = (prefix[i + 1] - prefix[i - 19]) / 20
+            last60 = (prefix[i + 1] - prefix[i - 59]) / 60
+            if last20 > last60 and history[i][1] > history[i - 20][1]:
+                signals.add((symbol, history[i][0]))
+    return signals
+
+
 def eligible(q: Quote, underlying: float, cfg: Config) -> bool:
     dte = (q.expiry - q.day).days
     otm = q.strike / underlying - 1
@@ -56,9 +74,12 @@ def eligible(q: Quote, underlying: float, cfg: Config) -> bool:
             and q.spread_fraction <= cfg.max_spread_fraction)
 
 
-def choose(quotes: Iterable[Quote], closes: dict, cfg: Config) -> Quote | None:
+def choose(quotes: Iterable[Quote], closes: dict, cfg: Config,
+           max_cost: float | None = None) -> Quote | None:
     picks = [q for q in quotes if (q.symbol, q.day) in closes
-             and eligible(q, closes[q.symbol, q.day], cfg)]
+             and eligible(q, closes[q.symbol, q.day], cfg)
+             and (max_cost is None or q.ask * 100 * (1 + cfg.fx_fee_fraction)
+                  + cfg.commission_per_side <= max_cost)]
     # Prefer closer to 3% OTM, then 70 DTE, then a tighter spread.
     return min(picks, key=lambda q: (abs(q.strike / closes[q.symbol, q.day] - 1.03),
                                      abs((q.expiry - q.day).days - 70),
@@ -75,6 +96,7 @@ def run(quotes: list[Quote], closes: dict, cfg: Config = Config(),
     if not days:
         raise ValueError("No option quotes in test interval")
     cash, pos, pending_buy = cfg.capital, None, None
+    trends = precompute_trends(closes)
     trades, curve, rejected = [], [], 0
     for i, day in enumerate(days):
         chain = by_day[day]
@@ -98,7 +120,7 @@ def run(quotes: list[Quote], closes: dict, cfg: Config = Config(),
             pending_buy = None
             if q and (q.symbol, day) in closes and eligible(q, closes[q.symbol, day], cfg):
                 cost = q.ask * 100 * (1 + cfg.fx_fee_fraction) + cfg.commission_per_side
-                if cost <= cash:
+                if cost <= cash and cost <= cfg.capital * cfg.max_position_fraction:
                     cash -= cost
                     pos = Position(q.key, day, q.ask, cost)
                 else:
@@ -121,8 +143,9 @@ def run(quotes: list[Quote], closes: dict, cfg: Config = Config(),
             equity = cash
         curve.append({"date": day.isoformat(), "equity": round(equity, 2)})
         if not pos and i + 1 < len(days):
-            candidates = [q for q in chain.values() if trend_on_prior_day(q.symbol, day, closes)]
-            pick = choose(candidates, closes, cfg)
+            candidates = [q for q in chain.values() if (q.symbol, day) in trends]
+            pick = choose(candidates, closes, cfg,
+                          max_cost=min(cash, cfg.capital * cfg.max_position_fraction))
             pending_buy = pick.key if pick else None
 
     peak, max_drawdown = cfg.capital, 0.0

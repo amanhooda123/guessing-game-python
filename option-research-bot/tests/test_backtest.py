@@ -1,7 +1,7 @@
 import unittest
 from datetime import date, timedelta
 
-from option_lab.backtest import Config, choose, run, trend_on_prior_day
+from option_lab.backtest import Config, choose, precompute_trends, run, trend_on_prior_day
 from option_lab.model import Quote
 
 
@@ -40,6 +40,25 @@ class ReplayTests(unittest.TestCase):
         wide = Quote(day, "RDDT", day + timedelta(days=70), 103, "call", .4, 1, 100, 1, 1)
         expensive = Quote(day, "RDDT", day + timedelta(days=70), 103, "call", 2, 2.1, 100, 1, 1)
         self.assertIsNone(choose([wide, expensive], {("RDDT", day): 100}, Config()))
+
+    def test_precomputed_trend_matches_incremental_history(self):
+        first = date(2025, 1, 1)
+        closes = {("RDDT", first + timedelta(days=i)): 100 + i for i in range(80)}
+        signals = precompute_trends(closes)
+        for i in range(80):
+            day = first + timedelta(days=i)
+            self.assertEqual(("RDDT", day) in signals,
+                             trend_on_prior_day("RDDT", day, closes))
+
+    def test_position_cap_prevents_large_debit(self):
+        first = date(2025, 1, 1)
+        closes = {("RDDT", first + timedelta(days=i)): 100 + i for i in range(70)}
+        quotes = [Quote(first + timedelta(days=i), "RDDT", first + timedelta(days=130),
+                        165, "call", .95, 1.0, 100, 1, 1) for i in range(60, 65)]
+        report = run(quotes, closes, Config(capital=200, max_position_fraction=.25))
+        self.assertEqual(report["closed_trades"], [])
+        self.assertIsNone(report["open_position"])
+        self.assertEqual(report["final_marked_equity"], 200)
 
 
 if __name__ == "__main__":

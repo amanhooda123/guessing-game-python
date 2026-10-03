@@ -1,0 +1,89 @@
+{
+  "train_start": "2024-01-01",
+  "split": "2025-01-01",
+  "test_end": "2025-12-15",
+  "capital_usd_equivalent": 200.0,
+  "symbols": [
+    "SPY"
+  ],
+  "configurations_tried_on_train": 48,
+  "baseline_train": {
+    "return_fraction": -0.7503,
+    "final_equity": 49.94,
+    "closed_trades": 31,
+    "max_drawdown_fraction": -0.926854,
+    "win_rate_closed": 0.5161,
+    "open_position": null
+  },
+  "baseline_test": {
+    "return_fraction": -0.969,
+    "final_equity": 6.2,
+    "closed_trades": 9,
+    "max_drawdown_fraction": -0.973735,
+    "win_rate_closed": 0.2222,
+    "open_position": null
+  },
+  "best_train_config": {
+    "capital": 200.0,
+    "premium_cap": 150.0,
+    "max_position_fraction": 0.5,
+    "min_dte": 45,
+    "max_dte": 100,
+    "min_volume": 100,
+    "max_spread_fraction": 0.15,
+    "min_otm_fraction": 0.0,
+    "max_otm_fraction": 0.12,
+    "take_profit": 0.2,
+    "stop_loss": -0.5,
+    "exit_dte": 10,
+    "max_hold_days": 45,
+    "fx_fee_fraction": 0.015,
+    "commission_per_side": 0.0
+  },
+  "best_train_result": {
+    "return_fraction": 1.6485,
+    "final_equity": 529.7,
+    "closed_trades": 36,
+    "max_drawdown_fraction": -0.341124,
+    "win_rate_closed": 0.6111,
+    "open_position": null
+  },
+  "qualification": "At least 8 closed trades, positive training return, drawdown <= 35%, no open position",
+  "qualified_count": 5,
+  "selected_config": {
+    "capital": 200.0,
+    "premium_cap": 150.0,
+    "max_position_fraction": 0.5,
+    "min_dte": 45,
+    "max_dte": 100,
+    "min_volume": 100,
+    "max_spread_fraction": 0.15,
+    "min_otm_fraction": 0.0,
+    "max_otm_fraction": 0.12,
+    "take_profit": 0.2,
+    "stop_loss": -0.5,
+    "exit_dte": 10,
+    "max_hold_days": 45,
+    "fx_fee_fraction": 0.015,
+    "commission_per_side": 0.0
+  },
+  "selected_train": {
+    "return_fraction": 1.6485,
+    "final_equity": 529.7,
+    "closed_trades": 36,
+    "max_drawdown_fraction": -0.341124,
+    "win_rate_closed": 0.6111,
+    "open_position": null
+  },
+  "selected_test": {
+    "return_fraction": -0.92555,
+    "final_equity": 14.89,
+    "closed_trades": 8,
+    "max_drawdown_fraction": -0.9502,
+    "win_rate_closed": 0.375,
+    "open_position": null
+  },
+  "decision": "NO_VALIDATED_EDGE; DO_NOT_TRADE",
+  "test_requirement": "At least 8 closed trades, positive return, drawdown <= 35%, no open position",
+  "warning": "Historical EOD quote marks are not executable fills; test selection can still overfit."
+}
