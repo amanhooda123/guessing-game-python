@@ -16,4 +16,5 @@ reports/*
 !reports/*_two_sided.json
 !reports/FOURTH_PASS.md
 !reports/company_sample_screen.json
+!reports/FIFTH_PASS.md
 *.egg-info/

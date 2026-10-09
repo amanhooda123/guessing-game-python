@@ -31,6 +31,15 @@ The `option_lab.two_sided_study` module tests buying a call **and** a put togeth
 
 The [individual-company universe scanner](reports/FOURTH_PASS.md) accepts an arbitrary list of stock symbols and a historical date through `python -m option_lab.universe`. It records data gaps and returns research candidates only. The public source does not supply complete daily chains or current tradable quotes, so this is **not** an all-company backtest or a live stock picker.
 
+The [Cboe data audit](reports/FIFTH_PASS.md) adds an importer for the official Option EOD Summary 15:45 ET bid/ask snapshots. For a licensed historical set of daily CSV/ZIP files:
+
+```sh
+python -m option_lab.cboe --files data/cboe_raw/*.zip --out data/cboe --symbols AAPL AMD RDDT TSLA
+python -m option_lab.cli walk-forward --options data/cboe/cboe_options.csv --stocks data/cboe/cboe_stocks.csv --capital 200 --premium-cap 30 --train-start 2024-01-01 --split 2025-01-01 --test-end 2025-12-31 --report reports/cboe_walk_forward.json
+```
+
+Omit `--symbols` to import every standard equity in the files. This conversion streams inputs but the existing walk-forward runner loads its resulting CSV into memory; split large market histories into small symbol batches. The free Cboe sample covers **one date and two equity symbols**, so it cannot measure returns. The historical market-wide feed is sold separately; no purchase or full-market test has occurred.
+
 Alternatively supply your own option CSV with columns `date,symbol,expiration,strike,right,bid,ask,volume,bid_size,ask_size`, and stock CSV with `date,symbol,close`. Dates are ISO `YYYY-MM-DD`. Include the stock history before the option test window for the 60-close warmup. Use *point-in-time* option chains including delisted/expired contracts, not today's chain or split-adjusted quotes paired with raw strikes.
 
 ## What a result means
