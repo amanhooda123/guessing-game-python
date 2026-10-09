@@ -1,0 +1,72 @@
+{
+  "as_of": "2025-06-02",
+  "evaluated_on": "2026-10-09",
+  "coverage": [
+    {
+      "symbol": "AAPL",
+      "option_rows": 0,
+      "volatility_available": true,
+      "truncated": false,
+      "errors": [
+        "option query failed: TimeoutError"
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "option_rows": 0,
+      "volatility_available": true,
+      "truncated": false,
+      "errors": [
+        "option query failed: TimeoutError"
+      ]
+    },
+    {
+      "symbol": "BAC",
+      "option_rows": 0,
+      "volatility_available": true,
+      "truncated": false,
+      "errors": [
+        "option query failed: TimeoutError"
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "option_rows": 120,
+      "volatility_available": true,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "symbol": "PLTR",
+      "option_rows": 124,
+      "volatility_available": true,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "symbol": "TSLA",
+      "option_rows": 138,
+      "volatility_available": true,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "symbol": "UBER",
+      "option_rows": 122,
+      "volatility_available": true,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "symbol": "RDDT",
+      "option_rows": 0,
+      "volatility_available": false,
+      "truncated": false,
+      "errors": []
+    }
+  ],
+  "historical_research_candidates": [],
+  "action": "NO TRADE",
+  "reason": "Snapshot is stale; no current executable quotes",
+  "note": "HV > IV is a research hypothesis, not a forecast or probability of profit. The $150 budget is USD-equivalent, not CAD."
+}

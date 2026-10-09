@@ -7,3 +7,5 @@ This is a historical end-of-day quote replay on a third-party public mirror. It 
 A [second study](SECOND_PASS.md) tested a fixed-rule bull put credit spread on the same public archive. It also produced no candidate; its six year-and-ticker replays were negative, with additional quote anomalies in 2025.
 
 A [third study](THIRD_PASS.md) bought both a call and a put as a long strangle under a US$150 equivalent premium cap. It produced no validated edge and no order signal.
+
+The [individual-company correction](FOURTH_PASS.md) adds a research scanner for arbitrary ticker lists, verifies four complete historical company snapshots on a sample date, and records missing API coverage. It is not an all-company daily backtest and also emits no order.

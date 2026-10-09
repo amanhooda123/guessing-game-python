@@ -14,4 +14,6 @@ reports/*
 !reports/SECOND_PASS.md
 !reports/THIRD_PASS.md
 !reports/*_two_sided.json
+!reports/FOURTH_PASS.md
+!reports/company_sample_screen.json
 *.egg-info/
