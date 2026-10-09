@@ -12,4 +12,6 @@ reports/*
 !reports/*_walk_forward.json
 !reports/*_spread_study.json
 !reports/SECOND_PASS.md
+!reports/THIRD_PASS.md
+!reports/*_two_sided.json
 *.egg-info/

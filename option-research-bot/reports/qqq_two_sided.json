@@ -1,0 +1,124 @@
+{
+  "symbol": "QQQ",
+  "excluded": {
+    "bad_quote": 298922
+  },
+  "rules": "Buy 8-12% OTM call and put, same expiry 30-45 DTE, on Tuesday after Monday selection; max $150 USD-equivalent combined cost; sell both at bid on fifth subsequent quote date; 1.5% conversion each side",
+  "2024": {
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "capital_usd_equivalent": 200.0,
+    "final_marked_equity": 41.33,
+    "return_fraction": -0.793375,
+    "max_drawdown_fraction": -0.793375,
+    "closed_trades": 7,
+    "open_position": false,
+    "valid_quote_replay": true,
+    "win_rate": 0.0,
+    "missed": {
+      "no_affordable_liquid_pair": 35
+    },
+    "trades": [
+      {
+        "entry": "2024-01-09",
+        "exit": "2024-01-17",
+        "expiry": "2024-02-16",
+        "call_strike": 445.0,
+        "put_strike": 364.78,
+        "cost": 95.41,
+        "proceeds": 85.7,
+        "pnl": -9.71
+      },
+      {
+        "entry": "2024-01-23",
+        "exit": "2024-01-30",
+        "expiry": "2024-02-23",
+        "call_strike": 465.0,
+        "put_strike": 380.0,
+        "cost": 65.97,
+        "proceeds": 44.33,
+        "pnl": -21.65
+      },
+      {
+        "entry": "2024-02-06",
+        "exit": "2024-02-13",
+        "expiry": "2024-03-15",
+        "call_strike": 470.0,
+        "put_strike": 385.78,
+        "cost": 121.8,
+        "proceeds": 110.32,
+        "pnl": -11.48
+      },
+      {
+        "entry": "2024-02-27",
+        "exit": "2024-03-05",
+        "expiry": "2024-03-28",
+        "call_strike": 480.0,
+        "put_strike": 395.0,
+        "cost": 84.24,
+        "proceeds": 66.0,
+        "pnl": -18.25
+      },
+      {
+        "entry": "2024-03-12",
+        "exit": "2024-03-19",
+        "expiry": "2024-04-12",
+        "call_strike": 480.0,
+        "put_strike": 395.0,
+        "cost": 104.54,
+        "proceeds": 58.12,
+        "pnl": -46.43
+      },
+      {
+        "entry": "2024-03-26",
+        "exit": "2024-04-03",
+        "expiry": "2024-04-26",
+        "call_strike": 490.0,
+        "put_strike": 400.0,
+        "cost": 72.06,
+        "proceeds": 49.25,
+        "pnl": -22.81
+      },
+      {
+        "entry": "2024-05-07",
+        "exit": "2024-05-14",
+        "expiry": "2024-06-07",
+        "call_strike": 485.0,
+        "put_strike": 395.0,
+        "cost": 58.87,
+        "proceeds": 30.54,
+        "pnl": -28.34
+      }
+    ],
+    "warning": "End-of-day quotes cannot establish fill prices; two-leg execution, taxes and FX rate changes are omitted."
+  },
+  "2025": {
+    "start": "2025-01-01",
+    "end": "2025-12-15",
+    "capital_usd_equivalent": 200.0,
+    "final_marked_equity": 123.9,
+    "return_fraction": -0.380525,
+    "max_drawdown_fraction": -0.380525,
+    "closed_trades": 1,
+    "open_position": false,
+    "valid_quote_replay": true,
+    "win_rate": 0.0,
+    "missed": {
+      "unaffordable_at_entry": 1,
+      "no_affordable_liquid_pair": 43
+    },
+    "trades": [
+      {
+        "entry": "2025-02-11",
+        "exit": "2025-02-19",
+        "expiry": "2025-03-14",
+        "call_strike": 580.0,
+        "put_strike": 475.0,
+        "cost": 142.1,
+        "proceeds": 66.0,
+        "pnl": -76.1
+      }
+    ],
+    "warning": "End-of-day quotes cannot establish fill prices; two-leg execution, taxes and FX rate changes are omitted."
+  }
+}

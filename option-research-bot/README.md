@@ -27,6 +27,8 @@ For the public 2024–2025 SPY, QQQ and IWM archive, install optional `pyarrow` 
 
 The separate `option_lab.spread_study` module replays one fixed forum-inspired bull put spread rule against the raw Parquet archive. [Its report](reports/SECOND_PASS.md) explains the losing results, unreliable quotes, and Wealthsimple account eligibility. It emits no trade signal.
 
+The `option_lab.two_sided_study` module tests buying a call **and** a put together under a US$150 equivalent combined premium cap. [Its report](reports/THIRD_PASS.md) gives the rules and the 2024–2025 results. It also emits no trade signal: buying both options does not guarantee a profit.
+
 Alternatively supply your own option CSV with columns `date,symbol,expiration,strike,right,bid,ask,volume,bid_size,ask_size`, and stock CSV with `date,symbol,close`. Dates are ISO `YYYY-MM-DD`. Include the stock history before the option test window for the 60-close warmup. Use *point-in-time* option chains including delisted/expired contracts, not today's chain or split-adjusted quotes paired with raw strikes.
 
 ## What a result means

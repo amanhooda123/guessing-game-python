@@ -1,0 +1,284 @@
+{
+  "symbol": "SPY",
+  "excluded": {
+    "bad_quote": 273589
+  },
+  "rules": "Buy 8-12% OTM call and put, same expiry 30-45 DTE, on Tuesday after Monday selection; max $150 USD-equivalent combined cost; sell both at bid on fifth subsequent quote date; 1.5% conversion each side",
+  "2024": {
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "capital_usd_equivalent": 200.0,
+    "final_marked_equity": 309.24,
+    "return_fraction": 0.5462,
+    "max_drawdown_fraction": -0.671354,
+    "closed_trades": 22,
+    "open_position": true,
+    "valid_quote_replay": false,
+    "win_rate": 0.3636,
+    "missed": {
+      "no_affordable_liquid_pair": 4
+    },
+    "trades": [
+      {
+        "entry": "2024-01-09",
+        "exit": "2024-01-17",
+        "expiry": "2024-02-16",
+        "call_strike": 520.0,
+        "put_strike": 427.0,
+        "cost": 49.73,
+        "proceeds": 52.2,
+        "pnl": 2.47
+      },
+      {
+        "entry": "2024-01-23",
+        "exit": "2024-01-30",
+        "expiry": "2024-02-23",
+        "call_strike": 530.0,
+        "put_strike": 435.0,
+        "cost": 35.52,
+        "proceeds": 24.62,
+        "pnl": -10.9
+      },
+      {
+        "entry": "2024-02-06",
+        "exit": "2024-02-13",
+        "expiry": "2024-03-15",
+        "call_strike": 540.0,
+        "put_strike": 443.0,
+        "cost": 61.91,
+        "proceeds": 70.92,
+        "pnl": 9.01
+      },
+      {
+        "entry": "2024-02-27",
+        "exit": "2024-03-05",
+        "expiry": "2024-03-28",
+        "call_strike": 555.0,
+        "put_strike": 455.0,
+        "cost": 46.69,
+        "proceeds": 35.46,
+        "pnl": -11.23
+      },
+      {
+        "entry": "2024-03-12",
+        "exit": "2024-03-19",
+        "expiry": "2024-04-12",
+        "call_strike": 560.0,
+        "put_strike": 460.0,
+        "cost": 47.7,
+        "proceeds": 29.55,
+        "pnl": -18.15
+      },
+      {
+        "entry": "2024-03-26",
+        "exit": "2024-04-03",
+        "expiry": "2024-04-30",
+        "call_strike": 570.0,
+        "put_strike": 470.0,
+        "cost": 55.83,
+        "proceeds": 34.48,
+        "pnl": -21.35
+      },
+      {
+        "entry": "2024-04-09",
+        "exit": "2024-04-16",
+        "expiry": "2024-05-17",
+        "call_strike": 570.0,
+        "put_strike": 467.0,
+        "cost": 80.18,
+        "proceeds": 155.63,
+        "pnl": 75.45
+      },
+      {
+        "entry": "2024-04-23",
+        "exit": "2024-04-30",
+        "expiry": "2024-05-24",
+        "call_strike": 550.0,
+        "put_strike": 450.0,
+        "cost": 54.81,
+        "proceeds": 31.52,
+        "pnl": -23.29
+      },
+      {
+        "entry": "2024-05-07",
+        "exit": "2024-05-14",
+        "expiry": "2024-06-07",
+        "call_strike": 570.0,
+        "put_strike": 465.0,
+        "cost": 35.52,
+        "proceeds": 17.73,
+        "pnl": -17.79
+      },
+      {
+        "entry": "2024-05-21",
+        "exit": "2024-05-29",
+        "expiry": "2024-06-28",
+        "call_strike": 580.0,
+        "put_strike": 477.0,
+        "cost": 51.76,
+        "proceeds": 66.0,
+        "pnl": 14.23
+      },
+      {
+        "entry": "2024-06-04",
+        "exit": "2024-06-11",
+        "expiry": "2024-07-05",
+        "call_strike": 575.0,
+        "put_strike": 475.0,
+        "cost": 44.66,
+        "proceeds": 21.67,
+        "pnl": -22.99
+      },
+      {
+        "entry": "2024-06-18",
+        "exit": "2024-06-26",
+        "expiry": "2024-07-19",
+        "call_strike": 600.0,
+        "put_strike": 492.0,
+        "cost": 41.61,
+        "proceeds": 23.64,
+        "pnl": -17.97
+      },
+      {
+        "entry": "2024-07-02",
+        "exit": "2024-07-10",
+        "expiry": "2024-08-09",
+        "call_strike": 595.0,
+        "put_strike": 490.0,
+        "cost": 48.72,
+        "proceeds": 42.36,
+        "pnl": -6.36
+      },
+      {
+        "entry": "2024-07-16",
+        "exit": "2024-07-23",
+        "expiry": "2024-08-23",
+        "call_strike": 620.0,
+        "put_strike": 505.0,
+        "cost": 60.9,
+        "proceeds": 69.94,
+        "pnl": 9.04
+      },
+      {
+        "entry": "2024-07-30",
+        "exit": "2024-08-06",
+        "expiry": "2024-08-30",
+        "call_strike": 600.0,
+        "put_strike": 490.0,
+        "cost": 110.64,
+        "proceeds": 395.97,
+        "pnl": 285.33
+      },
+      {
+        "entry": "2024-08-20",
+        "exit": "2024-08-27",
+        "expiry": "2024-09-20",
+        "call_strike": 615.0,
+        "put_strike": 504.0,
+        "cost": 96.42,
+        "proceeds": 58.12,
+        "pnl": -38.31
+      },
+      {
+        "entry": "2024-09-10",
+        "exit": "2024-09-17",
+        "expiry": "2024-10-11",
+        "call_strike": 600.0,
+        "put_strike": 490.0,
+        "cost": 118.76,
+        "proceeds": 64.03,
+        "pnl": -54.73
+      },
+      {
+        "entry": "2024-09-24",
+        "exit": "2024-10-01",
+        "expiry": "2024-10-25",
+        "call_strike": 625.0,
+        "put_strike": 515.0,
+        "cost": 88.31,
+        "proceeds": 103.42,
+        "pnl": 15.12
+      },
+      {
+        "entry": "2024-10-22",
+        "exit": "2024-10-29",
+        "expiry": "2024-11-22",
+        "call_strike": 645.0,
+        "put_strike": 525.0,
+        "cost": 119.77,
+        "proceeds": 102.44,
+        "pnl": -17.33
+      },
+      {
+        "entry": "2024-11-12",
+        "exit": "2024-11-19",
+        "expiry": "2024-12-20",
+        "call_strike": 660.0,
+        "put_strike": 539.0,
+        "cost": 114.7,
+        "proceeds": 116.23,
+        "pnl": 1.53
+      },
+      {
+        "entry": "2024-11-26",
+        "exit": "2024-12-04",
+        "expiry": "2024-12-31",
+        "call_strike": 655.0,
+        "put_strike": 539.0,
+        "cost": 88.31,
+        "proceeds": 56.15,
+        "pnl": -32.16
+      },
+      {
+        "entry": "2024-12-10",
+        "exit": "2024-12-17",
+        "expiry": "2025-01-10",
+        "call_strike": 665.0,
+        "put_strike": 545.0,
+        "cost": 85.26,
+        "proceeds": 67.97,
+        "pnl": -17.3
+      }
+    ],
+    "warning": "End-of-day quotes cannot establish fill prices; two-leg execution, taxes and FX rate changes are omitted."
+  },
+  "2025": {
+    "start": "2025-01-01",
+    "end": "2025-12-15",
+    "capital_usd_equivalent": 200.0,
+    "final_marked_equity": 58.19,
+    "return_fraction": -0.70905,
+    "max_drawdown_fraction": -0.759436,
+    "closed_trades": 2,
+    "open_position": false,
+    "valid_quote_replay": false,
+    "win_rate": 0.0,
+    "missed": {
+      "zero_assumed_call_exit": 1,
+      "no_affordable_liquid_pair": 41
+    },
+    "trades": [
+      {
+        "entry": "2025-01-07",
+        "exit": "2025-01-15",
+        "expiry": "2025-02-07",
+        "call_strike": 655.0,
+        "put_strike": 535.0,
+        "cost": 115.71,
+        "proceeds": 49.25,
+        "pnl": -66.46
+      },
+      {
+        "entry": "2025-01-28",
+        "exit": "2025-02-04",
+        "expiry": "2025-02-28",
+        "call_strike": 660.0,
+        "put_strike": 539.0,
+        "cost": 83.23,
+        "proceeds": 7.88,
+        "pnl": -75.35
+      }
+    ],
+    "warning": "End-of-day quotes cannot establish fill prices; two-leg execution, taxes and FX rate changes are omitted."
+  }
+}
