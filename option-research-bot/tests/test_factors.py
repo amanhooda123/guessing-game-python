@@ -3,6 +3,7 @@ from datetime import date
 
 from option_lab.factor_replay import modeled_greeks
 from option_lab.factors import evaluate, historical_volatility
+from option_lab.broad_study import _spot_from_parity, _signals
 from option_lab.model import Quote
 
 
@@ -34,6 +35,21 @@ class FactorTests(unittest.TestCase):
         self.assertGreater(model["delta_1545"], 0)
         self.assertGreater(model["gamma_1545"], 0)
         self.assertLess(model["theta_1545"], 0)
+
+    def test_stock_proxy_from_two_call_put_pairs_and_prior_only_signal(self):
+        rows = []
+        for strike, call, put in ((99., 3., 2.), (100., 2.5, 2.5)):
+            for right, price, delta in (("Call", call, .5), ("Put", put, -.5)):
+                rows.append({"act_symbol": "ABC", "expiration": "2025-08-01",
+                             "strike": strike, "call_put": right, "bid": price - .02,
+                             "ask": price + .02, "delta": delta})
+        spot = _spot_from_parity(rows, date(2025, 6, 2))
+        self.assertEqual(spot["ABC"], 100.)
+        days = [(date.fromordinal(date(2025, 1, 1).toordinal() + i), {"ABC": 100 + i})
+                for i in range(61)]
+        signals = _signals(days)
+        self.assertNotIn(("ABC", days[59][0]), signals)
+        self.assertTrue(signals["ABC", days[60][0]][2])
 
 
 if __name__ == "__main__":

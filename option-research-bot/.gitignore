@@ -19,4 +19,6 @@ reports/*
 !reports/FIFTH_PASS.md
 !reports/SIXTH_PASS.md
 !reports/*_factor_*.json
+!reports/SEVENTH_PASS.md
+!reports/broad_2021_2022.json
 *.egg-info/

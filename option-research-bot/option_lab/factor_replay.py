@@ -57,10 +57,10 @@ def modeled_greeks(q: Quote, spot: float, rate: float = .04,
             "theta_1545": theta / 365.25, "vega_1545": vega}
 
 
-def replay(options: str, stocks: str, start: date, end: date, capital: float = 200.,
-           premium_cap: float = 150.) -> dict:
-    if capital <= 0 or premium_cap <= 0:
-        raise ValueError("Capital and premium cap must be positive")
+def replay(options: str, stocks: str, start: date, end: date, capital: float = 100000.,
+           premium_cap: float | None = None) -> dict:
+    if capital <= 0 or (premium_cap is not None and premium_cap <= 0):
+        raise ValueError("Capital and optional premium cap must be positive")
     quotes = read_quotes(options)
     spots = read_stocks(stocks)
     history: dict[str, list[tuple[date, float]]] = defaultdict(list)
@@ -103,7 +103,8 @@ def replay(options: str, stocks: str, start: date, end: date, capital: float = 2
         if not position and pending:
             entry = chain.get(pending)
             pending = None
-            if entry and entry.ask_size > 0 and entry.bid > 0 and entry.ask * 100 * 1.015 <= min(cash, premium_cap):
+            available = cash if premium_cap is None else min(cash, premium_cap)
+            if entry and entry.ask_size > 0 and entry.bid > 0 and entry.ask * 100 * 1.015 <= available:
                 cost = entry.ask * 100 * 1.015
                 cash -= cost
                 position = {"key": entry.key, "day": day, "cost": cost,
@@ -146,7 +147,8 @@ def replay(options: str, stocks: str, start: date, end: date, capital: float = 2
                    "bid_1545": q.bid, "ask_1545": q.ask,
                    "bid_size_1545": q.bid_size, "ask_size_1545": q.ask_size,
                    "trade_volume": q.volume, **model}
-            candidate, reason = evaluate(row, spot, signal[0], min(cash, premium_cap))
+            available = cash if premium_cap is None else min(cash, premium_cap)
+            candidate, reason = evaluate(row, spot, signal[0], available)
             counts[reason] += 1
             if candidate:
                 candidates.append((candidate["score"], q.key))
@@ -171,8 +173,10 @@ def main() -> None:
     parser.add_argument("--stocks", required=True)
     parser.add_argument("--start", type=date.fromisoformat, required=True)
     parser.add_argument("--end", type=date.fromisoformat, required=True)
-    parser.add_argument("--capital", type=float, default=200.)
-    parser.add_argument("--premium-cap", type=float, default=150.)
+    parser.add_argument("--capital", type=float, default=100000.,
+                        help="Illustrative buying power; research-only")
+    parser.add_argument("--premium-cap", type=float,
+                        help="Optional contract price limit; omitted by default")
     parser.add_argument("--report")
     args = parser.parse_args()
     result = replay(args.options, args.stocks, args.start, args.end, args.capital, args.premium_cap)

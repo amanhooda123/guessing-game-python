@@ -24,8 +24,8 @@ def historical_volatility(prices: list[float]) -> float | None:
     return math.sqrt(252 * sum((r - mean) ** 2 for r in returns) / (len(returns) - 1))
 
 
-def evaluate(row: dict, spot: float, rv20: float | None, budget: float = 150.,
-             fx_fee: float = .015) -> tuple[dict | None, str]:
+def evaluate(row: dict, spot: float, rv20: float | None, budget: float | None = None,
+             fx_fee: float = .015, require_size_volume: bool = True) -> tuple[dict | None, str]:
     """Evaluate at the stated snapshot, without inferring missing Greek data."""
     day = date.fromisoformat(row["quote_date"])
     expiry = date.fromisoformat(row["expiration"])
@@ -35,11 +35,13 @@ def evaluate(row: dict, spot: float, rv20: float | None, budget: float = 150.,
     if row["option_type"] not in ("C", "P"):
         return None, "right"
     bid, ask = float(row["bid_1545"]), float(row["ask_1545"])
-    bsize, asize = int(row["bid_size_1545"]), int(row["ask_size_1545"])
-    if (spot <= 0 or bid <= 0 or ask < bid or bsize < 1 or asize < 1
-            or (ask - bid) / ask > .20 or int(row["trade_volume"] or 0) < 10):
+    if (spot <= 0 or bid <= 0 or ask < bid or (ask - bid) / ask > .20):
         return None, "liquidity"
-    if ask * 100 * (1 + fx_fee) > budget:
+    if require_size_volume and (int(row["bid_size_1545"]) < 1
+                                or int(row["ask_size_1545"]) < 1
+                                or int(row["trade_volume"] or 0) < 10):
+        return None, "liquidity"
+    if budget is not None and ask * 100 * (1 + fx_fee) > budget:
         return None, "budget"
     iv = float(row["implied_volatility_1545"] or 0)
     delta = float(row["delta_1545"] or 0)
@@ -66,9 +68,9 @@ def evaluate(row: dict, spot: float, rv20: float | None, budget: float = 150.,
             "iv": iv, "rv20": rv20, "score": round(score, 6)}, "eligible"
 
 
-def screen_cboe(files: list[str], stock_history: str | None, budget: float = 150.) -> dict:
+def screen_cboe(files: list[str], stock_history: str | None, budget: float | None = None) -> dict:
     """Screen a dated Cboe sample or daily files; require prior underlying history."""
-    if budget <= 0:
+    if budget is not None and budget <= 0:
         raise ValueError("Budget must be positive")
     histories: dict[str, list[tuple[date, float]]] = defaultdict(list)
     if stock_history:
@@ -134,10 +136,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--files", nargs="+", required=True)
     parser.add_argument("--stock-history", help="Date/symbol/close CSV with at least 60 preceding dates")
-    parser.add_argument("--budget-usd", type=float, default=150.)
+    parser.add_argument("--budget-usd", type=float, help="Optional contract price ceiling; omitted by default")
     parser.add_argument("--report")
     args = parser.parse_args()
-    if args.budget_usd <= 0:
+    if args.budget_usd is not None and args.budget_usd <= 0:
         parser.error("Budget must be positive")
     result = screen_cboe(args.files, args.stock_history, args.budget_usd)
     output = json.dumps(result, indent=2)
