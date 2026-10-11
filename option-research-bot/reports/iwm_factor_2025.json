@@ -1,0 +1,78 @@
+{
+  "status": "COMPLETE",
+  "start": "2025-01-02",
+  "end": "2025-12-15",
+  "quote_days": 239,
+  "capital_usd_equivalent": 200.0,
+  "final_marked_equity": 308.99,
+  "return_fraction": 0.54495,
+  "max_drawdown_fraction": -0.306898,
+  "closed_trades": [
+    {
+      "symbol": "IWM",
+      "entry": "2025-05-21",
+      "exit": "2025-06-06",
+      "cost": 90.33,
+      "proceeds": 152.68,
+      "pnl": 62.34,
+      "reason": "time_exit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2025-06-17",
+      "exit": "2025-06-27",
+      "cost": 129.92,
+      "proceeds": 189.12,
+      "pnl": 59.2,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2025-07-28",
+      "exit": "2025-08-04",
+      "cost": 118.75,
+      "proceeds": 60.09,
+      "pnl": -58.67,
+      "reason": "stop_loss"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2025-08-14",
+      "exit": "2025-08-25",
+      "cost": 87.29,
+      "proceeds": 90.62,
+      "pnl": 3.33,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2025-09-10",
+      "exit": "2025-09-12",
+      "cost": 136.01,
+      "proceeds": 145.78,
+      "pnl": 9.77,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2025-09-15",
+      "exit": "2025-09-19",
+      "cost": 149.2,
+      "proceeds": 182.22,
+      "pnl": 33.02,
+      "reason": "take_profit"
+    }
+  ],
+  "counts": {
+    "unmodelable": 352,
+    "expiry": 3485,
+    "budget": 652,
+    "eligible": 11,
+    "greeks": 287,
+    "liquidity": 291,
+    "entries": 6,
+    "entry_missing_or_unaffordable": 4,
+    "daily_decay": 1
+  },
+  "warning": "Exploratory only: BSM Greeks modeled from third-party bid/ask with assumed 4% rate and 1.5% dividend yield; no executable fills, rate/dividend history, earnings calendar or FX changes."
+}

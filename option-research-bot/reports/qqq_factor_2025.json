@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "start": "2025-01-02",
+  "end": "2025-12-15",
+  "quote_days": 239,
+  "capital_usd_equivalent": 200.0,
+  "final_marked_equity": 200.0,
+  "return_fraction": 0.0,
+  "max_drawdown_fraction": 0.0,
+  "closed_trades": [],
+  "counts": {
+    "expiry": 10788,
+    "budget": 1843,
+    "greeks": 1387,
+    "liquidity": 1567,
+    "unmodelable": 795
+  },
+  "warning": "Exploratory only: BSM Greeks modeled from third-party bid/ask with assumed 4% rate and 1.5% dividend yield; no executable fills, rate/dividend history, earnings calendar or FX changes."
+}

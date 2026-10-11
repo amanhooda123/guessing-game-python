@@ -40,6 +40,8 @@ python -m option_lab.cli walk-forward --options data/cboe/cboe_options.csv --sto
 
 Omit `--symbols` to import every standard equity in the files. This conversion streams inputs but the existing walk-forward runner loads its resulting CSV into memory; split large market histories into small symbol batches. The free Cboe sample covers **one date and two equity symbols**, so it cannot measure returns. The historical market-wide feed is sold separately; no purchase or full-market test has occurred.
 
+The [Greek factor hypothesis and exploratory replay](reports/SIXTH_PASS.md) evaluates delta, gamma, theta, vega, implied versus prior realized volatility, trend, spread, size, volume, expiry and budget. `python -m option_lab.factors --files data/cboe_sample.zip --stock-history data/prior_stock_history.csv` screens real Cboe calculated Greeks only when at least 60 **earlier** underlying quotes exist per stock. `python -m option_lab.factor_replay` estimates missing Greeks to replay the available three-ETF 2024–2025 archive; the report distinguishes those approximations from Cboe calculations. It did not validate a profitable all-company strategy and keeps live signals disabled. Wealthsimple currently does not offer options on Canadian securities.
+
 Alternatively supply your own option CSV with columns `date,symbol,expiration,strike,right,bid,ask,volume,bid_size,ask_size`, and stock CSV with `date,symbol,close`. Dates are ISO `YYYY-MM-DD`. Include the stock history before the option test window for the 60-close warmup. Use *point-in-time* option chains including delisted/expired contracts, not today's chain or split-adjusted quotes paired with raw strikes.
 
 ## What a result means

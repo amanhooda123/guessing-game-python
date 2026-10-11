@@ -1,0 +1,33 @@
+{
+  "status": "COMPLETE",
+  "start": "2024-01-02",
+  "end": "2024-12-31",
+  "quote_days": 252,
+  "capital_usd_equivalent": 200.0,
+  "final_marked_equity": 293.2,
+  "return_fraction": 0.465975,
+  "max_drawdown_fraction": -0.312175,
+  "closed_trades": [
+    {
+      "symbol": "SPY",
+      "entry": "2024-01-12",
+      "exit": "2024-01-22",
+      "cost": 146.16,
+      "proceeds": 239.36,
+      "pnl": 93.2,
+      "reason": "take_profit"
+    }
+  ],
+  "counts": {
+    "budget": 4443,
+    "greeks": 4131,
+    "liquidity": 2654,
+    "expiry": 41182,
+    "unmodelable": 9248,
+    "eligible": 3,
+    "entry_missing_or_unaffordable": 2,
+    "entries": 1,
+    "daily_decay": 2
+  },
+  "warning": "Exploratory only: BSM Greeks modeled from third-party bid/ask with assumed 4% rate and 1.5% dividend yield; no executable fills, rate/dividend history, earnings calendar or FX changes."
+}

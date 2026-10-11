@@ -1,0 +1,160 @@
+{
+  "status": "OPEN_POSITION",
+  "start": "2024-01-02",
+  "end": "2024-12-13",
+  "quote_days": 240,
+  "capital_usd_equivalent": 200.0,
+  "final_marked_equity": 428.08,
+  "return_fraction": 1.140425,
+  "max_drawdown_fraction": -0.390323,
+  "closed_trades": [
+    {
+      "symbol": "IWM",
+      "entry": "2024-01-03",
+      "exit": "2024-01-12",
+      "cost": 79.17,
+      "proceeds": 27.58,
+      "pnl": -51.59,
+      "reason": "stop_loss"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-01-16",
+      "exit": "2024-01-23",
+      "cost": 96.42,
+      "proceeds": 142.82,
+      "pnl": 46.4,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-01-24",
+      "exit": "2024-01-30",
+      "cost": 116.72,
+      "proceeds": 187.15,
+      "pnl": 70.43,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-02-05",
+      "exit": "2024-02-12",
+      "cost": 97.44,
+      "proceeds": 277.77,
+      "pnl": 180.33,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-02-13",
+      "exit": "2024-02-15",
+      "cost": 46.69,
+      "proceeds": 151.69,
+      "pnl": 105.0,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-02-20",
+      "exit": "2024-03-06",
+      "cost": 102.51,
+      "proceeds": 116.23,
+      "pnl": 13.72,
+      "reason": "time_exit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-03-08",
+      "exit": "2024-03-15",
+      "cost": 142.1,
+      "proceeds": 48.27,
+      "pnl": -93.83,
+      "reason": "stop_loss"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-03-25",
+      "exit": "2024-03-28",
+      "cost": 142.1,
+      "proceeds": 211.78,
+      "pnl": 69.68,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-04-02",
+      "exit": "2024-04-11",
+      "cost": 96.42,
+      "proceeds": 29.55,
+      "pnl": -66.88,
+      "reason": "stop_loss"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-05-23",
+      "exit": "2024-06-10",
+      "cost": 82.21,
+      "proceeds": 36.45,
+      "pnl": -45.77,
+      "reason": "stop_loss"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-09-03",
+      "exit": "2024-09-09",
+      "cost": 73.08,
+      "proceeds": 28.56,
+      "pnl": -44.52,
+      "reason": "stop_loss"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-09-10",
+      "exit": "2024-09-16",
+      "cost": 137.02,
+      "proceeds": 315.2,
+      "pnl": 178.18,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-10-02",
+      "exit": "2024-10-17",
+      "cost": 139.05,
+      "proceeds": 210.79,
+      "pnl": 71.74,
+      "reason": "take_profit"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-11-13",
+      "exit": "2024-11-18",
+      "cost": 100.48,
+      "proceeds": 29.55,
+      "pnl": -70.93,
+      "reason": "stop_loss"
+    },
+    {
+      "symbol": "IWM",
+      "entry": "2024-12-02",
+      "exit": "2024-12-06",
+      "cost": 137.02,
+      "proceeds": 66.0,
+      "pnl": -71.03,
+      "reason": "stop_loss"
+    }
+  ],
+  "counts": {
+    "budget": 1319,
+    "eligible": 28,
+    "daily_decay": 1,
+    "greeks": 375,
+    "liquidity": 249,
+    "expiry": 9578,
+    "unmodelable": 1846,
+    "entries": 16,
+    "volatility_history": 2,
+    "entry_missing_or_unaffordable": 1
+  },
+  "warning": "Exploratory only: BSM Greeks modeled from third-party bid/ask with assumed 4% rate and 1.5% dividend yield; no executable fills, rate/dividend history, earnings calendar or FX changes."
+}
