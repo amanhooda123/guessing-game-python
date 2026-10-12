@@ -1,3 +1,5 @@
+**Latest forum/paper research:** [FORUM_AND_PAPER_RESEARCH.md](reports/FORUM_AND_PAPER_RESEARCH.md) tests earnings/calendar, put-writing and monthly momentum-call-spread hypotheses with direct stock prices and event/split data. A post hoc one-contract 1% sizing variant had small positive modeled 2024/2025 returns, but cost and sizing checks show it is fragile. Live actions remain **NO TRADE**.
+
 # Option Lab
 
 **Latest 2024–2025 continuation:** See [RECENT_COMPARISON.md](reports/RECENT_COMPARISON.md) for the full-source cross-symbol comparison of trend, reversal, discounted long straddles, and rich-volatility credit spreads. This repeats previously examined history and is exploratory; it does not enable live trading. No contract price ceiling is imposed.

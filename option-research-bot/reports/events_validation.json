@@ -1,0 +1,6096 @@
+{
+  "scenarios": {
+    "usd_next_open": {
+      "strategies": {
+        "term_structure_calendar": {
+          "2024": {
+            "selected": 155,
+            "entered": 127,
+            "matched": 104,
+            "status_counts": {
+              "matched": 104,
+              "missing_entry": 28,
+              "missing_exit": 23
+            },
+            "match_fraction": 0.6709677419354839,
+            "mean_return": -0.6842034882724098,
+            "median_return": -0.5880704538895983,
+            "win_fraction": 0.0,
+            "total_matched_pnl": -6833.96,
+            "profit_factor": 0.0,
+            "worst_matched_return": -4.859430604982206,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 93.95298076923076,
+            "symbols_matched": 60
+          },
+          "2025": {
+            "selected": 224,
+            "entered": 174,
+            "matched": 111,
+            "status_counts": {
+              "matched": 111,
+              "missing_entry": 50,
+              "missing_exit": 63
+            },
+            "match_fraction": 0.4955357142857143,
+            "mean_return": -0.72956383167108,
+            "median_return": -0.6550053821313241,
+            "win_fraction": 0.018018018018018018,
+            "total_matched_pnl": -10562.81,
+            "profit_factor": 0.005170606467873038,
+            "worst_matched_return": -3.037260825780463,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 132.14000000000001,
+            "symbols_matched": 56
+          }
+        },
+        "earnings_calendar": {
+          "2024": {
+            "selected": 126,
+            "entered": 78,
+            "matched": 32,
+            "status_counts": {
+              "matched": 32,
+              "missing_entry": 48,
+              "missing_exit": 46
+            },
+            "match_fraction": 0.25396825396825395,
+            "mean_return": -1.4045995409205332,
+            "median_return": -0.9090581478416488,
+            "win_fraction": 0.03125,
+            "total_matched_pnl": -4722.2,
+            "profit_factor": 0.0005185569301429832,
+            "worst_matched_return": -4.371428571428572,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 116.0765625,
+            "symbols_matched": 23
+          },
+          "2025": {
+            "selected": 196,
+            "entered": 134,
+            "matched": 40,
+            "status_counts": {
+              "matched": 40,
+              "missing_exit": 94,
+              "missing_entry": 62
+            },
+            "match_fraction": 0.20408163265306123,
+            "mean_return": -0.9713330963483908,
+            "median_return": -0.6772845513980785,
+            "win_fraction": 0.025,
+            "total_matched_pnl": -5939.1,
+            "profit_factor": 0.016428464965304798,
+            "worst_matched_return": -4.301155115511553,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 171.41375,
+            "symbols_matched": 25
+          }
+        },
+        "pre_earnings_straddle": {
+          "2024": {
+            "selected": 143,
+            "entered": 101,
+            "matched": 59,
+            "status_counts": {
+              "missing_entry": 42,
+              "matched": 59,
+              "missing_exit": 42
+            },
+            "match_fraction": 0.4125874125874126,
+            "mean_return": -0.11381674133388023,
+            "median_return": -0.17248197255175593,
+            "win_fraction": 0.3220338983050847,
+            "total_matched_pnl": -5960.750000000003,
+            "profit_factor": 0.5159961024724937,
+            "worst_matched_return": -0.4898839773707929,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 1213.8991525423728,
+            "symbols_matched": 28
+          },
+          "2025": {
+            "selected": 223,
+            "entered": 166,
+            "matched": 62,
+            "status_counts": {
+              "missing_exit": 104,
+              "missing_entry": 57,
+              "matched": 62
+            },
+            "match_fraction": 0.27802690582959644,
+            "mean_return": -0.17357282571087157,
+            "median_return": -0.250157018727785,
+            "win_fraction": 0.16129032258064516,
+            "total_matched_pnl": -4417.239999999996,
+            "profit_factor": 0.7060413635958301,
+            "worst_matched_return": -0.5564052195874842,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 1384.2506451612903,
+            "symbols_matched": 35
+          }
+        },
+        "cash_secured_put": {
+          "2024": {
+            "selected": 137,
+            "entered": 111,
+            "matched": 110,
+            "status_counts": {
+              "missing_entry": 26,
+              "matched": 110,
+              "nonstandard_contract": 1
+            },
+            "match_fraction": 0.8029197080291971,
+            "mean_return": 0.00018055043941992736,
+            "median_return": 0.015253125000000001,
+            "win_fraction": 0.8090909090909091,
+            "total_matched_pnl": -9624.86500000001,
+            "profit_factor": 0.6797212560852981,
+            "worst_matched_return": -0.30608329999999995,
+            "put_full_loss_stress_mean": -0.008830085150124397,
+            "mean_required_capital": 13706.818181818182,
+            "symbols_matched": 92
+          },
+          "2025": {
+            "selected": 213,
+            "entered": 162,
+            "matched": 162,
+            "status_counts": {
+              "missing_entry": 51,
+              "matched": 162
+            },
+            "match_fraction": 0.7605633802816901,
+            "mean_return": 0.0021623964055149164,
+            "median_return": 0.018176612685560055,
+            "win_fraction": 0.8333333333333334,
+            "total_matched_pnl": 10237.559999999998,
+            "profit_factor": 1.3080548120407245,
+            "worst_matched_return": -0.35484562499999994,
+            "put_full_loss_stress_mean": 0.0021623964055149164,
+            "mean_required_capital": 15194.753086419752,
+            "symbols_matched": 95
+          }
+        }
+      },
+      "put_portfolios": {
+        "2024": {
+          "initial_capital": 100000.0,
+          "position_allocation": 0.2,
+          "fills": 61,
+          "resolved": 61,
+          "unresolved": 0,
+          "skipped": {
+            "position_allocation": 24,
+            "symbol_already_held": 6,
+            "collateral": 20
+          },
+          "realized_pnl": 1089.281999999996,
+          "ending_cash": 101089.282,
+          "ending_equity_unresolved_at_cost": 101089.282,
+          "terminal_return_if_fully_resolved": 0.010892820000000025,
+          "unresolved_full_loss_equity": 101089.282,
+          "worst_closed_trade_pnl": -1667.1769999999997,
+          "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+          "filled_contracts": [
+            {
+              "entry": "2024-01-12",
+              "legs": [
+                [
+                  [
+                    "PRU",
+                    "2024-02-16",
+                    97.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-17",
+              "legs": [
+                [
+                  [
+                    "LITE",
+                    "2024-02-16",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-24",
+              "legs": [
+                [
+                  [
+                    "IBKR",
+                    "2024-03-15",
+                    85.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-26",
+              "legs": [
+                [
+                  [
+                    "FCN",
+                    "2024-03-15",
+                    180.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-29",
+              "legs": [
+                [
+                  [
+                    "YETI",
+                    "2024-03-15",
+                    40.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-31",
+              "legs": [
+                [
+                  [
+                    "TDS",
+                    "2024-03-15",
+                    15.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-05",
+              "legs": [
+                [
+                  [
+                    "BXP",
+                    "2024-03-15",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-07",
+              "legs": [
+                [
+                  [
+                    "IQV",
+                    "2024-03-15",
+                    195.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-12",
+              "legs": [
+                [
+                  [
+                    "OLED",
+                    "2024-03-15",
+                    165.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-14",
+              "legs": [
+                [
+                  [
+                    "FND",
+                    "2024-03-15",
+                    100.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-23",
+              "legs": [
+                [
+                  [
+                    "GPS",
+                    "2024-04-19",
+                    16.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-28",
+              "legs": [
+                [
+                  [
+                    "ANF",
+                    "2024-04-19",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-18",
+              "legs": [
+                [
+                  [
+                    "CPRI",
+                    "2024-04-19",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-22",
+              "legs": [
+                [
+                  [
+                    "AAL",
+                    "2024-05-17",
+                    13.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-25",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-05-17",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-03",
+              "legs": [
+                [
+                  [
+                    "PLAY",
+                    "2024-05-17",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-05",
+              "legs": [
+                [
+                  [
+                    "THC",
+                    "2024-05-17",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-08",
+              "legs": [
+                [
+                  [
+                    "STLD",
+                    "2024-05-17",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-15",
+              "legs": [
+                [
+                  [
+                    "WMS",
+                    "2024-05-17",
+                    150.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-17",
+              "legs": [
+                [
+                  [
+                    "HOG",
+                    "2024-05-31",
+                    35.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-19",
+              "legs": [
+                [
+                  [
+                    "EW",
+                    "2024-05-17",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-24",
+              "legs": [
+                [
+                  [
+                    "MRNA",
+                    "2024-06-21",
+                    90.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-26",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2024-06-21",
+                    60.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-01",
+              "legs": [
+                [
+                  [
+                    "SHAK",
+                    "2024-06-21",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-08",
+              "legs": [
+                [
+                  [
+                    "ABNB",
+                    "2024-06-21",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-20",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-06-21",
+                    47.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-29",
+              "legs": [
+                [
+                  [
+                    "BAC",
+                    "2024-07-19",
+                    37.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-05",
+              "legs": [
+                [
+                  [
+                    "SIG",
+                    "2024-07-19",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-10",
+              "legs": [
+                [
+                  [
+                    "MU",
+                    "2024-07-26",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-12",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2024-07-19",
+                    180.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-14",
+              "legs": [
+                [
+                  [
+                    "PLAY",
+                    "2024-07-19",
+                    44.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-21",
+              "legs": [
+                [
+                  [
+                    "TFC",
+                    "2024-08-16",
+                    32.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-24",
+              "legs": [
+                [
+                  [
+                    "CHRW",
+                    "2024-08-16",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-26",
+              "legs": [
+                [
+                  [
+                    "TER",
+                    "2024-08-16",
+                    130.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-28",
+              "legs": [
+                [
+                  [
+                    "XPO",
+                    "2024-08-16",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-01",
+              "legs": [
+                [
+                  [
+                    "MARA",
+                    "2024-08-16",
+                    16.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-05",
+              "legs": [
+                [
+                  [
+                    "GOOG",
+                    "2024-08-02",
+                    175.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-24",
+              "legs": [
+                [
+                  [
+                    "STX",
+                    "2024-09-20",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-26",
+              "legs": [
+                [
+                  [
+                    "MS",
+                    "2024-08-23",
+                    96.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-29",
+              "legs": [
+                [
+                  [
+                    "GNRC",
+                    "2024-09-20",
+                    140.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-14",
+              "legs": [
+                [
+                  [
+                    "O",
+                    "2024-09-20",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-16",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2024-09-20",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-19",
+              "legs": [
+                [
+                  [
+                    "BJ",
+                    "2024-09-20",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-21",
+              "legs": [
+                [
+                  [
+                    "EBAY",
+                    "2024-10-18",
+                    52.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-26",
+              "legs": [
+                [
+                  [
+                    "MTB",
+                    "2024-10-18",
+                    155.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-13",
+              "legs": [
+                [
+                  [
+                    "SPG",
+                    "2024-10-18",
+                    155.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-16",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-10-18",
+                    62.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-24",
+              "legs": [
+                [
+                  [
+                    "NEE",
+                    "2024-11-15",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-25",
+              "legs": [
+                [
+                  [
+                    "HAS",
+                    "2024-11-15",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-26",
+              "legs": [
+                [
+                  [
+                    "GM",
+                    "2024-11-15",
+                    41.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-27",
+              "legs": [
+                [
+                  [
+                    "LYV",
+                    "2024-11-15",
+                    97.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-30",
+              "legs": [
+                [
+                  [
+                    "FLR",
+                    "2024-11-15",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-04",
+              "legs": [
+                [
+                  [
+                    "CRS",
+                    "2024-11-15",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-08",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2024-11-15",
+                    37.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-09",
+              "legs": [
+                [
+                  [
+                    "PLTR",
+                    "2024-11-08",
+                    36.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-22",
+              "legs": [
+                [
+                  [
+                    "GEO",
+                    "2024-12-20",
+                    12.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-23",
+              "legs": [
+                [
+                  [
+                    "DY",
+                    "2024-12-20",
+                    170.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-24",
+              "legs": [
+                [
+                  [
+                    "NVDA",
+                    "2024-12-20",
+                    119.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-25",
+              "legs": [
+                [
+                  [
+                    "OLLI",
+                    "2024-12-20",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-31",
+              "legs": [
+                [
+                  [
+                    "SMG",
+                    "2024-12-20",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-11-18",
+              "legs": [
+                [
+                  [
+                    "VSCO",
+                    "2024-12-20",
+                    31.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            }
+          ]
+        },
+        "2025": {
+          "initial_capital": 100000.0,
+          "position_allocation": 0.2,
+          "fills": 60,
+          "resolved": 60,
+          "unresolved": 0,
+          "skipped": {
+            "position_allocation": 43,
+            "symbol_already_held": 23,
+            "collateral": 36
+          },
+          "realized_pnl": -5262.2570000000005,
+          "ending_cash": 94737.74300000002,
+          "ending_equity_unresolved_at_cost": 94737.74300000002,
+          "terminal_return_if_fully_resolved": -0.05262256999999981,
+          "unresolved_full_loss_equity": 94737.74300000002,
+          "worst_closed_trade_pnl": -2251.3600000000006,
+          "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+          "filled_contracts": [
+            {
+              "entry": "2025-01-06",
+              "legs": [
+                [
+                  [
+                    "BKR",
+                    "2025-02-21",
+                    39.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-07",
+              "legs": [
+                [
+                  [
+                    "BILL",
+                    "2025-02-21",
+                    75.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-13",
+              "legs": [
+                [
+                  [
+                    "JCI",
+                    "2025-02-21",
+                    72.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-17",
+              "legs": [
+                [
+                  [
+                    "DVA",
+                    "2025-02-21",
+                    150.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-21",
+              "legs": [
+                [
+                  [
+                    "RMBS",
+                    "2025-02-21",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-22",
+              "legs": [
+                [
+                  [
+                    "LITE",
+                    "2025-03-21",
+                    82.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-31",
+              "legs": [
+                [
+                  [
+                    "VSCO",
+                    "2025-03-21",
+                    31.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-03",
+              "legs": [
+                [
+                  [
+                    "GILD",
+                    "2025-03-21",
+                    90.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-05",
+              "legs": [
+                [
+                  [
+                    "GOOG",
+                    "2025-03-21",
+                    190.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-07",
+              "legs": [
+                [
+                  [
+                    "XLF",
+                    "2025-03-31",
+                    48.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-10",
+              "legs": [
+                [
+                  [
+                    "BJ",
+                    "2025-03-21",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-12",
+              "legs": [
+                [
+                  [
+                    "WWW",
+                    "2025-03-21",
+                    17.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-19",
+              "legs": [
+                [
+                  [
+                    "BAC",
+                    "2025-04-17",
+                    43.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-25",
+              "legs": [
+                [
+                  [
+                    "AMZN",
+                    "2025-04-17",
+                    195.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-28",
+              "legs": [
+                [
+                  [
+                    "AVGO",
+                    "2025-04-17",
+                    170.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-26",
+              "legs": [
+                [
+                  [
+                    "FTNT",
+                    "2025-05-16",
+                    87.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-27",
+              "legs": [
+                [
+                  [
+                    "ABBV",
+                    "2025-05-16",
+                    185.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-28",
+              "legs": [
+                [
+                  [
+                    "GILD",
+                    "2025-05-16",
+                    100.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-31",
+              "legs": [
+                [
+                  [
+                    "LRN",
+                    "2025-05-16",
+                    110.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-11",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2025-05-16",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-23",
+              "legs": [
+                [
+                  [
+                    "CHWY",
+                    "2025-06-20",
+                    30.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-28",
+              "legs": [
+                [
+                  [
+                    "SFM",
+                    "2025-06-20",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-29",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2025-06-20",
+                    30.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-05",
+              "legs": [
+                [
+                  [
+                    "CXW",
+                    "2025-06-20",
+                    20.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-12",
+              "legs": [
+                [
+                  [
+                    "CIEN",
+                    "2025-06-20",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-27",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-07-18",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-29",
+              "legs": [
+                [
+                  [
+                    "ORCL",
+                    "2025-07-18",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-06",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2025-07-18",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-11",
+              "legs": [
+                [
+                  [
+                    "C",
+                    "2025-07-25",
+                    72.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-17",
+              "legs": [
+                [
+                  [
+                    "STX",
+                    "2025-08-15",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-23",
+              "legs": [
+                [
+                  [
+                    "FTNT",
+                    "2025-08-15",
+                    87.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-25",
+              "legs": [
+                [
+                  [
+                    "SMCI",
+                    "2025-08-15",
+                    35.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-01",
+              "legs": [
+                [
+                  [
+                    "ELF",
+                    "2025-08-15",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-03",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2025-08-15",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-22",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-09-19",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-24",
+              "legs": [
+                [
+                  [
+                    "FIVE",
+                    "2025-09-19",
+                    120.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-25",
+              "legs": [
+                [
+                  [
+                    "COHR",
+                    "2025-09-19",
+                    85.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-28",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2025-09-19",
+                    40.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-04",
+              "legs": [
+                [
+                  [
+                    "UBER",
+                    "2025-09-19",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-05",
+              "legs": [
+                [
+                  [
+                    "HIMS",
+                    "2025-09-19",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-18",
+              "legs": [
+                [
+                  [
+                    "OLLI",
+                    "2025-09-19",
+                    120.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-19",
+              "legs": [
+                [
+                  [
+                    "HPE",
+                    "2025-10-17",
+                    19.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-20",
+              "legs": [
+                [
+                  [
+                    "CLF",
+                    "2025-09-19",
+                    9.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-21",
+              "legs": [
+                [
+                  [
+                    "WMT",
+                    "2025-09-19",
+                    96.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-25",
+              "legs": [
+                [
+                  [
+                    "PSTG",
+                    "2025-10-17",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-27",
+              "legs": [
+                [
+                  [
+                    "XOM",
+                    "2025-10-17",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-23",
+              "legs": [
+                [
+                  [
+                    "MP",
+                    "2025-11-21",
+                    60.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-25",
+              "legs": [
+                [
+                  [
+                    "MARA",
+                    "2025-10-24",
+                    15.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-26",
+              "legs": [
+                [
+                  [
+                    "TTMI",
+                    "2025-11-21",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-29",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-11-21",
+                    175.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-30",
+              "legs": [
+                [
+                  [
+                    "RUN",
+                    "2025-11-21",
+                    14.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-01",
+              "legs": [
+                [
+                  [
+                    "CVS",
+                    "2025-11-21",
+                    67.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-02",
+              "legs": [
+                [
+                  [
+                    "SMCI",
+                    "2025-11-21",
+                    43.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-03",
+              "legs": [
+                [
+                  [
+                    "HIMS",
+                    "2025-11-21",
+                    46.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-06",
+              "legs": [
+                [
+                  [
+                    "NXT",
+                    "2025-11-21",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-08",
+              "legs": [
+                [
+                  [
+                    "SEDG",
+                    "2025-11-21",
+                    27.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-14",
+              "legs": [
+                [
+                  [
+                    "TXNM",
+                    "2025-11-21",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-17",
+              "legs": [
+                [
+                  [
+                    "CHRW",
+                    "2025-11-21",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-20",
+              "legs": [
+                [
+                  [
+                    "AEP",
+                    "2025-11-21",
+                    110.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-28",
+              "legs": [
+                [
+                  [
+                    "ELF",
+                    "2025-12-19",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            }
+          ]
+        }
+      }
+    },
+    "usd_double_cost": {
+      "strategies": {
+        "term_structure_calendar": {
+          "2024": {
+            "selected": 155,
+            "entered": 127,
+            "matched": 104,
+            "status_counts": {
+              "matched": 104,
+              "missing_entry": 28,
+              "missing_exit": 23
+            },
+            "match_fraction": 0.6709677419354839,
+            "mean_return": -0.7536892397517626,
+            "median_return": -0.6570256657160847,
+            "win_fraction": 0.0,
+            "total_matched_pnl": -7811.920000000003,
+            "profit_factor": 0.0,
+            "worst_matched_return": -4.788939051918736,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 98.6271153846154,
+            "symbols_matched": 60
+          },
+          "2025": {
+            "selected": 224,
+            "entered": 174,
+            "matched": 111,
+            "status_counts": {
+              "matched": 111,
+              "missing_entry": 50,
+              "missing_exit": 63
+            },
+            "match_fraction": 0.4955357142857143,
+            "mean_return": -0.8004101480280214,
+            "median_return": -0.715945089757128,
+            "win_fraction": 0.018018018018018018,
+            "total_matched_pnl": -12158.620000000004,
+            "profit_factor": 0.002444943643228573,
+            "worst_matched_return": -2.9760589318600363,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 139.19891891891893,
+            "symbols_matched": 56
+          }
+        },
+        "earnings_calendar": {
+          "2024": {
+            "selected": 126,
+            "entered": 78,
+            "matched": 32,
+            "status_counts": {
+              "matched": 32,
+              "missing_entry": 48,
+              "missing_exit": 46
+            },
+            "match_fraction": 0.25396825396825395,
+            "mean_return": -1.4655818018083993,
+            "median_return": -1.0160709462501125,
+            "win_fraction": 0.0,
+            "total_matched_pnl": -5414.400000000002,
+            "profit_factor": 0.0,
+            "worst_matched_return": -4.348387096774194,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 124.18437500000002,
+            "symbols_matched": 23
+          },
+          "2025": {
+            "selected": 196,
+            "entered": 134,
+            "matched": 40,
+            "status_counts": {
+              "matched": 40,
+              "missing_exit": 94,
+              "missing_entry": 62
+            },
+            "match_fraction": 0.20408163265306123,
+            "mean_return": -1.0377619183848035,
+            "median_return": -0.7833428638702953,
+            "win_fraction": 0.025,
+            "total_matched_pnl": -6728.200000000003,
+            "profit_factor": 0.012968341988674689,
+            "worst_matched_return": -4.1737160120845935,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 182.45250000000004,
+            "symbols_matched": 25
+          }
+        },
+        "pre_earnings_straddle": {
+          "2024": {
+            "selected": 143,
+            "entered": 101,
+            "matched": 59,
+            "status_counts": {
+              "missing_entry": 42,
+              "matched": 59,
+              "missing_exit": 42
+            },
+            "match_fraction": 0.4125874125874126,
+            "mean_return": -0.13481031366019933,
+            "median_return": -0.19158233670653166,
+            "win_fraction": 0.2542372881355932,
+            "total_matched_pnl": -7486.500000000004,
+            "profit_factor": 0.4356370708761136,
+            "worst_matched_return": -0.5036938814169349,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 1227.2050847457629,
+            "symbols_matched": 28
+          },
+          "2025": {
+            "selected": 223,
+            "entered": 166,
+            "matched": 62,
+            "status_counts": {
+              "missing_exit": 104,
+              "missing_entry": 57,
+              "matched": 62
+            },
+            "match_fraction": 0.27802690582959644,
+            "mean_return": -0.19276581210638496,
+            "median_return": -0.2690433183545865,
+            "win_fraction": 0.14516129032258066,
+            "total_matched_pnl": -6250.479999999997,
+            "profit_factor": 0.6132458985556928,
+            "worst_matched_return": -0.5664908384230982,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 1399.2432258064516,
+            "symbols_matched": 35
+          }
+        },
+        "cash_secured_put": {
+          "2024": {
+            "selected": 137,
+            "entered": 111,
+            "matched": 110,
+            "status_counts": {
+              "missing_entry": 26,
+              "matched": 110,
+              "nonstandard_contract": 1
+            },
+            "match_fraction": 0.8029197080291971,
+            "mean_return": -0.00033844074535772635,
+            "median_return": 0.0150375,
+            "win_fraction": 0.8,
+            "total_matched_pnl": -10336.729999999992,
+            "profit_factor": 0.6605183980385027,
+            "worst_matched_return": -0.30746660000000003,
+            "put_full_loss_stress_mean": -0.009344400738642792,
+            "mean_required_capital": 13706.818181818182,
+            "symbols_matched": 92
+          },
+          "2025": {
+            "selected": 213,
+            "entered": 162,
+            "matched": 162,
+            "status_counts": {
+              "missing_entry": 51,
+              "matched": 162
+            },
+            "match_fraction": 0.7605633802816901,
+            "mean_return": 0.0016158820179749491,
+            "median_return": 0.017952747252747252,
+            "win_fraction": 0.8271604938271605,
+            "total_matched_pnl": 9179.120000000003,
+            "profit_factor": 1.2725251615608628,
+            "worst_matched_return": -0.35594125,
+            "put_full_loss_stress_mean": 0.0016158820179749491,
+            "mean_required_capital": 15194.753086419752,
+            "symbols_matched": 95
+          }
+        }
+      },
+      "put_portfolios": {
+        "2024": {
+          "initial_capital": 100000.0,
+          "position_allocation": 0.2,
+          "fills": 61,
+          "resolved": 61,
+          "unresolved": 0,
+          "skipped": {
+            "position_allocation": 25,
+            "symbol_already_held": 6,
+            "collateral": 19
+          },
+          "realized_pnl": 816.5640000000036,
+          "ending_cash": 100816.564,
+          "ending_equity_unresolved_at_cost": 100816.564,
+          "terminal_return_if_fully_resolved": 0.008165640000000085,
+          "unresolved_full_loss_equity": 100816.564,
+          "worst_closed_trade_pnl": -1685.3539999999994,
+          "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+          "filled_contracts": [
+            {
+              "entry": "2024-01-12",
+              "legs": [
+                [
+                  [
+                    "PRU",
+                    "2024-02-16",
+                    97.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-17",
+              "legs": [
+                [
+                  [
+                    "LITE",
+                    "2024-02-16",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-24",
+              "legs": [
+                [
+                  [
+                    "IBKR",
+                    "2024-03-15",
+                    85.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-26",
+              "legs": [
+                [
+                  [
+                    "FCN",
+                    "2024-03-15",
+                    180.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-29",
+              "legs": [
+                [
+                  [
+                    "YETI",
+                    "2024-03-15",
+                    40.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-31",
+              "legs": [
+                [
+                  [
+                    "TDS",
+                    "2024-03-15",
+                    15.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-05",
+              "legs": [
+                [
+                  [
+                    "BXP",
+                    "2024-03-15",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-07",
+              "legs": [
+                [
+                  [
+                    "IQV",
+                    "2024-03-15",
+                    195.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-12",
+              "legs": [
+                [
+                  [
+                    "OLED",
+                    "2024-03-15",
+                    165.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-14",
+              "legs": [
+                [
+                  [
+                    "FND",
+                    "2024-03-15",
+                    100.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-23",
+              "legs": [
+                [
+                  [
+                    "GPS",
+                    "2024-04-19",
+                    16.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-28",
+              "legs": [
+                [
+                  [
+                    "ANF",
+                    "2024-04-19",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-18",
+              "legs": [
+                [
+                  [
+                    "CPRI",
+                    "2024-04-19",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-22",
+              "legs": [
+                [
+                  [
+                    "AAL",
+                    "2024-05-17",
+                    13.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-25",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-05-17",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-03",
+              "legs": [
+                [
+                  [
+                    "PLAY",
+                    "2024-05-17",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-05",
+              "legs": [
+                [
+                  [
+                    "THC",
+                    "2024-05-17",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-08",
+              "legs": [
+                [
+                  [
+                    "STLD",
+                    "2024-05-17",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-15",
+              "legs": [
+                [
+                  [
+                    "WMS",
+                    "2024-05-17",
+                    150.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-17",
+              "legs": [
+                [
+                  [
+                    "HOG",
+                    "2024-05-31",
+                    35.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-19",
+              "legs": [
+                [
+                  [
+                    "EW",
+                    "2024-05-17",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-24",
+              "legs": [
+                [
+                  [
+                    "MRNA",
+                    "2024-06-21",
+                    90.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-26",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2024-06-21",
+                    60.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-01",
+              "legs": [
+                [
+                  [
+                    "SHAK",
+                    "2024-06-21",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-08",
+              "legs": [
+                [
+                  [
+                    "ABNB",
+                    "2024-06-21",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-20",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-06-21",
+                    47.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-29",
+              "legs": [
+                [
+                  [
+                    "BAC",
+                    "2024-07-19",
+                    37.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-05",
+              "legs": [
+                [
+                  [
+                    "SIG",
+                    "2024-07-19",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-10",
+              "legs": [
+                [
+                  [
+                    "MU",
+                    "2024-07-26",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-12",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2024-07-19",
+                    180.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-14",
+              "legs": [
+                [
+                  [
+                    "PLAY",
+                    "2024-07-19",
+                    44.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-21",
+              "legs": [
+                [
+                  [
+                    "TFC",
+                    "2024-08-16",
+                    32.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-24",
+              "legs": [
+                [
+                  [
+                    "CHRW",
+                    "2024-08-16",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-26",
+              "legs": [
+                [
+                  [
+                    "TER",
+                    "2024-08-16",
+                    130.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-28",
+              "legs": [
+                [
+                  [
+                    "XPO",
+                    "2024-08-16",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-01",
+              "legs": [
+                [
+                  [
+                    "MARA",
+                    "2024-08-16",
+                    16.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-05",
+              "legs": [
+                [
+                  [
+                    "GOOG",
+                    "2024-08-02",
+                    175.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-24",
+              "legs": [
+                [
+                  [
+                    "STX",
+                    "2024-09-20",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-26",
+              "legs": [
+                [
+                  [
+                    "MS",
+                    "2024-08-23",
+                    96.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-29",
+              "legs": [
+                [
+                  [
+                    "GNRC",
+                    "2024-09-20",
+                    140.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-14",
+              "legs": [
+                [
+                  [
+                    "O",
+                    "2024-09-20",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-16",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2024-09-20",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-19",
+              "legs": [
+                [
+                  [
+                    "BJ",
+                    "2024-09-20",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-21",
+              "legs": [
+                [
+                  [
+                    "EBAY",
+                    "2024-10-18",
+                    52.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-26",
+              "legs": [
+                [
+                  [
+                    "MTB",
+                    "2024-10-18",
+                    155.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-13",
+              "legs": [
+                [
+                  [
+                    "SPG",
+                    "2024-10-18",
+                    155.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-16",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-10-18",
+                    62.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-24",
+              "legs": [
+                [
+                  [
+                    "NEE",
+                    "2024-11-15",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-25",
+              "legs": [
+                [
+                  [
+                    "HAS",
+                    "2024-11-15",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-26",
+              "legs": [
+                [
+                  [
+                    "GM",
+                    "2024-11-15",
+                    41.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-27",
+              "legs": [
+                [
+                  [
+                    "LYV",
+                    "2024-11-15",
+                    97.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-30",
+              "legs": [
+                [
+                  [
+                    "FLR",
+                    "2024-11-15",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-04",
+              "legs": [
+                [
+                  [
+                    "CRS",
+                    "2024-11-15",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-08",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2024-11-15",
+                    37.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-09",
+              "legs": [
+                [
+                  [
+                    "PLTR",
+                    "2024-11-08",
+                    36.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-22",
+              "legs": [
+                [
+                  [
+                    "GEO",
+                    "2024-12-20",
+                    12.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-23",
+              "legs": [
+                [
+                  [
+                    "DY",
+                    "2024-12-20",
+                    170.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-24",
+              "legs": [
+                [
+                  [
+                    "NVDA",
+                    "2024-12-20",
+                    119.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-25",
+              "legs": [
+                [
+                  [
+                    "OLLI",
+                    "2024-12-20",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-31",
+              "legs": [
+                [
+                  [
+                    "SMG",
+                    "2024-12-20",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-11-18",
+              "legs": [
+                [
+                  [
+                    "VSCO",
+                    "2024-12-20",
+                    31.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            }
+          ]
+        },
+        "2025": {
+          "initial_capital": 100000.0,
+          "position_allocation": 0.2,
+          "fills": 60,
+          "resolved": 60,
+          "unresolved": 0,
+          "skipped": {
+            "position_allocation": 43,
+            "symbol_already_held": 23,
+            "collateral": 36
+          },
+          "realized_pnl": -5562.513999999995,
+          "ending_cash": 94437.48599999998,
+          "ending_equity_unresolved_at_cost": 94437.48599999998,
+          "terminal_return_if_fully_resolved": -0.055625140000000295,
+          "unresolved_full_loss_equity": 94437.48599999998,
+          "worst_closed_trade_pnl": -2272.7199999999975,
+          "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+          "filled_contracts": [
+            {
+              "entry": "2025-01-06",
+              "legs": [
+                [
+                  [
+                    "BKR",
+                    "2025-02-21",
+                    39.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-07",
+              "legs": [
+                [
+                  [
+                    "BILL",
+                    "2025-02-21",
+                    75.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-13",
+              "legs": [
+                [
+                  [
+                    "JCI",
+                    "2025-02-21",
+                    72.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-17",
+              "legs": [
+                [
+                  [
+                    "DVA",
+                    "2025-02-21",
+                    150.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-21",
+              "legs": [
+                [
+                  [
+                    "RMBS",
+                    "2025-02-21",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-22",
+              "legs": [
+                [
+                  [
+                    "LITE",
+                    "2025-03-21",
+                    82.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-31",
+              "legs": [
+                [
+                  [
+                    "VSCO",
+                    "2025-03-21",
+                    31.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-03",
+              "legs": [
+                [
+                  [
+                    "GILD",
+                    "2025-03-21",
+                    90.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-05",
+              "legs": [
+                [
+                  [
+                    "GOOG",
+                    "2025-03-21",
+                    190.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-07",
+              "legs": [
+                [
+                  [
+                    "XLF",
+                    "2025-03-31",
+                    48.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-10",
+              "legs": [
+                [
+                  [
+                    "BJ",
+                    "2025-03-21",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-12",
+              "legs": [
+                [
+                  [
+                    "WWW",
+                    "2025-03-21",
+                    17.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-19",
+              "legs": [
+                [
+                  [
+                    "BAC",
+                    "2025-04-17",
+                    43.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-25",
+              "legs": [
+                [
+                  [
+                    "AMZN",
+                    "2025-04-17",
+                    195.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-28",
+              "legs": [
+                [
+                  [
+                    "AVGO",
+                    "2025-04-17",
+                    170.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-26",
+              "legs": [
+                [
+                  [
+                    "FTNT",
+                    "2025-05-16",
+                    87.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-27",
+              "legs": [
+                [
+                  [
+                    "ABBV",
+                    "2025-05-16",
+                    185.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-28",
+              "legs": [
+                [
+                  [
+                    "GILD",
+                    "2025-05-16",
+                    100.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-31",
+              "legs": [
+                [
+                  [
+                    "LRN",
+                    "2025-05-16",
+                    110.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-11",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2025-05-16",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-23",
+              "legs": [
+                [
+                  [
+                    "CHWY",
+                    "2025-06-20",
+                    30.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-28",
+              "legs": [
+                [
+                  [
+                    "SFM",
+                    "2025-06-20",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-29",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2025-06-20",
+                    30.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-05",
+              "legs": [
+                [
+                  [
+                    "CXW",
+                    "2025-06-20",
+                    20.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-12",
+              "legs": [
+                [
+                  [
+                    "CIEN",
+                    "2025-06-20",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-27",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-07-18",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-29",
+              "legs": [
+                [
+                  [
+                    "ORCL",
+                    "2025-07-18",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-06",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2025-07-18",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-11",
+              "legs": [
+                [
+                  [
+                    "C",
+                    "2025-07-25",
+                    72.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-17",
+              "legs": [
+                [
+                  [
+                    "STX",
+                    "2025-08-15",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-23",
+              "legs": [
+                [
+                  [
+                    "FTNT",
+                    "2025-08-15",
+                    87.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-25",
+              "legs": [
+                [
+                  [
+                    "SMCI",
+                    "2025-08-15",
+                    35.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-01",
+              "legs": [
+                [
+                  [
+                    "ELF",
+                    "2025-08-15",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-03",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2025-08-15",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-22",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-09-19",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-24",
+              "legs": [
+                [
+                  [
+                    "FIVE",
+                    "2025-09-19",
+                    120.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-25",
+              "legs": [
+                [
+                  [
+                    "COHR",
+                    "2025-09-19",
+                    85.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-28",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2025-09-19",
+                    40.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-04",
+              "legs": [
+                [
+                  [
+                    "UBER",
+                    "2025-09-19",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-05",
+              "legs": [
+                [
+                  [
+                    "HIMS",
+                    "2025-09-19",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-18",
+              "legs": [
+                [
+                  [
+                    "OLLI",
+                    "2025-09-19",
+                    120.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-19",
+              "legs": [
+                [
+                  [
+                    "HPE",
+                    "2025-10-17",
+                    19.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-20",
+              "legs": [
+                [
+                  [
+                    "CLF",
+                    "2025-09-19",
+                    9.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-21",
+              "legs": [
+                [
+                  [
+                    "WMT",
+                    "2025-09-19",
+                    96.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-25",
+              "legs": [
+                [
+                  [
+                    "PSTG",
+                    "2025-10-17",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-27",
+              "legs": [
+                [
+                  [
+                    "XOM",
+                    "2025-10-17",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-23",
+              "legs": [
+                [
+                  [
+                    "MP",
+                    "2025-11-21",
+                    60.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-25",
+              "legs": [
+                [
+                  [
+                    "MARA",
+                    "2025-10-24",
+                    15.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-26",
+              "legs": [
+                [
+                  [
+                    "TTMI",
+                    "2025-11-21",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-29",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-11-21",
+                    175.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-30",
+              "legs": [
+                [
+                  [
+                    "RUN",
+                    "2025-11-21",
+                    14.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-01",
+              "legs": [
+                [
+                  [
+                    "CVS",
+                    "2025-11-21",
+                    67.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-02",
+              "legs": [
+                [
+                  [
+                    "SMCI",
+                    "2025-11-21",
+                    43.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-03",
+              "legs": [
+                [
+                  [
+                    "HIMS",
+                    "2025-11-21",
+                    46.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-06",
+              "legs": [
+                [
+                  [
+                    "NXT",
+                    "2025-11-21",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-08",
+              "legs": [
+                [
+                  [
+                    "SEDG",
+                    "2025-11-21",
+                    27.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-14",
+              "legs": [
+                [
+                  [
+                    "TXNM",
+                    "2025-11-21",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-17",
+              "legs": [
+                [
+                  [
+                    "CHRW",
+                    "2025-11-21",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-20",
+              "legs": [
+                [
+                  [
+                    "AEP",
+                    "2025-11-21",
+                    110.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-28",
+              "legs": [
+                [
+                  [
+                    "ELF",
+                    "2025-12-19",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            }
+          ]
+        }
+      }
+    },
+    "cad_fx_next_open": {
+      "strategies": {
+        "term_structure_calendar": {
+          "2024": {
+            "selected": 155,
+            "entered": 127,
+            "matched": 104,
+            "status_counts": {
+              "matched": 104,
+              "missing_entry": 28,
+              "missing_exit": 23
+            },
+            "match_fraction": 0.6709677419354839,
+            "mean_return": -0.7552649439341709,
+            "median_return": -0.6545753459557144,
+            "win_fraction": 0.0,
+            "total_matched_pnl": -7896.178399999996,
+            "profit_factor": 0.0,
+            "worst_matched_return": -4.816739291987569,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 99.02757451923074,
+            "symbols_matched": 60
+          },
+          "2025": {
+            "selected": 224,
+            "entered": 174,
+            "matched": 111,
+            "status_counts": {
+              "matched": 111,
+              "missing_entry": 50,
+              "missing_exit": 63
+            },
+            "match_fraction": 0.4955357142857143,
+            "mean_return": -0.8075840089723413,
+            "median_return": -0.7183617404873665,
+            "win_fraction": 0.018018018018018018,
+            "total_matched_pnl": -12524.970049999994,
+            "profit_factor": 0.0019969670117296902,
+            "worst_matched_return": -2.9830976514102048,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 140.7971405405405,
+            "symbols_matched": 56
+          }
+        },
+        "earnings_calendar": {
+          "2024": {
+            "selected": 126,
+            "entered": 78,
+            "matched": 32,
+            "status_counts": {
+              "matched": 32,
+              "missing_entry": 48,
+              "missing_exit": 46
+            },
+            "match_fraction": 0.25396825396825395,
+            "mean_return": -1.4828298914608191,
+            "median_return": -1.0062602632112525,
+            "win_fraction": 0.0,
+            "total_matched_pnl": -5636.304499999997,
+            "profit_factor": 0.0,
+            "worst_matched_return": -4.410783808428814,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 126.30447656249996,
+            "symbols_matched": 23
+          },
+          "2025": {
+            "selected": 196,
+            "entered": 134,
+            "matched": 40,
+            "status_counts": {
+              "matched": 40,
+              "missing_exit": 94,
+              "missing_entry": 62
+            },
+            "match_fraction": 0.20408163265306123,
+            "mean_return": -1.0512293999640696,
+            "median_return": -0.8058909271656302,
+            "win_fraction": 0.025,
+            "total_matched_pnl": -6967.522499999996,
+            "profit_factor": 0.012320823810369618,
+            "worst_matched_return": -4.148144473474368,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 186.04593124999994,
+            "symbols_matched": 25
+          }
+        },
+        "pre_earnings_straddle": {
+          "2024": {
+            "selected": 143,
+            "entered": 101,
+            "matched": 59,
+            "status_counts": {
+              "missing_entry": 42,
+              "matched": 59,
+              "missing_exit": 42
+            },
+            "match_fraction": 0.4125874125874126,
+            "mean_return": -0.14001503265828547,
+            "median_return": -0.1969450341048093,
+            "win_fraction": 0.2542372881355932,
+            "total_matched_pnl": -8019.940249999992,
+            "profit_factor": 0.41037810998456414,
+            "worst_matched_return": -0.5049799032502931,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 1232.0881398305085,
+            "symbols_matched": 28
+          },
+          "2025": {
+            "selected": 223,
+            "entered": 166,
+            "matched": 62,
+            "status_counts": {
+              "missing_exit": 104,
+              "missing_entry": 57,
+              "matched": 62
+            },
+            "match_fraction": 0.27802690582959644,
+            "mean_return": -0.19800498853263535,
+            "median_return": -0.27232929648677584,
+            "win_fraction": 0.14516129032258066,
+            "total_matched_pnl": -6925.6875999999875,
+            "profit_factor": 0.5809561285052068,
+            "worst_matched_return": -0.5695240715211181,
+            "put_full_loss_stress_mean": null,
+            "mean_required_capital": 1404.9949048387095,
+            "symbols_matched": 35
+          }
+        },
+        "cash_secured_put": {
+          "2024": {
+            "selected": 137,
+            "entered": 111,
+            "matched": 110,
+            "status_counts": {
+              "missing_entry": 26,
+              "matched": 110,
+              "nonstandard_contract": 1
+            },
+            "match_fraction": 0.8029197080291971,
+            "mean_return": -0.006275145583870544,
+            "median_return": 0.014801393165024632,
+            "win_fraction": 0.7818181818181819,
+            "total_matched_pnl": -20677.79852499997,
+            "profit_factor": 0.4898343234083812,
+            "worst_matched_return": -0.3265950743842363,
+            "put_full_loss_stress_mean": -0.01522762174978162,
+            "mean_required_capital": 13912.420454545452,
+            "symbols_matched": 92
+          },
+          "2025": {
+            "selected": 213,
+            "entered": 162,
+            "matched": 162,
+            "status_counts": {
+              "missing_entry": 51,
+              "matched": 162
+            },
+            "match_fraction": 0.7605633802816901,
+            "mean_return": -0.0037414792951213994,
+            "median_return": 0.017315881190044076,
+            "win_fraction": 0.8024691358024691,
+            "total_matched_pnl": -2870.394899999963,
+            "profit_factor": 0.9359750070644209,
+            "worst_matched_return": -0.3739166286945812,
+            "put_full_loss_stress_mean": -0.0037414792951213994,
+            "mean_required_capital": 15422.674382716048,
+            "symbols_matched": 95
+          }
+        }
+      },
+      "put_portfolios": {
+        "2024": {
+          "initial_capital": 100000.0,
+          "position_allocation": 0.2,
+          "fills": 59,
+          "resolved": 59,
+          "unresolved": 0,
+          "skipped": {
+            "position_allocation": 25,
+            "symbol_already_held": 7,
+            "collateral": 20
+          },
+          "realized_pnl": -363.1272099999932,
+          "ending_cash": 99636.87278999998,
+          "ending_equity_unresolved_at_cost": 99636.87278999998,
+          "terminal_return_if_fully_resolved": -0.003631272100000249,
+          "unresolved_full_loss_equity": 99636.87278999998,
+          "worst_closed_trade_pnl": -1780.4851600000038,
+          "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+          "filled_contracts": [
+            {
+              "entry": "2024-01-12",
+              "legs": [
+                [
+                  [
+                    "PRU",
+                    "2024-02-16",
+                    97.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-17",
+              "legs": [
+                [
+                  [
+                    "LITE",
+                    "2024-02-16",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-24",
+              "legs": [
+                [
+                  [
+                    "IBKR",
+                    "2024-03-15",
+                    85.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-26",
+              "legs": [
+                [
+                  [
+                    "FCN",
+                    "2024-03-15",
+                    180.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-29",
+              "legs": [
+                [
+                  [
+                    "YETI",
+                    "2024-03-15",
+                    40.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-01-31",
+              "legs": [
+                [
+                  [
+                    "TDS",
+                    "2024-03-15",
+                    15.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-05",
+              "legs": [
+                [
+                  [
+                    "BXP",
+                    "2024-03-15",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-07",
+              "legs": [
+                [
+                  [
+                    "IQV",
+                    "2024-03-15",
+                    195.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-12",
+              "legs": [
+                [
+                  [
+                    "OLED",
+                    "2024-03-15",
+                    165.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-14",
+              "legs": [
+                [
+                  [
+                    "FND",
+                    "2024-03-15",
+                    100.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-23",
+              "legs": [
+                [
+                  [
+                    "GPS",
+                    "2024-04-19",
+                    16.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-02-28",
+              "legs": [
+                [
+                  [
+                    "ANF",
+                    "2024-04-19",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-18",
+              "legs": [
+                [
+                  [
+                    "CPRI",
+                    "2024-04-19",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-22",
+              "legs": [
+                [
+                  [
+                    "AAL",
+                    "2024-05-17",
+                    13.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-03-25",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-05-17",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-03",
+              "legs": [
+                [
+                  [
+                    "PLAY",
+                    "2024-05-17",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-05",
+              "legs": [
+                [
+                  [
+                    "THC",
+                    "2024-05-17",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-08",
+              "legs": [
+                [
+                  [
+                    "STLD",
+                    "2024-05-17",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-15",
+              "legs": [
+                [
+                  [
+                    "WMS",
+                    "2024-05-17",
+                    150.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-17",
+              "legs": [
+                [
+                  [
+                    "HOG",
+                    "2024-05-31",
+                    35.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-19",
+              "legs": [
+                [
+                  [
+                    "EW",
+                    "2024-05-17",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-24",
+              "legs": [
+                [
+                  [
+                    "MRNA",
+                    "2024-06-21",
+                    90.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-04-26",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2024-06-21",
+                    60.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-01",
+              "legs": [
+                [
+                  [
+                    "SHAK",
+                    "2024-06-21",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-15",
+              "legs": [
+                [
+                  [
+                    "SMTC",
+                    "2024-06-21",
+                    33.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-20",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-06-21",
+                    47.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-05-29",
+              "legs": [
+                [
+                  [
+                    "BAC",
+                    "2024-07-19",
+                    37.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-05",
+              "legs": [
+                [
+                  [
+                    "SIG",
+                    "2024-07-19",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-10",
+              "legs": [
+                [
+                  [
+                    "MU",
+                    "2024-07-26",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-12",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2024-07-19",
+                    180.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-14",
+              "legs": [
+                [
+                  [
+                    "PLAY",
+                    "2024-07-19",
+                    44.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-21",
+              "legs": [
+                [
+                  [
+                    "TFC",
+                    "2024-08-16",
+                    32.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-24",
+              "legs": [
+                [
+                  [
+                    "CHRW",
+                    "2024-08-16",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-26",
+              "legs": [
+                [
+                  [
+                    "TER",
+                    "2024-08-16",
+                    130.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-06-28",
+              "legs": [
+                [
+                  [
+                    "XPO",
+                    "2024-08-16",
+                    92.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-01",
+              "legs": [
+                [
+                  [
+                    "MARA",
+                    "2024-08-16",
+                    16.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-10",
+              "legs": [
+                [
+                  [
+                    "BOOT",
+                    "2024-08-16",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-24",
+              "legs": [
+                [
+                  [
+                    "STX",
+                    "2024-09-20",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-26",
+              "legs": [
+                [
+                  [
+                    "MS",
+                    "2024-08-23",
+                    96.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-07-29",
+              "legs": [
+                [
+                  [
+                    "GNRC",
+                    "2024-09-20",
+                    140.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-14",
+              "legs": [
+                [
+                  [
+                    "O",
+                    "2024-09-20",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-19",
+              "legs": [
+                [
+                  [
+                    "BJ",
+                    "2024-09-20",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-21",
+              "legs": [
+                [
+                  [
+                    "EBAY",
+                    "2024-10-18",
+                    52.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-08-26",
+              "legs": [
+                [
+                  [
+                    "MTB",
+                    "2024-10-18",
+                    155.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-13",
+              "legs": [
+                [
+                  [
+                    "SPG",
+                    "2024-10-18",
+                    155.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-16",
+              "legs": [
+                [
+                  [
+                    "SLG",
+                    "2024-10-18",
+                    62.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-17",
+              "legs": [
+                [
+                  [
+                    "LYV",
+                    "2024-11-15",
+                    90.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-18",
+              "legs": [
+                [
+                  [
+                    "WDC",
+                    "2024-11-15",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-24",
+              "legs": [
+                [
+                  [
+                    "NEE",
+                    "2024-11-15",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-25",
+              "legs": [
+                [
+                  [
+                    "HAS",
+                    "2024-11-15",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-26",
+              "legs": [
+                [
+                  [
+                    "GM",
+                    "2024-11-15",
+                    41.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-09-30",
+              "legs": [
+                [
+                  [
+                    "FLR",
+                    "2024-11-15",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-04",
+              "legs": [
+                [
+                  [
+                    "CRS",
+                    "2024-11-15",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-22",
+              "legs": [
+                [
+                  [
+                    "GEO",
+                    "2024-12-20",
+                    12.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-23",
+              "legs": [
+                [
+                  [
+                    "DY",
+                    "2024-12-20",
+                    170.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-24",
+              "legs": [
+                [
+                  [
+                    "NVDA",
+                    "2024-12-20",
+                    119.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-25",
+              "legs": [
+                [
+                  [
+                    "OLLI",
+                    "2024-12-20",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-10-30",
+              "legs": [
+                [
+                  [
+                    "PLTR",
+                    "2024-12-20",
+                    38.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2024-11-06",
+              "legs": [
+                [
+                  [
+                    "VSCO",
+                    "2024-12-20",
+                    27.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            }
+          ]
+        },
+        "2025": {
+          "initial_capital": 100000.0,
+          "position_allocation": 0.2,
+          "fills": 62,
+          "resolved": 62,
+          "unresolved": 0,
+          "skipped": {
+            "position_allocation": 45,
+            "symbol_already_held": 25,
+            "collateral": 30
+          },
+          "realized_pnl": -4354.068209999994,
+          "ending_cash": 95645.93178999997,
+          "ending_equity_unresolved_at_cost": 95645.93178999997,
+          "terminal_return_if_fully_resolved": -0.04354068210000028,
+          "unresolved_full_loss_equity": 95645.93178999997,
+          "worst_closed_trade_pnl": -2142.3030949999993,
+          "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+          "filled_contracts": [
+            {
+              "entry": "2025-01-06",
+              "legs": [
+                [
+                  [
+                    "BKR",
+                    "2025-02-21",
+                    39.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-07",
+              "legs": [
+                [
+                  [
+                    "BILL",
+                    "2025-02-21",
+                    75.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-13",
+              "legs": [
+                [
+                  [
+                    "JCI",
+                    "2025-02-21",
+                    72.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-17",
+              "legs": [
+                [
+                  [
+                    "DVA",
+                    "2025-02-21",
+                    150.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-21",
+              "legs": [
+                [
+                  [
+                    "RMBS",
+                    "2025-02-21",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-22",
+              "legs": [
+                [
+                  [
+                    "LITE",
+                    "2025-03-21",
+                    82.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-01-31",
+              "legs": [
+                [
+                  [
+                    "VSCO",
+                    "2025-03-21",
+                    31.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-03",
+              "legs": [
+                [
+                  [
+                    "GILD",
+                    "2025-03-21",
+                    90.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-05",
+              "legs": [
+                [
+                  [
+                    "GOOG",
+                    "2025-03-21",
+                    190.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-07",
+              "legs": [
+                [
+                  [
+                    "XLF",
+                    "2025-03-31",
+                    48.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-10",
+              "legs": [
+                [
+                  [
+                    "BJ",
+                    "2025-03-21",
+                    95.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-12",
+              "legs": [
+                [
+                  [
+                    "WWW",
+                    "2025-03-21",
+                    17.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-02-28",
+              "legs": [
+                [
+                  [
+                    "AVGO",
+                    "2025-04-17",
+                    170.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-03",
+              "legs": [
+                [
+                  [
+                    "UAL",
+                    "2025-04-17",
+                    80.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-07",
+              "legs": [
+                [
+                  [
+                    "CIEN",
+                    "2025-04-17",
+                    57.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-10",
+              "legs": [
+                [
+                  [
+                    "O",
+                    "2025-04-17",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-26",
+              "legs": [
+                [
+                  [
+                    "FTNT",
+                    "2025-05-16",
+                    87.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-28",
+              "legs": [
+                [
+                  [
+                    "GILD",
+                    "2025-05-16",
+                    100.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-03-31",
+              "legs": [
+                [
+                  [
+                    "LRN",
+                    "2025-05-16",
+                    110.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-02",
+              "legs": [
+                [
+                  [
+                    "KMX",
+                    "2025-05-16",
+                    70.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-08",
+              "legs": [
+                [
+                  [
+                    "BJ",
+                    "2025-05-16",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-11",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2025-05-16",
+                    42.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-23",
+              "legs": [
+                [
+                  [
+                    "CHWY",
+                    "2025-06-20",
+                    30.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-28",
+              "legs": [
+                [
+                  [
+                    "SFM",
+                    "2025-06-20",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-04-29",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2025-06-20",
+                    30.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-05",
+              "legs": [
+                [
+                  [
+                    "CXW",
+                    "2025-06-20",
+                    20.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-12",
+              "legs": [
+                [
+                  [
+                    "CIEN",
+                    "2025-06-20",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-27",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-07-18",
+                    135.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-05-29",
+              "legs": [
+                [
+                  [
+                    "ORCL",
+                    "2025-07-18",
+                    145.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-06",
+              "legs": [
+                [
+                  [
+                    "AVAV",
+                    "2025-07-18",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-11",
+              "legs": [
+                [
+                  [
+                    "C",
+                    "2025-07-25",
+                    72.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-18",
+              "legs": [
+                [
+                  [
+                    "NXT",
+                    "2025-08-15",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-20",
+              "legs": [
+                [
+                  [
+                    "SMCI",
+                    "2025-08-15",
+                    36.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-06-23",
+              "legs": [
+                [
+                  [
+                    "FTNT",
+                    "2025-08-15",
+                    87.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-01",
+              "legs": [
+                [
+                  [
+                    "ELF",
+                    "2025-08-15",
+                    105.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-03",
+              "legs": [
+                [
+                  [
+                    "DOCS",
+                    "2025-08-15",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-11",
+              "legs": [
+                [
+                  [
+                    "WFC",
+                    "2025-08-29",
+                    76.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-22",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-09-19",
+                    160.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-24",
+              "legs": [
+                [
+                  [
+                    "FIVE",
+                    "2025-09-19",
+                    120.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-25",
+              "legs": [
+                [
+                  [
+                    "COHR",
+                    "2025-09-19",
+                    85.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-07-28",
+              "legs": [
+                [
+                  [
+                    "CELH",
+                    "2025-09-19",
+                    40.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-04",
+              "legs": [
+                [
+                  [
+                    "UBER",
+                    "2025-09-19",
+                    77.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-18",
+              "legs": [
+                [
+                  [
+                    "OLLI",
+                    "2025-09-19",
+                    120.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-19",
+              "legs": [
+                [
+                  [
+                    "HPE",
+                    "2025-10-17",
+                    19.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-20",
+              "legs": [
+                [
+                  [
+                    "CLF",
+                    "2025-09-19",
+                    9.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-21",
+              "legs": [
+                [
+                  [
+                    "WMT",
+                    "2025-09-19",
+                    96.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-08-25",
+              "legs": [
+                [
+                  [
+                    "PSTG",
+                    "2025-10-17",
+                    50.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-02",
+              "legs": [
+                [
+                  [
+                    "MP",
+                    "2025-10-17",
+                    60.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-05",
+              "legs": [
+                [
+                  [
+                    "ACLS",
+                    "2025-10-17",
+                    70.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-25",
+              "legs": [
+                [
+                  [
+                    "MARA",
+                    "2025-10-24",
+                    15.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-26",
+              "legs": [
+                [
+                  [
+                    "TTMI",
+                    "2025-11-21",
+                    45.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-29",
+              "legs": [
+                [
+                  [
+                    "VST",
+                    "2025-11-21",
+                    175.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-09-30",
+              "legs": [
+                [
+                  [
+                    "RUN",
+                    "2025-11-21",
+                    14.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-01",
+              "legs": [
+                [
+                  [
+                    "CVS",
+                    "2025-11-21",
+                    67.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-02",
+              "legs": [
+                [
+                  [
+                    "SMCI",
+                    "2025-11-21",
+                    43.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-03",
+              "legs": [
+                [
+                  [
+                    "HIMS",
+                    "2025-11-21",
+                    46.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-06",
+              "legs": [
+                [
+                  [
+                    "NXT",
+                    "2025-11-21",
+                    65.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-08",
+              "legs": [
+                [
+                  [
+                    "SEDG",
+                    "2025-11-21",
+                    27.5,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-14",
+              "legs": [
+                [
+                  [
+                    "TXNM",
+                    "2025-11-21",
+                    55.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-17",
+              "legs": [
+                [
+                  [
+                    "CHRW",
+                    "2025-11-21",
+                    115.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-20",
+              "legs": [
+                [
+                  [
+                    "AEP",
+                    "2025-11-21",
+                    110.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            },
+            {
+              "entry": "2025-10-22",
+              "legs": [
+                [
+                  [
+                    "MPC",
+                    "2025-12-19",
+                    165.0,
+                    "Put"
+                  ],
+                  -1
+                ]
+              ],
+              "status": "matched"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "action": "NO TRADE",
+  "note": "Same selected contracts, not reoptimized. Assignment determined at expiry close; assigned shares sold at next-session open. Early assignment and after-hours exercise ambiguity remain unmodeled."
+}

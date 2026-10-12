@@ -25,3 +25,7 @@ reports/*
 
 !reports/RECENT_COMPARISON.md
 !reports/recent_2024_2025.json
+
+!reports/FORUM_AND_PAPER_RESEARCH.md
+!reports/events_*.json
+!reports/momentum_*.json

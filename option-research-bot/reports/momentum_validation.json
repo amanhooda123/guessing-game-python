@@ -1,0 +1,7799 @@
+{
+  "action": "NO TRADE",
+  "classification": "Post hoc inspection of 7 position-sizing variants after reviewing the same 2024/2025 history",
+  "one_contract_allocations": {
+    "0.01": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 12,
+        "resolved": 12,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 11,
+          "symbol_already_held": 5
+        },
+        "realized_pnl": 1307.550000000001,
+        "ending_cash": 101307.54999999997,
+        "ending_equity_unresolved_at_cost": 101307.54999999997,
+        "terminal_return_if_fully_resolved": 0.013075499999999796,
+        "unresolved_full_loss_equity": 101307.54999999997,
+        "worst_closed_trade_pnl": -948.1000000000001,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  72.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  120.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  57.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  60.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  170.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  195.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  28.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  33.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-08-14",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  67.5,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  21.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  25.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  17.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  21.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  90.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 24,
+        "resolved": 24,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 18,
+          "symbol_already_held": 10
+        },
+        "realized_pnl": 1876.8429999999998,
+        "ending_cash": 101876.84299999994,
+        "ending_equity_unresolved_at_cost": 101876.84299999994,
+        "terminal_return_if_fully_resolved": 0.01876842999999928,
+        "unresolved_full_loss_equity": 101876.84299999994,
+        "worst_closed_trade_pnl": -927.6,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  24.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  29.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  140.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  155.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-02-04",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  80.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  95.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  25.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  38.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  46.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  55.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  65.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  35.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  40.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  34.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  38.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  35.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  46.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  55.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  70.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  40.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  48.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  70.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  87.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  165.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      }
+    },
+    "0.02": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.02,
+        "fills": 19,
+        "resolved": 18,
+        "unresolved": 1,
+        "skipped": {
+          "position_allocation": 2,
+          "symbol_already_held": 7
+        },
+        "realized_pnl": 348.02699999999624,
+        "ending_cash": 98872.42699999995,
+        "ending_equity_unresolved_at_cost": 100348.02699999996,
+        "terminal_return_if_fully_resolved": null,
+        "unresolved_full_loss_equity": 98872.42699999995,
+        "worst_closed_trade_pnl": -1533.7,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "ELF",
+                  "2024-03-22",
+                  162.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ELF",
+                  "2024-03-22",
+                  195.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  72.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-04-19",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-04-19",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  120.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  57.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  60.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-06-21",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-06-21",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "WSM",
+                  "2024-07-19",
+                  290.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "WSM",
+                  "2024-07-19",
+                  320.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "nonstandard_contract"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  28.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  33.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-08-14",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  67.5,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-09-06",
+            "legs": [
+              [
+                [
+                  "SPY",
+                  "2024-10-31",
+                  540.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SPY",
+                  "2024-10-31",
+                  573.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "PI",
+                  "2024-11-15",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PI",
+                  "2024-11-15",
+                  230.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TMDX",
+                  "2024-11-15",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TMDX",
+                  "2024-11-15",
+                  165.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  21.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  25.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  17.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  21.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  90.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "NVDA",
+                  "2024-12-20",
+                  130.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "NVDA",
+                  "2024-12-20",
+                  156.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "THC",
+                  "2024-12-20",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "THC",
+                  "2024-12-20",
+                  170.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.02,
+        "fills": 32,
+        "resolved": 32,
+        "unresolved": 0,
+        "skipped": {
+          "symbol_already_held": 14,
+          "position_allocation": 6
+        },
+        "realized_pnl": 45.87999999999761,
+        "ending_cash": 100045.87999999993,
+        "ending_equity_unresolved_at_cost": 100045.87999999993,
+        "terminal_return_if_fully_resolved": 0.00045879999999942633,
+        "unresolved_full_loss_equity": 100045.87999999993,
+        "worst_closed_trade_pnl": -1465.8,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2025-02-21",
+                  145.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2025-02-21",
+                  170.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  24.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  29.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  140.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  155.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-02-04",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-04-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-04-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  80.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  95.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  25.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  38.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  46.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  55.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  65.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-06-20",
+                  110.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-06-20",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-06-20",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-06-20",
+                  145.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-06-20",
+                  165.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-06-20",
+                  185.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  35.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  40.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  34.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  38.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  35.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-08-15",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-08-15",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  46.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  55.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-08-15",
+                  175.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-08-15",
+                  210.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2025-09-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2025-09-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  70.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  40.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  48.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  70.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "HOOD",
+                  "2025-11-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HOOD",
+                  "2025-11-21",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  87.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      }
+    },
+    "0.05": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.05,
+        "fills": 20,
+        "resolved": 19,
+        "unresolved": 1,
+        "skipped": {
+          "position_allocation": 1,
+          "symbol_already_held": 7
+        },
+        "realized_pnl": -2018.5730000000042,
+        "ending_cash": 96505.82699999995,
+        "ending_equity_unresolved_at_cost": 97981.42699999995,
+        "terminal_return_if_fully_resolved": null,
+        "unresolved_full_loss_equity": 96505.82699999995,
+        "worst_closed_trade_pnl": -2366.6000000000004,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "ELF",
+                  "2024-03-22",
+                  162.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ELF",
+                  "2024-03-22",
+                  195.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  72.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-04-19",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-04-19",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  120.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "AMR",
+                  "2024-04-19",
+                  370.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "AMR",
+                  "2024-04-19",
+                  430.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  57.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  60.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-06-21",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-06-21",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "WSM",
+                  "2024-07-19",
+                  290.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "WSM",
+                  "2024-07-19",
+                  320.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "nonstandard_contract"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  28.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  33.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-08-14",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  67.5,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-09-06",
+            "legs": [
+              [
+                [
+                  "SPY",
+                  "2024-10-31",
+                  540.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SPY",
+                  "2024-10-31",
+                  573.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "PI",
+                  "2024-11-15",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PI",
+                  "2024-11-15",
+                  230.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TMDX",
+                  "2024-11-15",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TMDX",
+                  "2024-11-15",
+                  165.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  21.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  25.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  17.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  21.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  90.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "NVDA",
+                  "2024-12-20",
+                  130.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "NVDA",
+                  "2024-12-20",
+                  156.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "THC",
+                  "2024-12-20",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "THC",
+                  "2024-12-20",
+                  170.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.05,
+        "fills": 37,
+        "resolved": 37,
+        "unresolved": 0,
+        "skipped": {
+          "symbol_already_held": 15
+        },
+        "realized_pnl": 10590.205000000004,
+        "ending_cash": 110590.20499999993,
+        "ending_equity_unresolved_at_cost": 110590.20499999993,
+        "terminal_return_if_fully_resolved": 0.10590204999999919,
+        "unresolved_full_loss_equity": 110590.20499999993,
+        "worst_closed_trade_pnl": -1465.8,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2025-02-21",
+                  145.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2025-02-21",
+                  170.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  24.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  29.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  140.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  155.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-02-04",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-04-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-04-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  80.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  95.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  25.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  38.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  46.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  55.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  65.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-06-20",
+                  110.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-06-20",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-06-20",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-06-20",
+                  145.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-06-20",
+                  165.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-06-20",
+                  185.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  35.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  40.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  34.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  38.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  35.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "AXON",
+                  "2025-07-18",
+                  730.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "AXON",
+                  "2025-07-18",
+                  790.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-08-15",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-08-15",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  46.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  55.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "GEV",
+                  "2025-08-15",
+                  480.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEV",
+                  "2025-08-15",
+                  560.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-08-15",
+                  175.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-08-15",
+                  210.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2025-09-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2025-09-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  70.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "DASH",
+                  "2025-09-19",
+                  240.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DASH",
+                  "2025-09-19",
+                  280.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  40.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  48.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "GEV",
+                  "2025-10-17",
+                  560.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEV",
+                  "2025-10-17",
+                  640.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  70.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "HOOD",
+                  "2025-11-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HOOD",
+                  "2025-11-21",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  87.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "APP",
+                  "2025-12-19",
+                  610.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APP",
+                  "2025-12-19",
+                  730.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      }
+    },
+    "0.1": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.1,
+        "fills": 21,
+        "resolved": 20,
+        "unresolved": 1,
+        "skipped": {
+          "symbol_already_held": 7
+        },
+        "realized_pnl": -10089.373000000003,
+        "ending_cash": 88435.02699999994,
+        "ending_equity_unresolved_at_cost": 89910.62699999995,
+        "terminal_return_if_fully_resolved": null,
+        "unresolved_full_loss_equity": 88435.02699999994,
+        "worst_closed_trade_pnl": -8070.799999999999,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "ELF",
+                  "2024-03-22",
+                  162.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ELF",
+                  "2024-03-22",
+                  195.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  72.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-04-19",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-04-19",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  120.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "AMR",
+                  "2024-04-19",
+                  370.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "AMR",
+                  "2024-04-19",
+                  430.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "SMCI",
+                  "2024-05-17",
+                  970.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SMCI",
+                  "2024-05-17",
+                  1170.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  57.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  60.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-06-21",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-06-21",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "WSM",
+                  "2024-07-19",
+                  290.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "WSM",
+                  "2024-07-19",
+                  320.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "nonstandard_contract"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  28.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  33.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-08-14",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  67.5,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-09-06",
+            "legs": [
+              [
+                [
+                  "SPY",
+                  "2024-10-31",
+                  540.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SPY",
+                  "2024-10-31",
+                  573.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "PI",
+                  "2024-11-15",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PI",
+                  "2024-11-15",
+                  230.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TMDX",
+                  "2024-11-15",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TMDX",
+                  "2024-11-15",
+                  165.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  21.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  25.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  17.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  21.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  90.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "NVDA",
+                  "2024-12-20",
+                  130.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "NVDA",
+                  "2024-12-20",
+                  156.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "THC",
+                  "2024-12-20",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "THC",
+                  "2024-12-20",
+                  170.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.1,
+        "fills": 37,
+        "resolved": 37,
+        "unresolved": 0,
+        "skipped": {
+          "symbol_already_held": 15
+        },
+        "realized_pnl": 10590.205000000004,
+        "ending_cash": 110590.20499999993,
+        "ending_equity_unresolved_at_cost": 110590.20499999993,
+        "terminal_return_if_fully_resolved": 0.10590204999999919,
+        "unresolved_full_loss_equity": 110590.20499999993,
+        "worst_closed_trade_pnl": -1465.8,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2025-02-21",
+                  145.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2025-02-21",
+                  170.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  24.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  29.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  140.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  155.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-02-04",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-04-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-04-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  80.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  95.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  25.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  38.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  46.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  55.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  65.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-06-20",
+                  110.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-06-20",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-06-20",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-06-20",
+                  145.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-06-20",
+                  165.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-06-20",
+                  185.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  35.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  40.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  34.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  38.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  35.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "AXON",
+                  "2025-07-18",
+                  730.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "AXON",
+                  "2025-07-18",
+                  790.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-08-15",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-08-15",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  46.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  55.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "GEV",
+                  "2025-08-15",
+                  480.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEV",
+                  "2025-08-15",
+                  560.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-08-15",
+                  175.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-08-15",
+                  210.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2025-09-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2025-09-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  70.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "DASH",
+                  "2025-09-19",
+                  240.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DASH",
+                  "2025-09-19",
+                  280.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  40.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  48.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "GEV",
+                  "2025-10-17",
+                  560.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEV",
+                  "2025-10-17",
+                  640.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  70.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "HOOD",
+                  "2025-11-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HOOD",
+                  "2025-11-21",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  87.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "APP",
+                  "2025-12-19",
+                  610.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APP",
+                  "2025-12-19",
+                  730.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      }
+    }
+  },
+  "integer_equal_risk_allocations": {
+    "0.005": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.005,
+        "trade_entries": 8,
+        "contracts": 17,
+        "unresolved": 0,
+        "realized_pnl": -1299.7160000000006,
+        "terminal_return_if_fully_resolved": -0.012997160000000174,
+        "unresolved_full_loss_equity": 98700.28399999999,
+        "worst_closed_trade_pnl": -481.00000000000006,
+        "skipped": {
+          "risk_or_cash": 17,
+          "symbol_already_held": 3
+        }
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.005,
+        "trade_entries": 14,
+        "contracts": 21,
+        "unresolved": 0,
+        "realized_pnl": 863.5880000000005,
+        "terminal_return_if_fully_resolved": 0.008635879999999707,
+        "unresolved_full_loss_equity": 100863.58799999996,
+        "worst_closed_trade_pnl": -490.90000000000003,
+        "skipped": {
+          "risk_or_cash": 32,
+          "symbol_already_held": 6
+        }
+      }
+    },
+    "0.01": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "trade_entries": 12,
+        "contracts": 38,
+        "unresolved": 0,
+        "realized_pnl": -397.3659999999994,
+        "terminal_return_if_fully_resolved": -0.003973660000000101,
+        "unresolved_full_loss_equity": 99602.63399999999,
+        "worst_closed_trade_pnl": -986.92,
+        "skipped": {
+          "risk_or_cash": 11,
+          "symbol_already_held": 5
+        }
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "trade_entries": 24,
+        "contracts": 55,
+        "unresolved": 0,
+        "realized_pnl": 3334.1510000000003,
+        "terminal_return_if_fully_resolved": 0.03334150999999941,
+        "unresolved_full_loss_equity": 103334.15099999994,
+        "worst_closed_trade_pnl": -981.8000000000001,
+        "skipped": {
+          "risk_or_cash": 18,
+          "symbol_already_held": 10
+        }
+      }
+    },
+    "0.02": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.02,
+        "trade_entries": 19,
+        "contracts": 86,
+        "unresolved": 1,
+        "realized_pnl": -956.8810000000045,
+        "terminal_return_if_fully_resolved": null,
+        "unresolved_full_loss_equity": 97567.51899999996,
+        "worst_closed_trade_pnl": -2044.2500000000002,
+        "skipped": {
+          "risk_or_cash": 2,
+          "symbol_already_held": 7
+        }
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.02,
+        "trade_entries": 33,
+        "contracts": 135,
+        "unresolved": 0,
+        "realized_pnl": 8792.794,
+        "terminal_return_if_fully_resolved": 0.0879279399999997,
+        "unresolved_full_loss_equity": 108792.79399999997,
+        "worst_closed_trade_pnl": -2147.7119999999977,
+        "skipped": {
+          "symbol_already_held": 14,
+          "risk_or_cash": 5
+        }
+      }
+    }
+  },
+  "one_percent_cost_scenarios": {
+    "base": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 12,
+        "resolved": 12,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 11,
+          "symbol_already_held": 5
+        },
+        "realized_pnl": 1307.550000000001,
+        "ending_cash": 101307.54999999997,
+        "ending_equity_unresolved_at_cost": 101307.54999999997,
+        "terminal_return_if_fully_resolved": 0.013075499999999796,
+        "unresolved_full_loss_equity": 101307.54999999997,
+        "worst_closed_trade_pnl": -948.1000000000001,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  72.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  120.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  57.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  60.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  170.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  195.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  28.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  33.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-08-14",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  67.5,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  21.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  25.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  17.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  21.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  90.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 24,
+        "resolved": 24,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 18,
+          "symbol_already_held": 10
+        },
+        "realized_pnl": 1876.8429999999998,
+        "ending_cash": 101876.84299999994,
+        "ending_equity_unresolved_at_cost": 101876.84299999994,
+        "terminal_return_if_fully_resolved": 0.01876842999999928,
+        "unresolved_full_loss_equity": 101876.84299999994,
+        "worst_closed_trade_pnl": -927.6,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  24.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  29.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  140.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  155.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-02-04",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  80.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  95.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  25.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  38.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  46.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  55.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  65.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  35.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  40.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  34.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  38.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  35.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  46.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  55.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  70.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  150.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-10-17",
+                  175.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  40.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  48.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  70.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  87.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  165.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      }
+    },
+    "double_cost": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 12,
+        "resolved": 12,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 11,
+          "symbol_already_held": 5
+        },
+        "realized_pnl": 1154.100000000001,
+        "ending_cash": 101154.09999999998,
+        "ending_equity_unresolved_at_cost": 101154.09999999998,
+        "terminal_return_if_fully_resolved": 0.011540999999999801,
+        "unresolved_full_loss_equity": 101154.09999999998,
+        "worst_closed_trade_pnl": -966.1999999999999,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  72.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  120.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  57.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  60.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  170.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  195.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  28.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  33.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-08-14",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  67.5,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  21.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  25.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  17.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  21.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  90.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 23,
+        "resolved": 23,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 20,
+          "symbol_already_held": 9
+        },
+        "realized_pnl": 56.08600000000038,
+        "ending_cash": 100056.08599999992,
+        "ending_equity_unresolved_at_cost": 100056.08599999992,
+        "terminal_return_if_fully_resolved": 0.0005608599999993302,
+        "unresolved_full_loss_equity": 100056.08599999992,
+        "worst_closed_trade_pnl": -945.1999999999998,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  24.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  29.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  140.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  155.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-02-04",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  80.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  95.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  25.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  38.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  46.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  55.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  65.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  35.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  40.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  34.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  38.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  35.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  46.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  55.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  70.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  40.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  48.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  70.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  87.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  165.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      }
+    },
+    "fx_sensitivity": {
+      "2024": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 12,
+        "resolved": 12,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 11,
+          "symbol_already_held": 5
+        },
+        "realized_pnl": 1025.4040500000017,
+        "ending_cash": 101025.40405,
+        "ending_equity_unresolved_at_cost": 101025.40405,
+        "terminal_return_if_fully_resolved": 0.010254040500000006,
+        "unresolved_full_loss_equity": 101025.40405,
+        "worst_closed_trade_pnl": -971.4895,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2024-02-05",
+            "legs": [
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UBER",
+                  "2024-03-22",
+                  72.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-03-04",
+            "legs": [
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  120.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "XPO",
+                  "2024-04-19",
+                  130.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-05-17",
+                  150.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-04-03",
+            "legs": [
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  57.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CPRT",
+                  "2024-05-17",
+                  60.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-05-03",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-06-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  170.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ANF",
+                  "2024-07-19",
+                  195.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-06-05",
+            "legs": [
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  28.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GPS",
+                  "2024-07-19",
+                  33.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-08-14",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2024-10-18",
+                  67.5,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-10-02",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  21.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2024-11-15",
+                  25.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  17.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "ADMA",
+                  "2024-12-20",
+                  21.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  115.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "VST",
+                  "2024-12-20",
+                  135.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2024-11-04",
+            "legs": [
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  90.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "COHR",
+                  "2024-12-20",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      },
+      "2025": {
+        "initial_capital": 100000.0,
+        "position_allocation": 0.01,
+        "fills": 23,
+        "resolved": 23,
+        "unresolved": 0,
+        "skipped": {
+          "position_allocation": 20,
+          "symbol_already_held": 9
+        },
+        "realized_pnl": -190.88714499999762,
+        "ending_cash": 99809.11285499997,
+        "ending_equity_unresolved_at_cost": 99809.11285499997,
+        "terminal_return_if_fully_resolved": -0.0019088714500002935,
+        "unresolved_full_loss_equity": 99809.11285499997,
+        "worst_closed_trade_pnl": -950.2364999999998,
+        "note": "Terminal-payoff model; no daily mark-to-market drawdown, interest or early assignment.",
+        "filled_contracts": [
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  75.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-02-21",
+                  90.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  24.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-02-21",
+                  29.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  125.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-02-21",
+                  140.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-01-03",
+            "legs": [
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  135.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "EAT",
+                  "2025-02-21",
+                  155.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-02-04",
+            "legs": [
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "APH",
+                  "2025-03-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  80.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-04-17",
+                  95.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  25.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-04-17",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "SFM",
+                  "2025-04-17",
+                  160.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-03-04",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  38.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-04-17",
+                  46.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  55.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "DOCS",
+                  "2025-05-16",
+                  65.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-04-02",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-05-16",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-05-02",
+            "legs": [
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  35.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CHWY",
+                  "2025-06-20",
+                  40.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  34.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "TGTX",
+                  "2025-07-18",
+                  38.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "UNFI",
+                  "2025-07-18",
+                  35.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-06-03",
+            "legs": [
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  26.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "GEO",
+                  "2025-07-18",
+                  30.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-07-02",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  46.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-08-15",
+                  55.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-08-04",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  60.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-09-19",
+                  70.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  40.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HIMS",
+                  "2025-10-17",
+                  48.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-09-03",
+            "legs": [
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  70.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "CNR",
+                  "2025-10-17",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  65.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "MP",
+                  "2025-11-21",
+                  75.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-10-02",
+            "legs": [
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  87.5,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "KTOS",
+                  "2025-11-21",
+                  105.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  140.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "HOOD",
+                  "2025-12-19",
+                  165.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          },
+          {
+            "entry": "2025-11-04",
+            "legs": [
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  200.0,
+                  "Call"
+                ],
+                1
+              ],
+              [
+                [
+                  "PLTR",
+                  "2025-12-19",
+                  240.0,
+                  "Call"
+                ],
+                -1
+              ]
+            ],
+            "status": "matched"
+          }
+        ]
+      }
+    }
+  },
+  "candidate": "One contract, maximum 1% of illustrative USD100,000 account equity per new spread",
+  "limitations": [
+    "Selected after outcome review; no fresh or multiple-testing-adjusted evidence",
+    "Only 12 and 24 filled trades at the candidate sizing; not independent replicated annual samples",
+    "Not scale invariant: changing account size or integer-contract sizing changes selections",
+    "Double-cost scenario nearly eliminates the 2025 gain; FX sensitivity loses in 2025",
+    "FX sensitivity applies conversion to net synthetic payout, not gross American assignment cashflows",
+    "Broker spread trading requires USD accounts; actual exercise and early assignment remain omitted",
+    "No daily option mark-to-market drawdown or Sharpe; idle cash earns zero in the model"
+  ]
+}
