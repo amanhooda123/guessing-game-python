@@ -22,3 +22,6 @@ reports/*
 !reports/SEVENTH_PASS.md
 !reports/broad_2021_2022.json
 *.egg-info/
+
+!reports/RECENT_COMPARISON.md
+!reports/recent_2024_2025.json
