@@ -1,0 +1,244 @@
+{
+  "action": "NO TRADE",
+  "classification": "OPENING-GAP STOCK PROXY ONLY",
+  "source_rows_scanned": 26716798,
+  "rows_2023_to_end_before_cleaning": 7753750,
+  "duplicate_rows_removed": 0,
+  "invalid_ohlcv_rows_removed": 73252,
+  "historical_symbols_observed": 15801,
+  "source_revision": "de36a6a731b5ff46857146123d4624bed6e87419",
+  "parameters": {
+    "gap": [
+      0.005,
+      0.08
+    ],
+    "gap_atr": [
+      0.25,
+      2.5
+    ],
+    "min_price": 5,
+    "prior_daily_dollar_volume20": 10000000,
+    "round_trip_stock_cost_bps": 20,
+    "weighting": "Equal capital per available signal each session, 1x gross stock notional"
+  },
+  "years": {
+    "2024": {
+      "stock_observations": 218288,
+      "symbols": 3609,
+      "sessions_with_opportunities": 250,
+      "gross_direction_win_rate": 0.5098768599281683,
+      "after_cost_stock_win_rate": 0.4488519753719856,
+      "mean_gross_stock_trade_return": 0.0004018090263497903,
+      "mean_net_stock_trade_return": -0.0015981909736502112,
+      "equal_weight_1x_stock_proxy_annual_return": -0.35764828026980156,
+      "gross_stock_proxy_annual_return": 0.05947671853436409,
+      "stock_proxy_monthly_equivalent": -0.03621297731492823,
+      "stock_proxy_daily_drawdown": -0.3914844507448004,
+      "months_at_least_4_percent": 0,
+      "months_at_least_5_percent": 0,
+      "monthly": [
+        {
+          "month": "2024-01",
+          "stock_proxy_return": -0.012558697187282086
+        },
+        {
+          "month": "2024-02",
+          "stock_proxy_return": -0.07357403267267393
+        },
+        {
+          "month": "2024-03",
+          "stock_proxy_return": -0.03257370175392793
+        },
+        {
+          "month": "2024-04",
+          "stock_proxy_return": -0.00030217432053802895
+        },
+        {
+          "month": "2024-05",
+          "stock_proxy_return": -0.03941961252539439
+        },
+        {
+          "month": "2024-06",
+          "stock_proxy_return": -0.030922672678812213
+        },
+        {
+          "month": "2024-07",
+          "stock_proxy_return": -0.09012102330387972
+        },
+        {
+          "month": "2024-08",
+          "stock_proxy_return": -0.04562669251703899
+        },
+        {
+          "month": "2024-09",
+          "stock_proxy_return": -0.04937830633937379
+        },
+        {
+          "month": "2024-10",
+          "stock_proxy_return": -0.045952231696502754
+        },
+        {
+          "month": "2024-11",
+          "stock_proxy_return": -0.04081561565091363
+        },
+        {
+          "month": "2024-12",
+          "stock_proxy_return": 0.03250043330538044
+        }
+      ],
+      "directions": {
+        "gap_down_long": {
+          "observations": 96236,
+          "gross_win_rate": 0.49996882663452347,
+          "mean_gross_return": -0.00024021241366629445
+        },
+        "gap_up_short": {
+          "observations": 122052,
+          "gross_win_rate": 0.517689181660276,
+          "mean_gross_return": 0.0009080324008245053
+        }
+      },
+      "round_trip_stock_cost_bps_sensitivity": {
+        "0": {
+          "stock_proxy_annual_return": 0.05947671853436409,
+          "mean_stock_trade_return": 0.0004018090263497903,
+          "stock_trade_win_rate": 0.5098768599281683,
+          "months_at_least_4_percent": 2
+        },
+        "5": {
+          "stock_proxy_annual_return": -0.06501949977179633,
+          "mean_stock_trade_return": -9.819097365020973e-05,
+          "stock_trade_win_rate": 0.4980896796892179,
+          "months_at_least_4_percent": 1
+        },
+        "10": {
+          "stock_proxy_annual_return": -0.1749381068002599,
+          "mean_stock_trade_return": -0.0005981909736502097,
+          "stock_trade_win_rate": 0.4817488822106575,
+          "months_at_least_4_percent": 1
+        },
+        "20": {
+          "stock_proxy_annual_return": -0.35764828026980156,
+          "mean_stock_trade_return": -0.0015981909736502097,
+          "stock_trade_win_rate": 0.4488519753719856,
+          "months_at_least_4_percent": 0
+        }
+      }
+    },
+    "2025": {
+      "stock_observations": 238522,
+      "symbols": 4173,
+      "sessions_with_opportunities": 250,
+      "gross_direction_win_rate": 0.5367680968631824,
+      "after_cost_stock_win_rate": 0.4843159121590461,
+      "mean_gross_stock_trade_return": 0.002270413678684274,
+      "mean_net_stock_trade_return": 0.0002704136786842728,
+      "equal_weight_1x_stock_proxy_annual_return": -0.12780191252531148,
+      "gross_stock_proxy_annual_return": 0.43771758905553715,
+      "stock_proxy_monthly_equivalent": -0.011330217125855913,
+      "stock_proxy_daily_drawdown": -0.23430673362023147,
+      "months_at_least_4_percent": 2,
+      "months_at_least_5_percent": 2,
+      "monthly": [
+        {
+          "month": "2025-01",
+          "stock_proxy_return": -0.016183834073096093
+        },
+        {
+          "month": "2025-02",
+          "stock_proxy_return": 0.05724463382101308
+        },
+        {
+          "month": "2025-03",
+          "stock_proxy_return": -0.04874109090313827
+        },
+        {
+          "month": "2025-04",
+          "stock_proxy_return": 0.12811582672638688
+        },
+        {
+          "month": "2025-05",
+          "stock_proxy_return": -0.026890610441834606
+        },
+        {
+          "month": "2025-06",
+          "stock_proxy_return": -0.0345022799335325
+        },
+        {
+          "month": "2025-07",
+          "stock_proxy_return": -0.042615701102839854
+        },
+        {
+          "month": "2025-08",
+          "stock_proxy_return": -0.06855108355555484
+        },
+        {
+          "month": "2025-09",
+          "stock_proxy_return": -0.04363461626384546
+        },
+        {
+          "month": "2025-10",
+          "stock_proxy_return": 0.0010725321436519941
+        },
+        {
+          "month": "2025-11",
+          "stock_proxy_return": -0.027296248056040917
+        },
+        {
+          "month": "2025-12",
+          "stock_proxy_return": 0.0014863029965277441
+        }
+      ],
+      "directions": {
+        "gap_down_long": {
+          "observations": 112897,
+          "gross_win_rate": 0.5508649476956872,
+          "mean_gross_return": 0.0023468313104321814
+        },
+        "gap_up_short": {
+          "observations": 125625,
+          "gross_win_rate": 0.5240995024875622,
+          "mean_gross_return": 0.002201738483687709
+        }
+      },
+      "round_trip_stock_cost_bps_sensitivity": {
+        "0": {
+          "stock_proxy_annual_return": 0.43771758905553715,
+          "mean_stock_trade_return": 0.002270413678684274,
+          "stock_trade_win_rate": 0.5367680968631824,
+          "months_at_least_4_percent": 4
+        },
+        "5": {
+          "stock_proxy_annual_return": 0.26896499994152756,
+          "mean_stock_trade_return": 0.001770413678684274,
+          "stock_trade_win_rate": 0.5265090851158384,
+          "months_at_least_4_percent": 2
+        },
+        "10": {
+          "stock_proxy_annual_return": 0.11994992520115111,
+          "mean_stock_trade_return": 0.001270413678684274,
+          "stock_trade_win_rate": 0.5128499677178625,
+          "months_at_least_4_percent": 2
+        },
+        "20": {
+          "stock_proxy_annual_return": -0.1278019125253117,
+          "mean_stock_trade_return": 0.0002704136786842739,
+          "stock_trade_win_rate": 0.4843159121590461,
+          "months_at_least_4_percent": 2
+        }
+      }
+    }
+  },
+  "option_performance_measured": false,
+  "premarket_performance_measured": false,
+  "target_validated": false,
+  "limitations": [
+    "Opening prices replace premarket prices in this diagnostic only",
+    "Includes available stock/ETF symbols without verified historical option eligibility",
+    "Raw source provenance, opening auction executability and complete coverage not independently verified",
+    "Dividends, symbol changes and small corporate-action gaps are not fully adjusted",
+    "Short-stock availability, borrow fees, taxes and market impact omitted",
+    "Fixed bps stock costs cannot represent option bid/ask or IV changes",
+    "Earlier studies repeatedly examined these years; no untouched strategy holdout"
+  ]
+}

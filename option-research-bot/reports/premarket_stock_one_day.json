@@ -1,0 +1,764 @@
+{
+  "action": "NO TRADE",
+  "classification": "ONE-DAY PREMARKET STOCK CHECK ONLY",
+  "date": "2024-01-02",
+  "source_rows": 453875,
+  "symbols": 8407,
+  "duplicate_rows_removed": 0,
+  "qualified_stock_cases": 89,
+  "exclusion_counts": {
+    "missing_premarket_or_signal_or_exit_bars": 6624,
+    "gap_filter": 163,
+    "missing_or_invalid_prior_daily_history": 1061,
+    "liquidity_or_history_filter": 264,
+    "no_price_and_vwap_confirmation": 184,
+    "missing_previous_session_close": 22
+  },
+  "stock_cost_bps_sensitivity": {
+    "0": {
+      "observations": 89,
+      "stock_direction_win_rate_after_cost": 0.5617977528089888,
+      "equal_weight_stock_return_for_this_one_day": 0.0030619025627304603
+    },
+    "5": {
+      "observations": 89,
+      "stock_direction_win_rate_after_cost": 0.5056179775280899,
+      "equal_weight_stock_return_for_this_one_day": 0.0025619025627304603
+    },
+    "10": {
+      "observations": 89,
+      "stock_direction_win_rate_after_cost": 0.43820224719101125,
+      "equal_weight_stock_return_for_this_one_day": 0.0020619025627304603
+    },
+    "20": {
+      "observations": 89,
+      "stock_direction_win_rate_after_cost": 0.39325842696629215,
+      "equal_weight_stock_return_for_this_one_day": 0.00106190256273046
+    }
+  },
+  "option_returns_measured": false,
+  "confidence_calibrated": false,
+  "monthly_target_validated": false,
+  "records": [
+    {
+      "symbol": "AA",
+      "direction": "call_direction",
+      "premarket_gap": -0.016470588235294237,
+      "entry_stock_price_0950": 33.435,
+      "exit_stock_price_1100": 33.875,
+      "gross_stock_return": 0.013159862419620083
+    },
+    {
+      "symbol": "ABNB",
+      "direction": "call_direction",
+      "premarket_gap": -0.013148229763478736,
+      "entry_stock_price_0950": 134.14,
+      "exit_stock_price_1100": 133.4499,
+      "gross_stock_return": -0.005144625018636995
+    },
+    {
+      "symbol": "ALB",
+      "direction": "call_direction",
+      "premarket_gap": -0.013496677740863716,
+      "entry_stock_price_0950": 144.65,
+      "exit_stock_price_1100": 146.72,
+      "gross_stock_return": 0.014310404424472845
+    },
+    {
+      "symbol": "AVGO",
+      "direction": "call_direction",
+      "premarket_gap": -0.020855543113101893,
+      "entry_stock_price_0950": 1094.405,
+      "exit_stock_price_1100": 1093.7,
+      "gross_stock_return": -0.0006441856533915269
+    },
+    {
+      "symbol": "BALL",
+      "direction": "call_direction",
+      "premarket_gap": -0.02364394993045904,
+      "entry_stock_price_0950": 56.465,
+      "exit_stock_price_1100": 56.9,
+      "gross_stock_return": 0.007703887363853523
+    },
+    {
+      "symbol": "BBIO",
+      "direction": "call_direction",
+      "premarket_gap": -0.014862521674510631,
+      "entry_stock_price_0950": 40.37,
+      "exit_stock_price_1100": 40.45,
+      "gross_stock_return": 0.0019816695566015063
+    },
+    {
+      "symbol": "BE",
+      "direction": "call_direction",
+      "premarket_gap": -0.020270270270270285,
+      "entry_stock_price_0950": 14.57,
+      "exit_stock_price_1100": 15.0483,
+      "gross_stock_return": 0.032827728208647766
+    },
+    {
+      "symbol": "BNO",
+      "direction": "put_direction",
+      "premarket_gap": 0.012815818381545219,
+      "entry_stock_price_0950": 27.41,
+      "exit_stock_price_1100": 27.4,
+      "gross_stock_return": 0.00036483035388545915
+    },
+    {
+      "symbol": "BOIL",
+      "direction": "put_direction",
+      "premarket_gap": 0.057046413502109594,
+      "entry_stock_price_0950": 30.02,
+      "exit_stock_price_1100": 29.27,
+      "gross_stock_return": 0.024983344437041977
+    },
+    {
+      "symbol": "BP",
+      "direction": "put_direction",
+      "premarket_gap": 0.006497175141243039,
+      "entry_stock_price_0950": 35.56,
+      "exit_stock_price_1100": 35.635,
+      "gross_stock_return": -0.0021091113610798295
+    },
+    {
+      "symbol": "BUD",
+      "direction": "call_direction",
+      "premarket_gap": -0.008047044258743585,
+      "entry_stock_price_0950": 64.3,
+      "exit_stock_price_1100": 64.34,
+      "gross_stock_return": 0.0006220839813375623
+    },
+    {
+      "symbol": "BUR",
+      "direction": "call_direction",
+      "premarket_gap": -0.028205128205128216,
+      "entry_stock_price_0950": 15.27,
+      "exit_stock_price_1100": 15.23,
+      "gross_stock_return": -0.0026195153896528822
+    },
+    {
+      "symbol": "CHWY",
+      "direction": "call_direction",
+      "premarket_gap": -0.01650444350402036,
+      "entry_stock_price_0950": 23.2701,
+      "exit_stock_price_1100": 22.875,
+      "gross_stock_return": -0.01697886988023256
+    },
+    {
+      "symbol": "CING",
+      "direction": "call_direction",
+      "premarket_gap": -0.0745098039215687,
+      "entry_stock_price_0950": 7.27,
+      "exit_stock_price_1100": 7.98,
+      "gross_stock_return": 0.09766162310866577
+    },
+    {
+      "symbol": "COST",
+      "direction": "call_direction",
+      "premarket_gap": -0.0063628651072598075,
+      "entry_stock_price_0950": 654.5501,
+      "exit_stock_price_1100": 652.595,
+      "gross_stock_return": -0.0029869371343766993
+    },
+    {
+      "symbol": "CPRT",
+      "direction": "call_direction",
+      "premarket_gap": -0.005102040816326481,
+      "entry_stock_price_0950": 48.65,
+      "exit_stock_price_1100": 47.93,
+      "gross_stock_return": -0.014799588900308303
+    },
+    {
+      "symbol": "CRH",
+      "direction": "call_direction",
+      "premarket_gap": -0.014459224985540753,
+      "entry_stock_price_0950": 68.51,
+      "exit_stock_price_1100": 68.18,
+      "gross_stock_return": -0.004816815063494406
+    },
+    {
+      "symbol": "CTRA",
+      "direction": "put_direction",
+      "premarket_gap": 0.005094043887147404,
+      "entry_stock_price_0950": 25.595,
+      "exit_stock_price_1100": 25.715,
+      "gross_stock_return": -0.004688415706192606
+    },
+    {
+      "symbol": "CVX",
+      "direction": "put_direction",
+      "premarket_gap": 0.006637168141592875,
+      "entry_stock_price_0950": 149.89,
+      "exit_stock_price_1100": 151.1,
+      "gross_stock_return": -0.008072586563479867
+    },
+    {
+      "symbol": "DASH",
+      "direction": "call_direction",
+      "premarket_gap": -0.007078572150874707,
+      "entry_stock_price_0950": 97.47,
+      "exit_stock_price_1100": 95.965,
+      "gross_stock_return": -0.015440648404637325
+    },
+    {
+      "symbol": "DDD",
+      "direction": "call_direction",
+      "premarket_gap": -0.015748031496062964,
+      "entry_stock_price_0950": 6.165,
+      "exit_stock_price_1100": 6.1808,
+      "gross_stock_return": 0.002562854825628458
+    },
+    {
+      "symbol": "DEI",
+      "direction": "put_direction",
+      "premarket_gap": 0.02344827586206888,
+      "entry_stock_price_0950": 14.61,
+      "exit_stock_price_1100": 14.805,
+      "gross_stock_return": -0.013347022587268942
+    },
+    {
+      "symbol": "DEO",
+      "direction": "call_direction",
+      "premarket_gap": -0.025195661128655678,
+      "entry_stock_price_0950": 142.3,
+      "exit_stock_price_1100": 143.01,
+      "gross_stock_return": 0.004989458889669507
+    },
+    {
+      "symbol": "DHI",
+      "direction": "call_direction",
+      "premarket_gap": -0.01302803000394781,
+      "entry_stock_price_0950": 150.11,
+      "exit_stock_price_1100": 150.19,
+      "gross_stock_return": 0.0005329425088267392
+    },
+    {
+      "symbol": "DIA",
+      "direction": "call_direction",
+      "premarket_gap": -0.00533340409159655,
+      "entry_stock_price_0950": 376.05,
+      "exit_stock_price_1100": 376.85,
+      "gross_stock_return": 0.002127376678633164
+    },
+    {
+      "symbol": "DOCS",
+      "direction": "put_direction",
+      "premarket_gap": 0.010342368045649142,
+      "entry_stock_price_0950": 28.29,
+      "exit_stock_price_1100": 28.54,
+      "gross_stock_return": -0.00883704489218795
+    },
+    {
+      "symbol": "DPST",
+      "direction": "call_direction",
+      "premarket_gap": -0.03116322122801607,
+      "entry_stock_price_0950": 95.48,
+      "exit_stock_price_1100": 97.0,
+      "gross_stock_return": 0.01591956430666097
+    },
+    {
+      "symbol": "DXCM",
+      "direction": "call_direction",
+      "premarket_gap": -0.007655733741639192,
+      "entry_stock_price_0950": 124.7,
+      "exit_stock_price_1100": 124.08,
+      "gross_stock_return": -0.004971932638332066
+    },
+    {
+      "symbol": "DXD",
+      "direction": "put_direction",
+      "premarket_gap": 0.010606953447259926,
+      "entry_stock_price_0950": 34.1,
+      "exit_stock_price_1100": 33.95,
+      "gross_stock_return": 0.004398826979472137
+    },
+    {
+      "symbol": "ENPH",
+      "direction": "call_direction",
+      "premarket_gap": -0.015059785076433907,
+      "entry_stock_price_0950": 131.16,
+      "exit_stock_price_1100": 135.035,
+      "gross_stock_return": 0.029544068313510197
+    },
+    {
+      "symbol": "F",
+      "direction": "call_direction",
+      "premarket_gap": -0.014766201804757961,
+      "entry_stock_price_0950": 12.11,
+      "exit_stock_price_1100": 12.265,
+      "gross_stock_return": 0.01279933938893496
+    },
+    {
+      "symbol": "FCX",
+      "direction": "call_direction",
+      "premarket_gap": -0.01808785529715773,
+      "entry_stock_price_0950": 42.13,
+      "exit_stock_price_1100": 42.15,
+      "gross_stock_return": 0.0004747211013529373
+    },
+    {
+      "symbol": "FRO",
+      "direction": "put_direction",
+      "premarket_gap": 0.0174563591022443,
+      "entry_stock_price_0950": 20.41,
+      "exit_stock_price_1100": 20.45,
+      "gross_stock_return": -0.001959823615874434
+    },
+    {
+      "symbol": "FTNT",
+      "direction": "call_direction",
+      "premarket_gap": -0.0073466598325644394,
+      "entry_stock_price_0950": 58.26,
+      "exit_stock_price_1100": 57.82,
+      "gross_stock_return": -0.007552351527634671
+    },
+    {
+      "symbol": "GE",
+      "direction": "call_direction",
+      "premarket_gap": -0.005014495024680765,
+      "entry_stock_price_0950": 127.25,
+      "exit_stock_price_1100": 125.91,
+      "gross_stock_return": -0.010530451866404777
+    },
+    {
+      "symbol": "HMY",
+      "direction": "put_direction",
+      "premarket_gap": 0.02276422764227637,
+      "entry_stock_price_0950": 6.269,
+      "exit_stock_price_1100": 6.065,
+      "gross_stock_return": 0.03254107513159987
+    },
+    {
+      "symbol": "HPP",
+      "direction": "put_direction",
+      "premarket_gap": 0.025778732545649774,
+      "entry_stock_price_0950": 9.47,
+      "exit_stock_price_1100": 9.685,
+      "gross_stock_return": -0.022703273495248144
+    },
+    {
+      "symbol": "HPQ",
+      "direction": "call_direction",
+      "premarket_gap": -0.012296444001329343,
+      "entry_stock_price_0950": 29.85,
+      "exit_stock_price_1100": 29.865,
+      "gross_stock_return": 0.0005025125628139726
+    },
+    {
+      "symbol": "HTHT",
+      "direction": "call_direction",
+      "premarket_gap": -0.028110047846889863,
+      "entry_stock_price_0950": 32.595,
+      "exit_stock_price_1100": 32.56,
+      "gross_stock_return": -0.0010737843227487387
+    },
+    {
+      "symbol": "INMD",
+      "direction": "call_direction",
+      "premarket_gap": -0.017535971223021418,
+      "entry_stock_price_0950": 22.35,
+      "exit_stock_price_1100": 22.51,
+      "gross_stock_return": 0.007158836689038051
+    },
+    {
+      "symbol": "ITB",
+      "direction": "call_direction",
+      "premarket_gap": -0.012877224024378298,
+      "entry_stock_price_0950": 100.2,
+      "exit_stock_price_1100": 100.14,
+      "gross_stock_return": -0.0005988023952095967
+    },
+    {
+      "symbol": "IWM",
+      "direction": "call_direction",
+      "premarket_gap": -0.00642718349858018,
+      "entry_stock_price_0950": 199.6,
+      "exit_stock_price_1100": 199.67,
+      "gross_stock_return": 0.0003507014028056865
+    },
+    {
+      "symbol": "KOLD",
+      "direction": "call_direction",
+      "premarket_gap": -0.05798153718493937,
+      "entry_stock_price_0950": 91.19,
+      "exit_stock_price_1100": 93.72,
+      "gross_stock_return": 0.027744270205066313
+    },
+    {
+      "symbol": "LABU",
+      "direction": "call_direction",
+      "premarket_gap": -0.024350250061490497,
+      "entry_stock_price_0950": 124.78,
+      "exit_stock_price_1100": 126.93,
+      "gross_stock_return": 0.017230325372656008
+    },
+    {
+      "symbol": "M",
+      "direction": "call_direction",
+      "premarket_gap": -0.010934393638171058,
+      "entry_stock_price_0950": 20.0,
+      "exit_stock_price_1100": 19.955,
+      "gross_stock_return": -0.0022500000000000853
+    },
+    {
+      "symbol": "MANU",
+      "direction": "call_direction",
+      "premarket_gap": -0.012757605495583801,
+      "entry_stock_price_0950": 20.3,
+      "exit_stock_price_1100": 20.235,
+      "gross_stock_return": -0.0032019704433497997
+    },
+    {
+      "symbol": "MAXN",
+      "direction": "call_direction",
+      "premarket_gap": -0.040446304044630454,
+      "entry_stock_price_0950": 6.92,
+      "exit_stock_price_1100": 7.1788,
+      "gross_stock_return": 0.03739884393063586
+    },
+    {
+      "symbol": "MMM",
+      "direction": "call_direction",
+      "premarket_gap": -0.007409440175631055,
+      "entry_stock_price_0950": 109.685,
+      "exit_stock_price_1100": 109.73,
+      "gross_stock_return": 0.00041026576104297163
+    },
+    {
+      "symbol": "MP",
+      "direction": "call_direction",
+      "premarket_gap": -0.017128463476070555,
+      "entry_stock_price_0950": 19.6025,
+      "exit_stock_price_1100": 19.8,
+      "gross_stock_return": 0.010075245504399977
+    },
+    {
+      "symbol": "NGG",
+      "direction": "call_direction",
+      "premarket_gap": -0.011031033975584692,
+      "entry_stock_price_0950": 67.62,
+      "exit_stock_price_1100": 67.61,
+      "gross_stock_return": -0.00014788524105302514
+    },
+    {
+      "symbol": "NTES",
+      "direction": "call_direction",
+      "premarket_gap": -0.012451696006869906,
+      "entry_stock_price_0950": 92.05,
+      "exit_stock_price_1100": 92.7,
+      "gross_stock_return": 0.007061379684953906
+    },
+    {
+      "symbol": "NVO",
+      "direction": "call_direction",
+      "premarket_gap": -0.016336394393426712,
+      "entry_stock_price_0950": 101.98,
+      "exit_stock_price_1100": 102.23,
+      "gross_stock_return": 0.0024514610707981888
+    },
+    {
+      "symbol": "OHI",
+      "direction": "call_direction",
+      "premarket_gap": -0.008806262230919737,
+      "entry_stock_price_0950": 30.68,
+      "exit_stock_price_1100": 30.6134,
+      "gross_stock_return": -0.002170795306388529
+    },
+    {
+      "symbol": "ON",
+      "direction": "call_direction",
+      "premarket_gap": -0.008140787740931521,
+      "entry_stock_price_0950": 82.61,
+      "exit_stock_price_1100": 82.895,
+      "gross_stock_return": 0.003449945527175924
+    },
+    {
+      "symbol": "OXY",
+      "direction": "put_direction",
+      "premarket_gap": 0.009390386869871037,
+      "entry_stock_price_0950": 60.015,
+      "exit_stock_price_1100": 60.73,
+      "gross_stock_return": -0.01191368824460537
+    },
+    {
+      "symbol": "PACB",
+      "direction": "call_direction",
+      "premarket_gap": -0.02038735983690121,
+      "entry_stock_price_0950": 9.7,
+      "exit_stock_price_1100": 9.84,
+      "gross_stock_return": 0.014432989690721598
+    },
+    {
+      "symbol": "PD",
+      "direction": "call_direction",
+      "premarket_gap": -0.011663066954643586,
+      "entry_stock_price_0950": 22.71,
+      "exit_stock_price_1100": 22.39,
+      "gross_stock_return": -0.014090708938793495
+    },
+    {
+      "symbol": "PENN",
+      "direction": "call_direction",
+      "premarket_gap": -0.012682551883166693,
+      "entry_stock_price_0950": 25.83,
+      "exit_stock_price_1100": 26.12,
+      "gross_stock_return": 0.011227255129694358
+    },
+    {
+      "symbol": "PK",
+      "direction": "put_direction",
+      "premarket_gap": 0.02026143790849666,
+      "entry_stock_price_0950": 15.37,
+      "exit_stock_price_1100": 15.41,
+      "gross_stock_return": -0.002602472348731455
+    },
+    {
+      "symbol": "RIO",
+      "direction": "call_direction",
+      "premarket_gap": -0.0055063121138866356,
+      "entry_stock_price_0950": 74.175,
+      "exit_stock_price_1100": 74.54,
+      "gross_stock_return": 0.004920795416245571
+    },
+    {
+      "symbol": "RSP",
+      "direction": "call_direction",
+      "premarket_gap": -0.005133079847908784,
+      "entry_stock_price_0950": 157.44,
+      "exit_stock_price_1100": 157.7,
+      "gross_stock_return": 0.0016514227642276946
+    },
+    {
+      "symbol": "RUN",
+      "direction": "call_direction",
+      "premarket_gap": -0.0331125827814569,
+      "entry_stock_price_0950": 19.19,
+      "exit_stock_price_1100": 19.77,
+      "gross_stock_return": 0.030224075039082754
+    },
+    {
+      "symbol": "RWM",
+      "direction": "put_direction",
+      "premarket_gap": 0.005218216318785718,
+      "entry_stock_price_0950": 21.2,
+      "exit_stock_price_1100": 21.19,
+      "gross_stock_return": 0.0004716981132074638
+    },
+    {
+      "symbol": "RYAAY",
+      "direction": "call_direction",
+      "premarket_gap": -0.010197960407918538,
+      "entry_stock_price_0950": 132.05,
+      "exit_stock_price_1100": 130.42,
+      "gross_stock_return": -0.012343809163195885
+    },
+    {
+      "symbol": "SATS",
+      "direction": "call_direction",
+      "premarket_gap": -0.024140012070005934,
+      "entry_stock_price_0950": 16.63,
+      "exit_stock_price_1100": 16.39,
+      "gross_stock_return": -0.014431749849669218
+    },
+    {
+      "symbol": "SDOW",
+      "direction": "put_direction",
+      "premarket_gap": 0.016856987493202746,
+      "entry_stock_price_0950": 18.53,
+      "exit_stock_price_1100": 18.41,
+      "gross_stock_return": 0.0064759848893686245
+    },
+    {
+      "symbol": "SONO",
+      "direction": "call_direction",
+      "premarket_gap": -0.011668611435239118,
+      "entry_stock_price_0950": 16.86,
+      "exit_stock_price_1100": 16.595,
+      "gross_stock_return": -0.015717674970344042
+    },
+    {
+      "symbol": "SQM",
+      "direction": "call_direction",
+      "premarket_gap": -0.02025905014945195,
+      "entry_stock_price_0950": 59.665,
+      "exit_stock_price_1100": 59.47,
+      "gross_stock_return": -0.00326824771641665
+    },
+    {
+      "symbol": "SRTY",
+      "direction": "put_direction",
+      "premarket_gap": 0.02183984116479154,
+      "entry_stock_price_0950": 30.78,
+      "exit_stock_price_1100": 30.75,
+      "gross_stock_return": 0.0009746588693957392
+    },
+    {
+      "symbol": "STNE",
+      "direction": "call_direction",
+      "premarket_gap": -0.012756516916250682,
+      "entry_stock_price_0950": 17.805,
+      "exit_stock_price_1100": 17.48,
+      "gross_stock_return": -0.01825329963493394
+    },
+    {
+      "symbol": "STWD",
+      "direction": "call_direction",
+      "premarket_gap": -0.007611798287345373,
+      "entry_stock_price_0950": 20.98,
+      "exit_stock_price_1100": 20.89,
+      "gross_stock_return": -0.004289799809342187
+    },
+    {
+      "symbol": "TDOC",
+      "direction": "call_direction",
+      "premarket_gap": -0.015777262180974416,
+      "entry_stock_price_0950": 21.47,
+      "exit_stock_price_1100": 21.915,
+      "gross_stock_return": 0.020726595249184854
+    },
+    {
+      "symbol": "TGT",
+      "direction": "call_direction",
+      "premarket_gap": -0.006459766886673157,
+      "entry_stock_price_0950": 142.74,
+      "exit_stock_price_1100": 143.14,
+      "gross_stock_return": 0.0028022978842650037
+    },
+    {
+      "symbol": "TGTX",
+      "direction": "call_direction",
+      "premarket_gap": -0.022248243559718883,
+      "entry_stock_price_0950": 17.01,
+      "exit_stock_price_1100": 17.0,
+      "gross_stock_return": -0.0005878894767784582
+    },
+    {
+      "symbol": "TNA",
+      "direction": "call_direction",
+      "premarket_gap": -0.021546261089987362,
+      "entry_stock_price_0950": 38.71,
+      "exit_stock_price_1100": 38.77,
+      "gross_stock_return": 0.0015499870834410068
+    },
+    {
+      "symbol": "TSLY",
+      "direction": "put_direction",
+      "premarket_gap": 0.01257334450963965,
+      "entry_stock_price_0950": 11.8501,
+      "exit_stock_price_1100": 11.9805,
+      "gross_stock_return": -0.011004126547455195
+    },
+    {
+      "symbol": "TWM",
+      "direction": "put_direction",
+      "premarket_gap": 0.013733905579399242,
+      "entry_stock_price_0950": 11.78,
+      "exit_stock_price_1100": 11.79,
+      "gross_stock_return": -0.000848896434634927
+    },
+    {
+      "symbol": "TZA",
+      "direction": "put_direction",
+      "premarket_gap": 0.021553884711779325,
+      "entry_stock_price_0950": 20.3201,
+      "exit_stock_price_1100": 20.3,
+      "gross_stock_return": 0.0009891683603918677
+    },
+    {
+      "symbol": "UCO",
+      "direction": "put_direction",
+      "premarket_gap": 0.02605363984674325,
+      "entry_stock_price_0950": 26.23,
+      "exit_stock_price_1100": 26.25,
+      "gross_stock_return": -0.0007624857033929899
+    },
+    {
+      "symbol": "UDOW",
+      "direction": "call_direction",
+      "premarket_gap": -0.01573426573426573,
+      "entry_stock_price_0950": 73.82,
+      "exit_stock_price_1100": 74.28,
+      "gross_stock_return": 0.006231373611487401
+    },
+    {
+      "symbol": "UL",
+      "direction": "call_direction",
+      "premarket_gap": -0.009694719471947222,
+      "entry_stock_price_0950": 48.1,
+      "exit_stock_price_1100": 48.243,
+      "gross_stock_return": 0.0029729729729730536
+    },
+    {
+      "symbol": "UNG",
+      "direction": "put_direction",
+      "premarket_gap": 0.035502958579881616,
+      "entry_stock_price_0950": 5.215,
+      "exit_stock_price_1100": 5.1357,
+      "gross_stock_return": 0.015206136145733407
+    },
+    {
+      "symbol": "UPST",
+      "direction": "call_direction",
+      "premarket_gap": -0.0310817425354869,
+      "entry_stock_price_0950": 39.45,
+      "exit_stock_price_1100": 39.71,
+      "gross_stock_return": 0.00659062103929009
+    },
+    {
+      "symbol": "URTY",
+      "direction": "call_direction",
+      "premarket_gap": -0.018115160664222474,
+      "entry_stock_price_0950": 45.56,
+      "exit_stock_price_1100": 45.63,
+      "gross_stock_return": 0.0015364354697102733
+    },
+    {
+      "symbol": "USO",
+      "direction": "put_direction",
+      "premarket_gap": 0.014103525881470347,
+      "entry_stock_price_0950": 66.81,
+      "exit_stock_price_1100": 66.84,
+      "gross_stock_return": -0.0004490345756622549
+    },
+    {
+      "symbol": "UWM",
+      "direction": "call_direction",
+      "premarket_gap": -0.014191852825229945,
+      "entry_stock_price_0950": 37.58,
+      "exit_stock_price_1100": 37.61,
+      "gross_stock_return": 0.0007982969664714901
+    },
+    {
+      "symbol": "W",
+      "direction": "call_direction",
+      "premarket_gap": -0.016531604538087552,
+      "entry_stock_price_0950": 60.36,
+      "exit_stock_price_1100": 59.61,
+      "gross_stock_return": -0.0124254473161034
+    },
+    {
+      "symbol": "WYNN",
+      "direction": "call_direction",
+      "premarket_gap": -0.006695203600043942,
+      "entry_stock_price_0950": 94.685,
+      "exit_stock_price_1100": 95.055,
+      "gross_stock_return": 0.003907693932513112
+    },
+    {
+      "symbol": "XBI",
+      "direction": "call_direction",
+      "premarket_gap": -0.008847575316384915,
+      "entry_stock_price_0950": 89.94,
+      "exit_stock_price_1100": 90.49,
+      "gross_stock_return": 0.006115187903046548
+    }
+  ],
+  "limitations": [
+    "One session cannot establish monthly performance or stable win rate",
+    "Stock OHLC observations do not supply option NBBO, Greeks or fills",
+    "News, earnings, sector context, option liquidity and IV filters not tested in this stock-only check",
+    "Public-source raw price provenance and corporate-action basis not independently verified",
+    "All engineered macro/fundamental/technical fields were discarded; earlier audit found macro lookahead",
+    "Fixed stock bps costs are sensitivities, not estimated option execution costs"
+  ]
+}

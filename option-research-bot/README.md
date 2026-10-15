@@ -1,3 +1,5 @@
+**Premarket reversal model:** [PREMARKET_REVERSAL.md](reports/PREMARKET_REVERSAL.md) adds current U.S./Canadian option-directory coverage, confirmed premarket reversal scoring, past-only confidence calibration and real-quote replay. Includes a broad 2024–2025 opening-gap stock diagnostic and one actual premarket session; the full options strategy has no validated 4–5% monthly return.
+
 **5% monthly target update:** [FIVE_PERCENT_MONTHLY.md](reports/FIVE_PERCENT_MONTHLY.md) measures existing variants, audits an intraday options source, and adds a stocks-in-play opening-range selector with an option-quote adapter. The target remains unvalidated; no live trading is enabled.
 
 **Latest forum/paper research:** [FORUM_AND_PAPER_RESEARCH.md](reports/FORUM_AND_PAPER_RESEARCH.md) tests earnings/calendar, put-writing and monthly momentum-call-spread hypotheses with direct stock prices and event/split data. A post hoc one-contract 1% sizing variant had small positive modeled 2024/2025 returns, but cost and sizing checks show it is fragile. Live actions remain **NO TRADE**.

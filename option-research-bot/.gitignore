@@ -33,3 +33,6 @@ reports/*
 !reports/FIVE_PERCENT_MONTHLY.md
 !reports/monthly_target.json
 !reports/intraday_source_audit.json
+
+!reports/PREMARKET_REVERSAL.md
+!reports/premarket_*.json
