@@ -1,0 +1,25 @@
+{
+  "daily": {
+    "dataset": "siddharthmb/stocks-ohlcv",
+    "revision": "de36a6a731b5ff46857146123d4624bed6e87419",
+    "bytes": 1210415158,
+    "sha256": "baae663fa581319d14865c6f6c38fd656ce9987ca3bc4af16fc31c0d5898baa4"
+  },
+  "intraday_one_day": {
+    "source": "fabhaus/equities_5m_stockprices",
+    "revision": "f17c0b0c3cf6a455994f93d6a85e76274172ab03",
+    "bytes_read": 761755463,
+    "rows": 453875,
+    "first_timestamp": "2024-01-02T09:00:00Z",
+    "last_timestamp": "2024-01-02T23:55:00Z",
+    "next_day_observed": true,
+    "seconds": 45.08798265457153,
+    "discarded_all_engineered_macro_technical_fundamental_fields": true
+  },
+  "option_quotes_for_new_premarket_strategy": {
+    "verified_historical_intraday_nbbo_available": false,
+    "canadian_historical_nbbo_available": false,
+    "option_profitability_measured": false
+  },
+  "source_quality_independently_verified": false
+}

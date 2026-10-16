@@ -1,0 +1,28 @@
+{
+  "rows": 18830,
+  "symbols": 44,
+  "calendar_dates": 10,
+  "first_timestamp": "2024-01-18T14:30:00+00:00",
+  "last_timestamp": "2024-01-31T21:10:00+00:00",
+  "expiration_years": {
+    "2026": 18830
+  },
+  "zero_to_30_day_rows": 0,
+  "missing_nbbo_fields": [
+    "ask",
+    "ask_size",
+    "bid",
+    "bid_size"
+  ],
+  "known_cpi_lookahead_rows": 18830,
+  "issues": [
+    "Trade OHLCV bars do not establish executable bid/ask with size",
+    "Audited month has no 0\u201330 day contracts; unsuitable for short-dated intraday-strategy reproduction",
+    "January 2024 CPI appears before its February 13 publication; macro feature is not point-in-time"
+  ],
+  "preliminary_checks_passed": false,
+  "approved_for_executable_option_backtest": false,
+  "approval_note": "These checks cannot independently verify quote provenance, completeness or executable historical fills.",
+  "scope": "Audited file only; does not infer coverage of uninspected months",
+  "action": "NO TRADE"
+}

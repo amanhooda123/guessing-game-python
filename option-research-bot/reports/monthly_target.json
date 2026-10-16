@@ -1,0 +1,729 @@
+{
+  "action": "NO TRADE",
+  "target_monthly": 0.05,
+  "constant_target_compounded_annual_return": 0.7958563260221301,
+  "existing_strategy_diagnostics": {
+    "0.01": {
+      "2024": {
+        "months": 12,
+        "total_return": 0.013075499999999796,
+        "geometric_average_monthly_return": 0.0010831489813638573,
+        "arithmetic_average_monthly_return": 0.0010963171876582371,
+        "worst_month": -0.010311793800926979,
+        "best_month": 0.012288273778130967,
+        "losing_months": 2,
+        "months_at_or_above_target": 0,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2024-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-02",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-03",
+            "realized_pnl": 298.9800000000001,
+            "realized_cost_book_return": 0.002989800000000001,
+            "realized_cost_book_equity": 100298.98
+          },
+          {
+            "month": "2024-04",
+            "realized_pnl": -454.8,
+            "realized_cost_book_return": -0.00453444292255016,
+            "realized_cost_book_equity": 99844.18
+          },
+          {
+            "month": "2024-05",
+            "realized_pnl": 360.88900000000126,
+            "realized_cost_book_return": 0.0036145221484116677,
+            "realized_cost_book_equity": 100205.06899999999
+          },
+          {
+            "month": "2024-06",
+            "realized_pnl": 438.9140000000001,
+            "realized_cost_book_return": 0.004380157654499496,
+            "realized_cost_book_equity": 100643.983
+          },
+          {
+            "month": "2024-07",
+            "realized_pnl": -1037.8200000000002,
+            "realized_cost_book_return": -0.010311793800926979,
+            "realized_cost_book_equity": 99606.16299999999
+          },
+          {
+            "month": "2024-08",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 99606.16299999999
+          },
+          {
+            "month": "2024-09",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 99606.16299999999
+          },
+          {
+            "month": "2024-10",
+            "realized_pnl": 279.4039999999994,
+            "realized_cost_book_return": 0.0028050874723484676,
+            "realized_cost_book_equity": 99885.56699999998
+          },
+          {
+            "month": "2024-11",
+            "realized_pnl": 192.20000000000005,
+            "realized_cost_book_return": 0.0019242019219853864,
+            "realized_cost_book_equity": 100077.76699999998
+          },
+          {
+            "month": "2024-12",
+            "realized_pnl": 1229.7830000000004,
+            "realized_cost_book_return": 0.012288273778130967,
+            "realized_cost_book_equity": 101307.54999999997
+          }
+        ],
+        "unresolved_positions": 0,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      },
+      "2025": {
+        "months": 12,
+        "total_return": 0.01876843000000017,
+        "geometric_average_monthly_return": 0.0015507408408530488,
+        "arithmetic_average_monthly_return": 0.001611426966210516,
+        "worst_month": -0.01711373024780452,
+        "best_month": 0.02024716085332092,
+        "losing_months": 6,
+        "months_at_or_above_target": 0,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2025-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2025-02",
+            "realized_pnl": 1784.0630000000003,
+            "realized_cost_book_return": 0.017840630000000003,
+            "realized_cost_book_equity": 101784.063
+          },
+          {
+            "month": "2025-03",
+            "realized_pnl": -491.16000000000054,
+            "realized_cost_book_return": -0.00482550986395582,
+            "realized_cost_book_equity": 101292.90299999999
+          },
+          {
+            "month": "2025-04",
+            "realized_pnl": 1585.6529999999998,
+            "realized_cost_book_return": 0.015654137190638122,
+            "realized_cost_book_equity": 102878.556
+          },
+          {
+            "month": "2025-05",
+            "realized_pnl": -305.94999999999993,
+            "realized_cost_book_return": -0.0029738947735619458,
+            "realized_cost_book_equity": 102572.606
+          },
+          {
+            "month": "2025-06",
+            "realized_pnl": 253.18,
+            "realized_cost_book_return": 0.0024683003569198583,
+            "realized_cost_book_equity": 102825.786
+          },
+          {
+            "month": "2025-07",
+            "realized_pnl": -195.04100000000034,
+            "realized_cost_book_return": -0.0018968102028415357,
+            "realized_cost_book_equity": 102630.745
+          },
+          {
+            "month": "2025-08",
+            "realized_pnl": -357.9519999999996,
+            "realized_cost_book_return": -0.0034877657762301113,
+            "realized_cost_book_equity": 102272.79299999999
+          },
+          {
+            "month": "2025-09",
+            "realized_pnl": 551.5000000000001,
+            "realized_cost_book_return": 0.005392440978902377,
+            "realized_cost_book_equity": 102824.29299999999
+          },
+          {
+            "month": "2025-10",
+            "realized_pnl": 2081.9,
+            "realized_cost_book_return": 0.02024716085332092,
+            "realized_cost_book_equity": 104906.19299999998
+          },
+          {
+            "month": "2025-11",
+            "realized_pnl": -1255.5,
+            "realized_cost_book_return": -0.011967834920861157,
+            "realized_cost_book_equity": 103650.69299999998
+          },
+          {
+            "month": "2025-12",
+            "realized_pnl": -1773.8500000000001,
+            "realized_cost_book_return": -0.01711373024780452,
+            "realized_cost_book_equity": 101876.84299999998
+          }
+        ],
+        "unresolved_positions": 0,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      }
+    },
+    "0.02": {
+      "2024": {
+        "months": 12,
+        "total_return": 0.003480269999999841,
+        "geometric_average_monthly_return": 0.0002895609042612435,
+        "arithmetic_average_monthly_return": 0.0003630974077619608,
+        "worst_month": -0.02341483684088686,
+        "best_month": 0.021571299999999998,
+        "losing_months": 5,
+        "months_at_or_above_target": 0,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2024-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-02",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-03",
+            "realized_pnl": 2157.1299999999997,
+            "realized_cost_book_return": 0.021571299999999998,
+            "realized_cost_book_equity": 102157.13
+          },
+          {
+            "month": "2024-04",
+            "realized_pnl": -1660.7,
+            "realized_cost_book_return": -0.016256329832288748,
+            "realized_cost_book_equity": 100496.43000000001
+          },
+          {
+            "month": "2024-05",
+            "realized_pnl": -120.25000000000001,
+            "realized_cost_book_return": -0.0011965599176010531,
+            "realized_cost_book_equity": 100376.18000000001
+          },
+          {
+            "month": "2024-06",
+            "realized_pnl": 1293.214,
+            "realized_cost_book_return": 0.012883674194415447,
+            "realized_cost_book_equity": 101669.394
+          },
+          {
+            "month": "2024-07",
+            "realized_pnl": -89.72,
+            "realized_cost_book_return": -0.0008824681299860999,
+            "realized_cost_book_equity": 101579.674
+          },
+          {
+            "month": "2024-08",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 101579.674
+          },
+          {
+            "month": "2024-09",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 101579.674
+          },
+          {
+            "month": "2024-10",
+            "realized_pnl": 1730.8899999999976,
+            "realized_cost_book_return": 0.017039727849490812,
+            "realized_cost_book_equity": 103310.564
+          },
+          {
+            "month": "2024-11",
+            "realized_pnl": -2419.0,
+            "realized_cost_book_return": -0.02341483684088686,
+            "realized_cost_book_equity": 100891.564
+          },
+          {
+            "month": "2024-12",
+            "realized_pnl": -543.537000000001,
+            "realized_cost_book_return": -0.005387338429999965,
+            "realized_cost_book_equity": 100348.027
+          }
+        ],
+        "unresolved_positions": 1,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      },
+      "2025": {
+        "months": 12,
+        "total_return": 0.0004587999999998704,
+        "geometric_average_monthly_return": 3.822529585639778e-05,
+        "arithmetic_average_monthly_return": 9.608293211342879e-05,
+        "worst_month": -0.023532755493273043,
+        "best_month": 0.020546749406341158,
+        "losing_months": 7,
+        "months_at_or_above_target": 0,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2025-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2025-02",
+            "realized_pnl": 914.069,
+            "realized_cost_book_return": 0.00914069,
+            "realized_cost_book_equity": 100914.069
+          },
+          {
+            "month": "2025-03",
+            "realized_pnl": -491.16000000000054,
+            "realized_cost_book_return": -0.004867111244914726,
+            "realized_cost_book_equity": 100422.909
+          },
+          {
+            "month": "2025-04",
+            "realized_pnl": 889.1079999999985,
+            "realized_cost_book_return": 0.008853637171574053,
+            "realized_cost_book_equity": 101312.01699999999
+          },
+          {
+            "month": "2025-05",
+            "realized_pnl": -305.94999999999993,
+            "realized_cost_book_return": -0.003019878678360534,
+            "realized_cost_book_equity": 101006.067
+          },
+          {
+            "month": "2025-06",
+            "realized_pnl": 1064.0840000000007,
+            "realized_cost_book_return": 0.010534852327236945,
+            "realized_cost_book_equity": 102070.151
+          },
+          {
+            "month": "2025-07",
+            "realized_pnl": -195.04100000000034,
+            "realized_cost_book_return": -0.0019108524685145253,
+            "realized_cost_book_equity": 101875.11
+          },
+          {
+            "month": "2025-08",
+            "realized_pnl": -381.85199999999986,
+            "realized_cost_book_return": -0.0037482364436219984,
+            "realized_cost_book_equity": 101493.258
+          },
+          {
+            "month": "2025-09",
+            "realized_pnl": -168.22800000000018,
+            "realized_cost_book_return": -0.0016575288183181603,
+            "realized_cost_book_equity": 101325.03
+          },
+          {
+            "month": "2025-10",
+            "realized_pnl": 2081.9,
+            "realized_cost_book_return": 0.020546749406341158,
+            "realized_cost_book_equity": 103406.93
+          },
+          {
+            "month": "2025-11",
+            "realized_pnl": -2433.4500000000007,
+            "realized_cost_book_return": -0.023532755493273043,
+            "realized_cost_book_equity": 100973.48
+          },
+          {
+            "month": "2025-12",
+            "realized_pnl": -927.6,
+            "realized_cost_book_return": -0.009186570572788023,
+            "realized_cost_book_equity": 100045.87999999999
+          }
+        ],
+        "unresolved_positions": 0,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      }
+    },
+    "0.05": {
+      "2024": {
+        "months": 12,
+        "total_return": -0.020185730000000235,
+        "geometric_average_monthly_return": -0.0016979107231168689,
+        "arithmetic_average_monthly_return": -0.0015683161901023463,
+        "worst_month": -0.03942260319960046,
+        "best_month": 0.021571299999999998,
+        "losing_months": 5,
+        "months_at_or_above_target": 0,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2024-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-02",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-03",
+            "realized_pnl": 2157.1299999999997,
+            "realized_cost_book_return": 0.021571299999999998,
+            "realized_cost_book_equity": 102157.13
+          },
+          {
+            "month": "2024-04",
+            "realized_pnl": -4027.3,
+            "realized_cost_book_return": -0.03942260319960046,
+            "realized_cost_book_equity": 98129.83
+          },
+          {
+            "month": "2024-05",
+            "realized_pnl": -120.25000000000001,
+            "realized_cost_book_return": -0.0012254173883721189,
+            "realized_cost_book_equity": 98009.58
+          },
+          {
+            "month": "2024-06",
+            "realized_pnl": 1293.214,
+            "realized_cost_book_return": 0.013194771368268285,
+            "realized_cost_book_equity": 99302.794
+          },
+          {
+            "month": "2024-07",
+            "realized_pnl": -89.72,
+            "realized_cost_book_return": -0.0009034992509878424,
+            "realized_cost_book_equity": 99213.074
+          },
+          {
+            "month": "2024-08",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 99213.074
+          },
+          {
+            "month": "2024-09",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 99213.074
+          },
+          {
+            "month": "2024-10",
+            "realized_pnl": 1730.8899999999976,
+            "realized_cost_book_return": 0.017446188594055636,
+            "realized_cost_book_equity": 100943.96399999999
+          },
+          {
+            "month": "2024-11",
+            "realized_pnl": -2419.0,
+            "realized_cost_book_return": -0.023963790445162232,
+            "realized_cost_book_equity": 98524.96399999999
+          },
+          {
+            "month": "2024-12",
+            "realized_pnl": -543.537000000001,
+            "realized_cost_book_return": -0.005516743959429419,
+            "realized_cost_book_equity": 97981.427
+          }
+        ],
+        "unresolved_positions": 1,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      },
+      "2025": {
+        "months": 12,
+        "total_return": 0.1059020500000003,
+        "geometric_average_monthly_return": 0.008423726318667502,
+        "arithmetic_average_monthly_return": 0.008636170560889661,
+        "worst_month": -0.02266075573361959,
+        "best_month": 0.053715303326999614,
+        "losing_months": 4,
+        "months_at_or_above_target": 1,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2025-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2025-02",
+            "realized_pnl": 914.069,
+            "realized_cost_book_return": 0.00914069,
+            "realized_cost_book_equity": 100914.069
+          },
+          {
+            "month": "2025-03",
+            "realized_pnl": -491.16000000000054,
+            "realized_cost_book_return": -0.004867111244914726,
+            "realized_cost_book_equity": 100422.909
+          },
+          {
+            "month": "2025-04",
+            "realized_pnl": 889.1079999999985,
+            "realized_cost_book_return": 0.008853637171574053,
+            "realized_cost_book_equity": 101312.01699999999
+          },
+          {
+            "month": "2025-05",
+            "realized_pnl": -305.94999999999993,
+            "realized_cost_book_return": -0.003019878678360534,
+            "realized_cost_book_equity": 101006.067
+          },
+          {
+            "month": "2025-06",
+            "realized_pnl": 1064.0840000000007,
+            "realized_cost_book_return": 0.010534852327236945,
+            "realized_cost_book_equity": 102070.151
+          },
+          {
+            "month": "2025-07",
+            "realized_pnl": -1528.4499999999969,
+            "realized_cost_book_return": -0.014974505132259449,
+            "realized_cost_book_equity": 100541.701
+          },
+          {
+            "month": "2025-08",
+            "realized_pnl": 3933.648,
+            "realized_cost_book_return": 0.03912454196493055,
+            "realized_cost_book_equity": 104475.349
+          },
+          {
+            "month": "2025-09",
+            "realized_pnl": 308.34300000000155,
+            "realized_cost_book_return": 0.0029513469249095453,
+            "realized_cost_book_equity": 104783.69200000001
+          },
+          {
+            "month": "2025-10",
+            "realized_pnl": 2602.3999999999996,
+            "realized_cost_book_return": 0.024835925804179523,
+            "realized_cost_book_equity": 107386.092
+          },
+          {
+            "month": "2025-11",
+            "realized_pnl": -2433.4500000000007,
+            "realized_cost_book_return": -0.02266075573361959,
+            "realized_cost_book_equity": 104952.642
+          },
+          {
+            "month": "2025-12",
+            "realized_pnl": 5637.563,
+            "realized_cost_book_return": 0.053715303326999614,
+            "realized_cost_book_equity": 110590.205
+          }
+        ],
+        "unresolved_positions": 0,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      }
+    },
+    "0.1": {
+      "2024": {
+        "months": 12,
+        "total_return": -0.10089373000000013,
+        "geometric_average_monthly_return": -0.008823677698466703,
+        "arithmetic_average_monthly_return": -0.008415969980997307,
+        "worst_month": -0.08347156007505566,
+        "best_month": 0.021571299999999998,
+        "losing_months": 5,
+        "months_at_or_above_target": 0,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2024-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-02",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2024-03",
+            "realized_pnl": 2157.1299999999997,
+            "realized_cost_book_return": 0.021571299999999998,
+            "realized_cost_book_equity": 102157.13
+          },
+          {
+            "month": "2024-04",
+            "realized_pnl": -4027.3,
+            "realized_cost_book_return": -0.03942260319960046,
+            "realized_cost_book_equity": 98129.83
+          },
+          {
+            "month": "2024-05",
+            "realized_pnl": -8191.049999999999,
+            "realized_cost_book_return": -0.08347156007505566,
+            "realized_cost_book_equity": 89938.78
+          },
+          {
+            "month": "2024-06",
+            "realized_pnl": 1293.214,
+            "realized_cost_book_return": 0.014378825240902756,
+            "realized_cost_book_equity": 91231.994
+          },
+          {
+            "month": "2024-07",
+            "realized_pnl": -89.72,
+            "realized_cost_book_return": -0.000983426932442143,
+            "realized_cost_book_equity": 91142.274
+          },
+          {
+            "month": "2024-08",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 91142.274
+          },
+          {
+            "month": "2024-09",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 91142.274
+          },
+          {
+            "month": "2024-10",
+            "realized_pnl": 1730.8899999999976,
+            "realized_cost_book_return": 0.01899107762002951,
+            "realized_cost_book_equity": 92873.164
+          },
+          {
+            "month": "2024-11",
+            "realized_pnl": -2419.0,
+            "realized_cost_book_return": -0.02604627532663795,
+            "realized_cost_book_equity": 90454.164
+          },
+          {
+            "month": "2024-12",
+            "realized_pnl": -543.537000000001,
+            "realized_cost_book_return": -0.006008977099163737,
+            "realized_cost_book_equity": 89910.62700000001
+          }
+        ],
+        "unresolved_positions": 1,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      },
+      "2025": {
+        "months": 12,
+        "total_return": 0.1059020500000003,
+        "geometric_average_monthly_return": 0.008423726318667502,
+        "arithmetic_average_monthly_return": 0.008636170560889661,
+        "worst_month": -0.02266075573361959,
+        "best_month": 0.053715303326999614,
+        "losing_months": 4,
+        "months_at_or_above_target": 1,
+        "meets_geometric_average_target": false,
+        "meets_every_month_target": false,
+        "monthly_records": [
+          {
+            "month": "2025-01",
+            "realized_pnl": 0.0,
+            "realized_cost_book_return": 0.0,
+            "realized_cost_book_equity": 100000.0
+          },
+          {
+            "month": "2025-02",
+            "realized_pnl": 914.069,
+            "realized_cost_book_return": 0.00914069,
+            "realized_cost_book_equity": 100914.069
+          },
+          {
+            "month": "2025-03",
+            "realized_pnl": -491.16000000000054,
+            "realized_cost_book_return": -0.004867111244914726,
+            "realized_cost_book_equity": 100422.909
+          },
+          {
+            "month": "2025-04",
+            "realized_pnl": 889.1079999999985,
+            "realized_cost_book_return": 0.008853637171574053,
+            "realized_cost_book_equity": 101312.01699999999
+          },
+          {
+            "month": "2025-05",
+            "realized_pnl": -305.94999999999993,
+            "realized_cost_book_return": -0.003019878678360534,
+            "realized_cost_book_equity": 101006.067
+          },
+          {
+            "month": "2025-06",
+            "realized_pnl": 1064.0840000000007,
+            "realized_cost_book_return": 0.010534852327236945,
+            "realized_cost_book_equity": 102070.151
+          },
+          {
+            "month": "2025-07",
+            "realized_pnl": -1528.4499999999969,
+            "realized_cost_book_return": -0.014974505132259449,
+            "realized_cost_book_equity": 100541.701
+          },
+          {
+            "month": "2025-08",
+            "realized_pnl": 3933.648,
+            "realized_cost_book_return": 0.03912454196493055,
+            "realized_cost_book_equity": 104475.349
+          },
+          {
+            "month": "2025-09",
+            "realized_pnl": 308.34300000000155,
+            "realized_cost_book_return": 0.0029513469249095453,
+            "realized_cost_book_equity": 104783.69200000001
+          },
+          {
+            "month": "2025-10",
+            "realized_pnl": 2602.3999999999996,
+            "realized_cost_book_return": 0.024835925804179523,
+            "realized_cost_book_equity": 107386.092
+          },
+          {
+            "month": "2025-11",
+            "realized_pnl": -2433.4500000000007,
+            "realized_cost_book_return": -0.02266075573361959,
+            "realized_cost_book_equity": 104952.642
+          },
+          {
+            "month": "2025-12",
+            "realized_pnl": 5637.563,
+            "realized_cost_book_return": 0.053715303326999614,
+            "realized_cost_book_equity": 110590.205
+          }
+        ],
+        "unresolved_positions": 0,
+        "classification": "Realized-cost bookkeeping, NOT fully marked account NAV",
+        "target_validated": false
+      }
+    }
+  },
+  "target_achieved_or_validated": false,
+  "reason": "Existing variants do not meet the monthly target and have no complete monthly liquidation-NAV series. Unresolved positions cannot be treated as profits."
+}

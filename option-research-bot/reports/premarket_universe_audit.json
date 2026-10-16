@@ -1,0 +1,48 @@
+{
+  "retrieved_at": "2026-10-15T16:33:12.541876+00:00",
+  "unique_underlyings": 5992,
+  "by_country": {
+    "CA": 365,
+    "US": 5627
+  },
+  "company_equities_by_country": {
+    "CA": 273,
+    "US": 3945
+  },
+  "sources": [
+    {
+      "file": "cone-underlying.csv",
+      "rows": 5365,
+      "sha256": "3a8ea0351eb0c0e594bf444b5d0430af996bb72fdfcfaf577f42320790908d91"
+    },
+    {
+      "file": "ctwo-underlying.csv",
+      "rows": 4919,
+      "sha256": "be9977a4299864e472ddb704d9fe064efeb9030cefcabd6229565a57e0e6bdbd"
+    },
+    {
+      "file": "exo-underlying.csv",
+      "rows": 5090,
+      "sha256": "66d62873f18150966d87f36c279c69df90c218041f4359a15c518cd880c83541"
+    },
+    {
+      "file": "opt-underlying.csv",
+      "rows": 5091,
+      "sha256": "b858b4a630c885e77b39b66f9aef6697a8a0977aad24e14102dc78bb87d3932d"
+    },
+    {
+      "file": "phlxoptions.csv",
+      "rows": 4528,
+      "sha256": "bb4e7d80596a436815bc80aeaace77a158fd4674bf039d636edce73072fdca99"
+    },
+    {
+      "file": "mx.html",
+      "rows": 365,
+      "sha256": "39b2c30d99988adb5c0caa985112b375e5e1c8adf9bc7855ec140f28b8916649"
+    }
+  ],
+  "fetch_errors": {},
+  "historical_eligibility_verified": false,
+  "entire_market_completeness_verified": false,
+  "note": "Current exchange directories. Counts include ETFs/index/adjusted roots unless classified equity. Country is part of identity."
+}

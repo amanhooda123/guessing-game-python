@@ -10,6 +10,7 @@ requires-python = ">=3.10"
 
 [project.scripts]
 option-lab = "option_lab.cli:main"
+premarket-options = "option_lab.premarket_options:main"
 
 [tool.setuptools.packages.find]
 include = ["option_lab*"]
