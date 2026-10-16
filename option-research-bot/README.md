@@ -1,3 +1,5 @@
+**Options workflow for your premarket strategy:** [OPTIONS_WORKFLOW.md](reports/OPTIONS_WORKFLOW.md) documents the `premarket-options plan`, `monitor`, and `evaluate` commands. They produce contract-specific paper plans and measure P&L from option prices and fees. Historical stock checks do not establish option returns; monthly profitability remains unvalidated.
+
 **Premarket reversal model:** [PREMARKET_REVERSAL.md](reports/PREMARKET_REVERSAL.md) adds current U.S./Canadian option-directory coverage, confirmed premarket reversal scoring, past-only confidence calibration and real-quote replay. Includes a broad 2024–2025 opening-gap stock diagnostic and one actual premarket session; the full options strategy has no validated 4–5% monthly return.
 
 **5% monthly target update:** [FIVE_PERCENT_MONTHLY.md](reports/FIVE_PERCENT_MONTHLY.md) measures existing variants, audits an intraday options source, and adds a stocks-in-play opening-range selector with an option-quote adapter. The target remains unvalidated; no live trading is enabled.

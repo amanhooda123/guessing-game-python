@@ -36,3 +36,5 @@ reports/*
 
 !reports/PREMARKET_REVERSAL.md
 !reports/premarket_*.json
+
+!reports/OPTIONS_WORKFLOW.md
